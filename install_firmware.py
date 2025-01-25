@@ -1,41 +1,47 @@
 import usb.core
 import time
 
-from hexdump import hexdump
+
+def send_firmware():
+    fw = open("apex_latest_single_ep.bin", "rb").read()
+    it = 0
+    for i in range(0, len(fw), 0x100):
+        dev.ctrl_transfer(0x21, 0x01, it, 0, fw[i:i+0x100])
+        dev.ctrl_transfer(0xa1, 0x03, 0, 0, 6)
+        it += 1
+
+
+def send_mysterious_file():
+    fw = open("mysterious_file.bin", "rb").read()
+    it = 0
+    for i in range(0, len(fw), 0x100):
+        dev.ctrl_transfer(0xa1, 0x02, it, 0, fw[i:i+0x100])
+        it += 1
 
 
 dev = usb.core.find(idVendor=0x18d1, idProduct=0x9302)
-if dev is None:
-  # download firmware
-  dev = usb.core.find(idVendor=0x1a6e, idProduct=0x089a)
-  if dev is None:
-    raise Exception("U NEED TO BUY GOOGLE CORAL NO FREE BANANA FOR U")
-  print("doing download firmware bro")
-  fw = open("apex_latest_single_ep.bin", "rb").read()
-  cnt = 0
-  for i in range(0, len(fw), 0x100):
-    dev.ctrl_transfer(0x21, 1, cnt, 0, fw[i:i+0x100])
-    ret = dev.ctrl_transfer(0xa1, 3, 0, 0, 6)
-    hexdump(ret)
-    cnt += 1
-  dev.ctrl_transfer(0x21, 1, cnt, 0, "")
-  ret = dev.ctrl_transfer(0xa1, 3, 0, 0, 6)
-  hexdump(ret)
-
-  for i in range(0, 0x81):
-    ret = dev.ctrl_transfer(0xa1, 2, i, 0, 0x100)
-  try: 
+if (dev == None):
+    print("Downloading firmware...")
+    dev = usb.core.find(idVendor=0x1a6e, idProduct=0x089a)
     dev.reset()
-  except usb.core.USBError:
-    print("okay exception")
-  print("downloaded, napping quick bro")
-  time.sleep(3)
-  dev = usb.core.find(idVendor=0x18d1, idProduct=0x9302)
 
-else:
-  print("Already installed")
+    hex_data = [0x00, 0x00, 0x00, 0xcb, 0xea, 0x6e, 0x01, 0x00, 0x00, 0x00, 0x70, 0x17, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00]
+    dev.ctrl_transfer(0x80, 0x06, 0x100, 0x00, bytearray(hex_data))
+    dev.ctrl_transfer(0x80, 0x06, 0x200, 0x00, 521)
 
-dev.reset()
-time.sleep(0.6)
-usb.util.claim_interface(dev, 0)
-dev.set_configuration(1)
+    send_firmware()
+
+    dev.ctrl_transfer(0x21, 0x01, 0x2b, 0x00, 0)
+    dev.ctrl_transfer(0xa1, 0x03, 0x00, 0x00, 6)
+
+    send_mysterious_file()
+
+    try: 
+        dev.reset()
+    except usb.core.USBError:
+        print("Resetting...")
+    time.sleep(4)
+
+    dev = usb.core.find(idVendor=0x18d1, idProduct=0x9302)
+    if(dev):
+        print("Firmware downloaded correctly.")
