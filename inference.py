@@ -144,11 +144,18 @@ send_with_header(dev, image_data, start=0x00, length=150528, mysterious_flag=0x0
 send_with_header(dev, model_data, start=0x3ccbc8, length=10224, mysterious_flag=0x0)
 
 rsp1 = dev.read(0x82, 16)
-hexdump(rsp1)
+# hexdump(rsp1)
 
 rsp2 = dev.read(0x81, 1024)
-hexdump(rsp2)
+
+sorted_classes = sorted(range(len(rsp2)), key=lambda i: rsp2[i], reverse=True)
+
+with open('imagenet_labels.txt') as file:
+    classes = file.readlines()
+    top_five = [classes[idx] for idx in sorted_classes[0:5]]
+
+print('Top 5 activations:')
+print(top_five)
 
 
-# hexdump.hexdump(image_data[0:10])
 
