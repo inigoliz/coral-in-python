@@ -15,11 +15,11 @@ image_data = Image.open("mug.jpg").convert('RGB').resize((224,224)).tobytes()
 
 dev = load_device()
 load_model(dev, model_data)
-while True:
-    overlay = np.zeros((300, 400, 4), dtype=np.uint8)
-    overlay[:150, 200:] = (255, 0, 0, 64) # reddish
-    overlay[150:, :200] = (0, 255, 0, 64) # greenish
-    overlay[150:, 200:] = (0, 0, 255, 64) # blueish
-    top_five = run_inference(dev, model_data, image_data)
+# while True:
+overlay = np.zeros((300, 400, 4), dtype=np.uint8)
+overlay[:150, 200:] = (255, 0, 0, 64) # reddish
+overlay[150:, :200] = (0, 255, 0, 64) # greenish
+overlay[150:, 200:] = (0, 0, 255, 64) # blueish
+top_five = run_inference(dev, model_data, image_data)
 
-    picam2.set_overlay(overlay)
+picam2.set_overlay(overlay)
