@@ -157,16 +157,19 @@ load_model(dev, model_data)
 
 top_five = run_inference(dev, model_data, image_data)
 
-# import time
+import time
 
-# start_time = time.time()
-# it=100
-# for _ in range(it):
-#   run_inference(dev, model_data, image_data)
+for _ in range(10):
+    start_time = time.time()
+    it=100
+    for _ in range(it):
+        run_inference(dev, model_data, image_data)
 
-# end_time = time.time()
-# elapsed_time = (end_time - start_time) / it * 1000
+    end_time = time.time()
+    elapsed_time = (end_time - start_time) / it * 1000
 
-# print(f"Inference: {elapsed_time:.2f} ms/it")
+    print("Using 'mobilenet_v2_1.0_224_quant_edgetpu.tflite'")
+    print(f"Inference: {elapsed_time:.2f} ms/it")
+    time.sleep(1)
 
 
