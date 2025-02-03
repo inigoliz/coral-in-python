@@ -29,7 +29,7 @@ def draw_objects(request):
         # Create a new image to hold the text
         text_size = (fontsize * len(label), fontsize)
         text_size = draw.textsize(label, font=font)
-        text_image = Image.new("RGB", text_size, (255, 255, 255))  # Transparent background
+        text_image = Image.new("RGBA", text_size, (255, 255, 255, 0))  # Transparent background
         text_draw = ImageDraw.Draw(text_image)
 
         # Draw the text on the new image
