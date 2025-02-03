@@ -5,9 +5,11 @@ import numpy as np
 import time
 
 def draw_objects(request):
-    with MappedArray(request, "main") as m:
+    with MappedArray(request, "lores") as m:
         # Convert the array to a PIL Image
         image = Image.fromarray(m.array)
+        print(image.size)
+        image.save('image.png')  # Specify the file path and format
 
         # Create a draw object
         draw = ImageDraw.Draw(image)
@@ -29,11 +31,12 @@ def draw_objects(request):
 
 # Configure and start Picamera2.
 picam2 = Picamera2()
-# main = {'size': (video_w, video_h), 'format': 'XRGB8888'}
-# lores = {'size': (model_w, model_h), 'format': 'RGB888'}
-# controls = {'FrameRate': 30}
-# config = picam2.create_preview_configuration(main, lores=lores, controls=controls)
-# picam2.configure(config)
+video_w, video_h = 1280, 960
+main = {'size': (video_w, video_h), 'format': 'XRGB8888'}
+lores = {'size': (300, 300), 'format': 'BGR888'}
+controls = {'FrameRate': 30}
+config = picam2.create_preview_configuration(main, lores=lores, controls=controls)
+picam2.configure(config)
 
 picam2.start_preview(Preview.QTGL)
 picam2.start()
