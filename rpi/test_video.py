@@ -1,4 +1,4 @@
-from picamera2 import Picamera2, Preview, MappedArray\
+from picamera2 import Picamera2, Preview, MappedArray
 from libcamera import Transform
 
 from PIL import Image, ImageDraw, ImageFont
@@ -9,8 +9,8 @@ def draw_objects(request):
     with MappedArray(request, "lores") as m:
         # Convert the array to a PIL Image
         image = Image.fromarray(m.array)
-        print(image.size)
-        image.save('image.png')  # Specify the file path and format
+        # print(image.size)
+        # image.save('image.png')  # Specify the file path and format
 
         # Create a draw object
         draw = ImageDraw.Draw(image)
