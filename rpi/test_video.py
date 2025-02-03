@@ -21,8 +21,26 @@ def draw_objects(request):
 
         draw.rectangle([x0, y0, x1, y1], outline=(0, 255, 0), width=5)
 
+        # Load the default font
         font = ImageFont.load_default()
-        draw.text((x0 + 5, y0 + 15), label, fill=(0, 255, 0), font=font)
+        fontsize = 24
+
+        # Create a new image to hold the text
+        text_size = (fontsize * len(label), fontsize)
+        text_size = draw.textsize(label, font=font)
+        text_image = Image.new("RGB", text_size, (255, 255, 255))  # Transparent background
+        text_draw = ImageDraw.Draw(text_image)
+
+        # Draw the text on the new image
+        text_draw.text((0, 0), label, fill=(0, 255, 0), font=font)
+
+        # Scale the text image
+        scale_factor = 2  # Adjust this factor to make the text larger
+        scaled_text_image = text_image.resize((text_size[0] * scale_factor, text_size[1] * scale_factor), Image.ANTIALIAS)
+
+        # Paste the scaled text image onto the original image
+        text_position = (x0 + 5, y0 + 15)  # Position where the text should be pasted
+        image.paste(scaled_text_image, text_position, scaled_text_image)
 
         m.array[:] = np.array(image)
 
@@ -35,7 +53,7 @@ controls = {'FrameRate': 30}
 config = picam2.create_preview_configuration(main, controls=controls)
 picam2.configure(config)
 
-picam2.start_preview(Preview.QTGL, width=video_w, height=video_h, transform=Transform(vflip=1))
+picam2.start_preview(Preview.QTGL, transform=Transform(vflip=1))
 picam2.start()
 picam2.pre_callback = draw_objects
 
