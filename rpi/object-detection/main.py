@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 import time
 
-from inference_only_python import load_device, load_model, run_inference
+from inference_object_detection import load_device, load_model, run_inference
 
 
 def draw_objects(request):
@@ -14,59 +14,59 @@ def draw_objects(request):
         image = image.transpose(Image.FLIP_TOP_BOTTOM)
         wi, hi = image.size # (1280, 960)
 
+        # image.save('fullframe.png')
+
         # Inference
-        lores_img = image.convert('RGB').resize((224, 224))
-        lores_img.save('lw.png')
+        lores_img = image.convert('RGB').resize((300, 300))
+        # lores_img.save('lw.png')
         lores_image = lores_img.tobytes()
 
         start_time = time.time()
-        top_five = run_inference(dev, model_data, lores_image)
+        # image_data = Image.open("dog.jpg").convert('RGB').resize((300,300)).tobytes()
+        objects = run_inference(dev, model_data, lores_image, anchors)
         end_time = time.time()
 
-        if len(top_five) == 0: top_five.append("")
+        # if len(top_five) == 0: top_five.append("")
 
-        fps = f"{1 / round((end_time - start_time), 4):.0f}"
-        top_class = top_five[0]
-        print(top_class)
+        # fps = f"{1 / round((end_time - start_time), 4):.0f}"
+        # top_class = top_five[0]
+        # print(top_class)
 
-        label = f"{top_class}\n{fps} FPS"
+        # label = f"{top_class}\n{fps} FPS"
 
         # Visualization
         draw = ImageDraw.Draw(image)
 
-        # With the default font, the size is not adjustable.
-        # Instead, a text object is resized manually and pasted to the image.
-        font = ImageFont.load_default()
-
-        # Visualization
-        xt, yt, wt, ht = draw.textbbox((15, 15), label, font=font)
-        text_image = Image.new("RGBA", (wt, ht), (255, 255, 255, 0))  # Transparent background
-        text_draw = ImageDraw.Draw(text_image)
-        text_draw.text((0, 0), label, fill=(255, 100, 0), font=font)
-
-        scale_factor = 14  # Adjust this factor to make the text larger
-        scaled_text_image = text_image.resize((wt * scale_factor, ht * scale_factor), Image.Resampling.LANCZOS)
-
-        text_position = (xt, yt)  # Position where the text should be pasted
-        image.paste(scaled_text_image, text_position, scaled_text_image)
+        for obj in objects:
+            xc, yc, w, h = obj['bbox']
+            xl = (xc - w / 2) * wi
+            xr = (xc + w / 2) * wi
+            yl = (yc - h / 2) * hi
+            yr = (yc + h / 2) * hi
+            print(xl, yl, xr, yr)
+            draw.rectangle([xl, yl, xr, yr], outline="red", width=8)  # Box in black
 
         m.array[:] = np.array(image)
+
+        image.save('jeej.jpg')
 
 
 # Initialization
 fps = 0
 top_class = ""
 dev = load_device()
-model_data = open("mobilenet_v2_1.0_224_quant_edgetpu.tflite", "rb").read()
+model_data = open("ssd_mobilenet_v2_coco_quant_postprocess_edgetpu.tflite", "rb").read()
 load_model(dev, model_data)
+anchors = np.load("anchors.npy")
 
 # Configure and start Picamera2.
 picam2 = Picamera2()
 video_w, video_h = 1280, 960
 # lores = {'size': (300, 300), 'format': 'XBGR8888'}
-main = {'size': (video_w, video_h), 'format': 'XBGR8888'}
+main = {'size': (video_w, video_h), 'format': 'BGR888'}
 controls = {'FrameRate': 30}
 config = picam2.create_preview_configuration(main, controls=controls)
+# config = picam2.create_preview_configuration({"size": (video_w, video_h)})
 picam2.configure(config)
 
 # picam2.start_preview(Preview.QTGL)
@@ -74,7 +74,7 @@ picam2.start()
 picam2.pre_callback = draw_objects
 
 
-time.sleep(200)
+time.sleep(400)
 # while (loop_end - loop_start) < 2:
 #     print('Running')
     # frame = picam2.capture_array('lores')

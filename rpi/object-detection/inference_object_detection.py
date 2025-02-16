@@ -1,10 +1,13 @@
-
+import PIL.Image
 import usb.core
 import usb.util
-
-from PIL import Image
 import numpy as np
-import math
+from math import exp
+
+import sys
+
+import PIL
+from hexdump import hexdump
 
 setup = """
 libusb_control_transfer(RequestType: 0x80, Request: 0x06, Value: 0x0100, Index: 0x0000, Length:   18) : 00 00 00 81 42 6f 01 00 00 00 70 17 00 00 01 00 00 00 
@@ -62,7 +65,8 @@ libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa0d8, Index: 
 libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa0d8, Index: 0x0001, Length:    4) : 00 00 00 80
 """
 
-def run_initialization():
+
+def load_device():
     # Assumes device already initialized
     dev = usb.core.find(idVendor=0x18d1, idProduct=0x9302)
 
@@ -95,40 +99,76 @@ def run_initialization():
 
     return dev
 
-def run_inference(dev, model_data, image_data, anchors):
-    def send_with_header(dev, data, start, length, mysterious_flag, subpacket_size=None):
-        def craft_header(num, mysterious_flag):
-            byte_array = bytearray(num.to_bytes(8, byteorder='little'))
-            byte_array[4] = mysterious_flag
-            return byte_array
 
-        def _recursive_send_packet(dev, data, start, remaining, subpacket_size):
-            if remaining < subpacket_size:
-                actual_size = remaining
-            else:
-                actual_size = subpacket_size
+def send_with_header(dev, data, start, length, mysterious_flag, subpacket_size=None):
+    def craft_header(num, mysterious_flag):
+        byte_array = bytearray(num.to_bytes(8, byteorder='little'))
+        byte_array[4] = mysterious_flag
+        return byte_array
 
-            # actual data
-            dev.write(0x01, data[start:start+actual_size])
-            if (remaining - actual_size) > 0:
-                _recursive_send_packet(dev, data, start=start + actual_size, remaining=remaining - actual_size, subpacket_size=subpacket_size)
+    def _recursive_send_packet(dev, data, start, remaining, subpacket_size):
+        if remaining < subpacket_size:
+            actual_size = remaining
+        else:
+            actual_size = subpacket_size
 
-        if subpacket_size == None: subpacket_size = length
+        # actual data
+        dev.write(0x01, data[start:start+actual_size])
+        if (remaining - actual_size) > 0:
+            _recursive_send_packet(dev, data, start=start + actual_size, remaining=remaining - actual_size, subpacket_size=subpacket_size)
 
-        # send header
-        header = craft_header(num=length, mysterious_flag=mysterious_flag)
-        dev.write(0x01, header)
+    if subpacket_size == None: subpacket_size = length
 
-        _recursive_send_packet(dev, data, start, remaining=length, subpacket_size=subpacket_size)
+    # send header
+    header = craft_header(num=length, mysterious_flag=mysterious_flag)
+    dev.write(0x01, header)
+
+    _recursive_send_packet(dev, data, start, remaining=length, subpacket_size=subpacket_size)
 
 
+def load_model(dev, model_data):
     send_with_header(dev, model_data, start=0x6442dc, length=11472, mysterious_flag=0x0)
     send_with_header(dev, model_data, start=0xafac, length=6523264, mysterious_flag=0x2, subpacket_size=1048576)
+
+
+def iou(box1, box2):
+    """
+    box1, box2: [xc, yc, w, h], normalized in [0, 1]
+    """
+    xc1, yc1, w1, h1 = box1
+    xc2, yc2, w2, h2 = box2
+
+    xl1 = xc1 - w1 / 2
+    yt1 = yc1 - h1 / 2
+    xr1 = xc1 + w1 / 2
+    yb1 = yc1 + h1 / 2
+
+    xl2 = xc2 - w2 / 2
+    yt2 = yc2 - h2 / 2
+    xr2 = xc2 + w2 / 2
+    yb2 = yc2 + h2 / 2
+
+    xl = max(xl1, xl2)
+    xr = min(xr1, xr2)
+    yt = max(yt1, yt2)
+    yb = min(yb1, yb2)
+
+    area_inters = (xr - xl) * (yb - yt)
+    area1 = w1 * h1
+    area2 = w2 * h2
+
+    return 2 * area_inters / (area1 + area2)
+
+def run_inference(dev, model_data, image_data, anchors):
 
     send_with_header(dev, model_data, start=0x65713c, length=257648, mysterious_flag=0x0)
     send_with_header(dev, image_data, start=0x00, length=270000, mysterious_flag=0x01)
 
+    # for _ in range(5):
+    #     _ = dev.read(0x81, 1024)
+
     send_with_header(dev, model_data, start=0x6551cc, length=7632, mysterious_flag=0x0)
+
 
     # Receive activations
     class_activations_rsp = bytearray()
@@ -138,20 +178,28 @@ def run_inference(dev, model_data, image_data, anchors):
     for _ in range(8):
         rsp = dev.read(0x81, 1024)
         box_transform_activations_rsp.extend(rsp)
+        # hexdump(rsp)
 
-    for _ in range(174):
+    for _ in range(170):
         rsp = dev.read(0x81, 1024)
         # hexdump(rsp1)
         class_activations_rsp.extend(rsp)
 
-    # Visualization
-    # Partition the bytearray into chunks of size 91
+    dev.read(0x82, 16)
+
+    for _ in range(4):
+        rsp = dev.read(0x81, 1024)
+        # hexdump(rsp1)
+        class_activations_rsp.extend(rsp)
+
+    # Partition the bytearray into chunks of size 92 (90 classes + background + EOL byte)
     chunk_size = 92
     chunks_classes = [class_activations_rsp[i:i + chunk_size - 1] for i in range(0, len(class_activations_rsp)-chunk_size, chunk_size)]  # remove last element, 0x80, EOL
 
     chunk_size = 4
     chunks_box_transforms = [box_transform_activations_rsp[i:i + chunk_size] for i in range(0, len(box_transform_activations_rsp)-chunk_size, chunk_size)]
 
+    # Extract max activations
     activation_data = []
     threshold = 0.5
     for index, chunk in enumerate(chunks_classes):
@@ -166,6 +214,7 @@ def run_inference(dev, model_data, image_data, anchors):
             }
             activation_data.append(activation)
 
+    # Dequantize and extract bbox
     dequantize = lambda q: 0.09133967012166977 * (q - 179)  # found in the model file
     for activation in activation_data:
         chunk = activation['chunk']
@@ -186,41 +235,13 @@ def run_inference(dev, model_data, image_data, anchors):
         y = ya + ha * ty / y_scale
         x = xa + wa * tx / x_scale
 
-        h = ha * math.exp(th / h_scale)
-        w = wa * math.exp(tw / w_scale)
+        h = ha * exp(th / h_scale)
+        w = wa * exp(tw / w_scale)
         
         activation['bbox'] = [x, y, w, h]
 
-    # instead of NMS, keep box with highest score
-    def iou(box1, box2):
-        """
-        box1, box2: [xc, yc, w, h], normalized in [0, 1]
-        """
-        xc1, yc1, w1, h1 = box1
-        xc2, yc2, w2, h2 = box2
 
-        xl1 = xc1 - w1 / 2
-        yt1 = yc1 - h1 / 2
-        xr1 = xc1 + w1 / 2
-        yb1 = yc1 + h1 / 2
-
-        xl2 = xc2 - w2 / 2
-        yt2 = yc2 - h2 / 2
-        xr2 = xc2 + w2 / 2
-        yb2 = yc2 + h2 / 2
-
-        xl = max(xl1, xl2)
-        xr = min(xr1, xr2)
-        yt = max(yt1, yt2)
-        yb = min(yb1, yb2)
-
-        area_inters = (xr - xl) * (yb - yt)
-        area1 = w1 * h1
-        area2 = w2 * h2
-
-        return 2 * area_inters / (area1 + area2)
-
-    # Filter boxes to get objects: only keep the ones with the highest score and that correspond to different items 
+    # Instead of NMS, keep box with highest score and deduplicate based on IoU
     objects = []
 
     def get_obj_with_class(objects, class_value):
@@ -252,41 +273,3 @@ def run_inference(dev, model_data, image_data, anchors):
             objects.append(act)
 
     return objects
-
-
-
-
-import time
-
-model_data = open("ssd_mobilenet_v2_coco_quant_postprocess_edgetpu.tflite", "rb").read()
-anchors = np.load('anchors.npy')
-
-img_path = "dog.jpg"
-image_data = Image.open(img_path).convert('RGB').resize((300,300)).tobytes()
-
-
-for _ in range(10):
-    dev = run_initialization()
-    _ = run_inference(dev, model_data, image_data, anchors)
-    time.sleep(0.1)
-
-# img_path = "zebra.jpg"
-# image_data = Image.open(img_path).convert('RGB').resize((300,300)).tobytes()
-# obj = run_inference(dev, model_data, image_data, anchors)
-# dev.reset()
-
-# img_path = "dog.jpg"
-# image_data = Image.open(img_path).convert('RGB').resize((300,300)).tobytes()
-# obj2 = run_inference(dev, model_data, image_data, anchors)
-
-# start_time = time.time()
-# for _ in range(5):
-    
-#     time.sleep(2)
-# end_time = time.time()
-
-# elapsed_time = (end_time - start_time) * 1000
-# print(f"Elapsed time: {elapsed_time/50:.2f} ms")
-
-# print(obj)
-# print(obj2)

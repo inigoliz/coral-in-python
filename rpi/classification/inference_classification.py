@@ -135,41 +135,14 @@ def run_inference(dev, model_data, image_data):
     send_with_header(dev, model_data, start=0x3ccbc8, length=10224, mysterious_flag=0x0)
 
     rsp1 = dev.read(0x82, 16)
+    activations = dev.read(0x81, 1024)
 
-    rsp2 = dev.read(0x81, 1024)
 
-    sorted_classes = sorted(range(len(rsp2)), key=lambda i: rsp2[i], reverse=True)
-
+    threshold = 100
     with open('imagenet_labels.txt') as file:
         classes = file.readlines()
-        top_five = [classes[idx] for idx in sorted_classes[0:5]]
+        sorted_classes = [classes[i] for i in list(sorted(range(len(activations)), key=lambda i: activations[i], reverse=True))[0:5] if activations[i] > threshold]
 
-    return top_five
-
-
-
-dev = load_device()
-
-model_data = open("mobilenet_v2_1.0_224_quant_edgetpu.tflite", "rb").read()
-image_data = Image.open("mug.jpg").convert('RGB').resize((224,224)).tobytes()
-load_model(dev, model_data)
-
-
-top_five = run_inference(dev, model_data, image_data)
-
-import time
-
-for _ in range(10):
-    start_time = time.time()
-    it=100
-    for _ in range(it):
-        run_inference(dev, model_data, image_data)
-
-    end_time = time.time()
-    elapsed_time = (end_time - start_time) / it * 1000
-
-    print("Using 'mobilenet_v2_1.0_224_quant_edgetpu.tflite'")
-    print(f"Inference: {elapsed_time:.2f} ms/it")
-    time.sleep(1)
+    return sorted_classes
 
 

@@ -3,9 +3,6 @@ import usb.util
 
 import sys
 
-from PIL import Image
-from hexdump import hexdump
-
 setup = """
 libusb_control_transfer(RequestType: 0x80, Request: 0x06, Value: 0x0100, Index: 0x0000, Length:   18) : 00 00 00 86 53 6d 01 00 00 00 70 17 00 00 01 00 00 00 
 libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa30c, Index: 0x0001, Length:    4) : 01 00 00 00 
@@ -72,12 +69,13 @@ dev = usb.core.find(idVendor=0x18d1, idProduct=0x9302)
 
 if dev is None:
     print("Device not initialized correctly")
+    print("Did you run 'install_firmware.py'?")
     sys.exit(1)
 
 dev.reset()
 # time.sleep(0.6)
 usb.util.claim_interface(dev, 0)
-dev.set_configuration(1)
+# dev.set_configuration(1)
 
 # Send initialization code
 lines = setup.strip().replace(",", "").replace(")", "").split('\n')
@@ -93,18 +91,9 @@ for line in lines:
     hex_part = line.split(':')[-1]
     hex_bytes = hex_part.strip().split()
     data = bytearray(int(byte, 16) for byte in hex_bytes)
-#     # print(len(data))
-
-    # if request_type == 0xC0:
-    #     print(f'changing to len data. Old {data}, new {len(data)} ')
-    #     data = len(data)
-
-    # if request_type != 0xC0:
-    #     print(data.hex())
 
     _ = dev.ctrl_transfer(request_type, request, value, index, data)
 
-#     print(request_type, request, value, index, length, data)
 
 def send_with_header(dev, data, start, length, mysterious_flag, subpacket_size=None):
     def craft_header(num, mysterious_flag):
@@ -132,10 +121,10 @@ def send_with_header(dev, data, start, length, mysterious_flag, subpacket_size=N
     _recursive_send_packet(dev, data, start, remaining=length, subpacket_size=subpacket_size)
 
 
-
 # Send model and data
 model_data = open("mobilenet_v2_1.0_224_quant_edgetpu.tflite", "rb").read()
-image_data = Image.open("mug.jpg").convert('RGB').resize((224,224)).tobytes()
+with open("dog.bin", "rb") as file: image_data = file.read()
+# image_data = Image.open("mug.jpg").convert('RGB').resize((224,224)).tobytes()  # if PIL available
 
 send_with_header(dev, model_data, start=0x3c7c8c, length=10064, mysterious_flag=0x0)
 send_with_header(dev, model_data, start=0x33dc, length=3949120, mysterious_flag=0x2, subpacket_size=1048576)
@@ -144,8 +133,6 @@ send_with_header(dev, image_data, start=0x00, length=150528, mysterious_flag=0x0
 send_with_header(dev, model_data, start=0x3ccbc8, length=10224, mysterious_flag=0x0)
 
 rsp1 = dev.read(0x82, 16)
-# hexdump(rsp1)
-
 rsp2 = dev.read(0x81, 1024)
 
 sorted_classes = sorted(range(len(rsp2)), key=lambda i: rsp2[i], reverse=True)

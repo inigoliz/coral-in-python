@@ -9,15 +9,7 @@ def send_firmware():
         dev.ctrl_transfer(0x21, 0x01, it, 0, fw[i:i+0x100])
         dev.ctrl_transfer(0xa1, 0x03, 0, 0, 6)
         it += 1
-
-
-def send_mysterious_file():
-    fw = open("mysterious_file.bin", "rb").read()
-    it = 0
-    for i in range(0, len(fw), 0x100):
-        dev.ctrl_transfer(0xa1, 0x02, it, 0, fw[i:i+0x100])
-        it += 1
-
+        
 
 dev = usb.core.find(idVendor=0x18d1, idProduct=0x9302)
 if (dev == None):
@@ -33,8 +25,6 @@ if (dev == None):
 
     dev.ctrl_transfer(0x21, 0x01, 0x2b, 0x00, 0)
     dev.ctrl_transfer(0xa1, 0x03, 0x00, 0x00, 6)
-
-    send_mysterious_file()
 
     try: 
         dev.reset()
