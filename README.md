@@ -14,6 +14,21 @@ The only requirements to run this software are:
 pip install pyusb
 ```
 
+Prepare input image: resize to 224x224 and transform to bytes:
+
+```python
+from PIL import Image
+import sys
+
+path = sys.argv[1]
+
+image = Image.open(path).convert('RGB').resize((224, 224))
+image_bytes = image.tobytes()
+
+with open(f'{path.split(".")[0]}.bin', 'wb') as binary_file:
+    binary_file.write(image_bytes)
+```
+
 ## Running classification inference
 
 1. `python install_firmware.py`
