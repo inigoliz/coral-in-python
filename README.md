@@ -1,15 +1,24 @@
-# Coral in Python
+# Reverse-engineering the Coral TPU: drive it from pure Python
 
-Use the Coral TPU directly from Python, without needing other TPU custom libraries (PyCoral, Edge TPU Runtime, TFLite, etc.).
+Use the Coral TPU **directly from Python** with no arcane libraries (TFLite, PyCoral, Edge TPU Runtime, or other dungeon monsters)
 
-The only requirements to run this software are:
+❗ Getting rid of all dependencies means that the Coral TPU can be easily integrated with *ANY* device that supports pure Python.
+> Wanna run ML on a minimal RPi Zero? on an ESP32 running MicroPython? Now you can.
+
+![2025-02-01 19 03 07](https://github.com/user-attachments/assets/ae40776b-272b-4c4e-b408-5e2652cd5d54)
+
+## Requirements:
+Your embedded system / single board computer can use the Coral TPU if it supports:
 - Python
 - USB (via `pyusb`)
 
+**Nothing** else is needed.
+
 <img width="955" alt="Screenshot 2025-03-17 at 01 40 06" src="https://github.com/user-attachments/assets/b7b18830-a5c2-4a7e-857d-509e9892fad4" />
 
-## Getting started
+## Quickstart
 
+Install USB library:
 ```bash
 pip install pyusb
 ```
@@ -29,19 +38,19 @@ with open(f'{path.split(".")[0]}.bin', 'wb') as binary_file:
     binary_file.write(image_bytes)
 ```
 
-## Running classification inference
+### Running image classification 
 
 1. `python install_firmware.py`
 2. `python inference.py`
 
-## Running object detection inference
+### Running object detection
 
 1. `python install_firmware.py`
 2. `cd object-detection`
 3. `python inference.py`
 
-If your computer has `Pillow` installed, you can visualize the bounding boxes after running inference with:
+> **Note:** If your computer supports `Pillow`, you can visualze the bounding boxes after running object detection with:
 
 ```python
-python inference.py my_image.png
+python object-detection/inference.py my_image.png
 ```
