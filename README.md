@@ -2,10 +2,10 @@
 
 Use the Coral TPU **directly from Python** with no arcane libraries (TFLite, PyCoral, Edge TPU Runtime, or other dungeon monsters)
 
-❗ Getting rid of all dependencies means that the Coral TPU can be easily integrated with *ANY* device that supports pure Python.
-> Wanna run ML on a minimal RPi Zero? on an ESP32 running MicroPython? Now you can.
-
 ![2025-02-01 19 03 07](https://github.com/user-attachments/assets/ae40776b-272b-4c4e-b408-5e2652cd5d54)
+
+❗ Getting rid of all dependencies means that the Coral TPU can be easily integrated with *ANY* device that supports USB.
+> Wanna run ML on a RPi Zero? on an ESP32 running MicroPython? On your custom ASIC? If you have USB, you can have ML.
 
 ## Requirements:
 Your embedded system / single board computer can use the Coral TPU if it supports:
