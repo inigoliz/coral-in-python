@@ -1,6 +1,6 @@
-# Reverse-engineering the Coral TPU: drive it from pure Python
+# Easily use a Coral TPU from Python
 
-Use the Coral TPU **directly from Python** with no arcane libraries (TFLite, PyCoral, Edge TPU Runtime, or other dungeon monsters)
+Use the Coral TPU **directly from Python** with no arcane libraries (TFLite, PyCoral, Edge TPU Runtime, or any other dungeon monsters)
 
 ![2025-02-01 19 03 07](https://github.com/user-attachments/assets/ae40776b-272b-4c4e-b408-5e2652cd5d54)
 
