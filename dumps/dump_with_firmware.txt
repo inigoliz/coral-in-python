@@ -1,0 +1,1731 @@
+libusb_control_transfer(RequestType: 0x80, Request: 0x06, Value: 0x0100, Index: 0x0000, Length:   18) : 00 00 00 00 00 00 00 00 00 00 00 40 df 02 01 00 00 00 
+libusb_control_transfer(RequestType: 0x80, Request: 0x06, Value: 0x0200, Index: 0x0000, Length:  521) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0000, Index: 0x0000, Length:  256) : 
+    02 1e 57 02 14 fa c2 2f c2 31 c2 23 22 12 24 68 22 ff ff 02 00 16 c0 e0 c0 f0 c0 83 c0 82 c0 d0 
+    75 d0 00 c0 00 c0 01 c0 02 c0 03 c0 04 c0 05 c0 06 c0 07 7f 18 7e 80 12 27 bd 8f 35 8e 34 8d 33 
+    8c 32 e4 ff fe fd e5 32 54 04 fc 70 03 02 00 f8 30 30 05 c2 30 02 00 f8 20 33 03 02 00 eb c2 33 
+    30 22 69 c2 af 12 26 76 a2 af 92 24 c2 af 90 80 00 e4 f0 a3 74 80 f0 a3 e4 f0 a3 f0 a2 24 92 af 
+    90 01 b8 12 1a 80 00 00 00 00 7f a0 7e bb 7d 0d 7c 00 90 01 b8 e0 f8 a3 e0 f9 a3 e0 fa a3 e0 fb 
+    c3 12 1a 25 50 21 90 01 b8 e0 fc a3 e0 fd a3 e0 fe a3 e0 24 01 ff e4 3e fe e4 3d fd e4 3c fc 90 
+    01 b8 12 1a 5b 80 c3 12 28 e0 80 2c c2 af 85 35 45 85 34 44 85 33 43 85 32 42 7f 18 7e 80 12 27 
+    3f e4 ff 12 12 2d 12 29 6a 80 0d 7f 01 12 12 2d 12 26 76 12 00 06 d2 2a e5 35 54 0c ff e4 fe e5 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0001, Index: 0x0000, Length:  256) : 
+    33 54 04 fd e4 fc ed 4f 60 02 d2 2a af 35 ae 34 ad 33 ac 32 ec 4d 4e 4f 60 0f 8f 45 8e 44 8d 43 
+    8c 42 7f 18 7e 80 12 27 3f 90 80 1c e0 f5 36 90 80 40 e0 f5 37 90 80 42 e0 f5 38 e5 37 20 e1 03 
+    02 02 12 a2 af 92 24 c2 af 90 80 1c 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 90 80 2d e0 ff 13 
+    13 54 3f 13 92 34 90 80 2c e0 f5 39 a2 af 92 24 c2 af f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af e5 39 
+    54 1c 70 03 02 02 12 30 29 45 e5 39 30 e3 27 30 29 13 7b 01 7a 01 79 5c 7f 00 7e 80 7d 00 7c 80 
+    12 22 bd 80 11 7b 01 7a 01 79 5c 7f 00 7e 80 7d 00 7c 10 12 22 bd a2 af 92 24 c2 af 90 80 38 74 
+    02 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 80 43 e5 39 30 e3 27 30 29 13 7b 01 7a 01 79 5c 7f 00 7e 
+    80 7d 00 7c 80 12 22 bd 80 11 7b 01 7a 01 79 5c 7f 00 7e 80 7d 00 7c 10 12 22 bd a2 af 92 24 c2 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0002, Index: 0x0000, Length:  256) : 
+    af 90 80 38 74 02 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af e5 37 30 e2 3e a2 af 92 24 c2 af 90 80 1c 
+    74 02 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 90 80 2c e0 f5 39 a3 e0 ff 13 13 54 3f 13 92 34 a2 af 
+    92 24 c2 af 90 80 2c e5 39 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af e5 37 30 e3 2f a2 af 92 24 c2 af 
+    90 80 1c 74 03 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 90 80 2c e0 f5 39 a2 af 92 24 c2 af f0 a3 e4 
+    f0 a3 f0 a3 f0 a2 24 92 af e5 38 20 e1 03 02 03 50 a2 af 92 24 c2 af 90 80 1c 74 81 f0 a3 e4 f0 
+    a3 f0 a3 f0 a2 24 92 af 90 80 2c e0 f5 39 a2 af 92 24 c2 af f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 
+    e5 39 54 0c 70 03 02 03 50 90 90 2c e0 f5 39 30 e0 61 90 90 05 e0 75 3a 00 f5 3b 75 3b 00 f5 3a 
+    90 90 04 e0 25 3b f5 3b e4 35 3a f5 3a 53 3a 03 e5 3b ae 3a 78 03 c3 33 ce 33 ce d8 f9 f5 3b 8e 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0003, Index: 0x0000, Length:  256) : 
+    3a 7e 01 7f 18 c0 07 ff e4 8f 41 85 3a 40 f5 3f f5 3e 75 42 81 d0 07 12 1c 78 a2 af 92 24 c2 af 
+    90 90 30 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 80 1d 90 90 34 e0 f5 39 53 39 fe a2 af 92 24 
+    c2 af e5 39 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af e5 38 20 e2 03 02 04 17 a2 af 92 24 c2 af 90 80 
+    1c 74 82 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 90 80 2c e0 f5 39 a2 af 92 24 c2 af f0 a3 e4 f0 a3 
+    f0 a3 f0 a2 24 92 af e5 39 54 0c 70 03 02 04 17 90 90 2c e0 f5 39 30 e1 61 90 90 0d e0 75 3a 00 
+    f5 3b 75 3b 00 f5 3a 90 90 0c e0 25 3b f5 3b e4 35 3a f5 3a 53 3a 03 e5 3b ae 3a 78 03 c3 33 ce 
+    33 ce d8 f9 f5 3b 8e 3a 7e 01 7f 30 c0 07 ff e4 8f 41 85 3a 40 f5 3f f5 3e 75 42 82 d0 07 12 1c 
+    78 a2 af 92 24 c2 af 90 90 30 74 02 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 80 1d 90 90 34 e0 f5 39 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0004, Index: 0x0000, Length:  256) : 
+    53 39 fd a2 af 92 24 c2 af e5 39 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af e5 37 30 e0 7b a2 af 92 24 
+    c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 24 92 af 7f 2c 7e 80 12 27 bd 78 ab 12 1a 4f 78 ab 12 
+    1a 36 ef 54 10 ff e4 fe fd fc ef 60 34 a2 af 92 24 c2 af 90 80 2c 74 10 f0 a3 e4 f0 a3 f0 a3 f0 
+    a2 24 92 af 30 2a 30 c2 2a a2 af 92 24 c2 af 90 80 38 04 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 80 
+    16 d2 2e 78 ab 12 1a 36 8f 45 8e 44 8d 43 8c 42 7f 2c 7e 80 12 27 3f e5 38 20 e0 03 02 05 23 a2 
+    af 92 24 c2 af 90 80 1c 74 80 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 30 2d 1f 7f 2c 7e 80 12 27 bd 
+    78 a7 12 1a 42 ef 4b ff ee 4a fe ed 49 fd ec 48 fc 78 a7 12 1a 4f 80 0c 7f 2c 7e 80 12 27 bd 78 
+    a7 12 1a 4f 78 a7 12 1a 36 ef 54 10 ff e4 fe fd fc ef 60 19 a2 af 92 24 c2 af 90 80 2c 74 10 f0 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0005, Index: 0x0000, Length:  256) : 
+    a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 80 16 d2 2d 78 a7 12 1a 36 8f 45 8e 44 8d 43 8c 42 7f 2c 7e 80 
+    12 27 3f e5 38 30 e3 52 a2 af 92 24 c2 af 90 80 1c 74 83 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 90 
+    80 2c e0 f5 39 a2 af 92 24 c2 af f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af e5 39 54 0c 60 1d 90 90 34 
+    e0 f5 39 53 39 7f a2 af 92 24 c2 af e5 39 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af a2 af 92 24 c2 af 
+    90 80 1c e5 36 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af d0 07 d0 06 d0 05 d0 04 d0 03 d0 02 d0 01 d0 
+    00 d0 d0 d0 82 d0 83 d0 f0 d0 e0 32 8f 46 e5 46 60 0f 90 01 a6 e0 b4 04 04 a3 e0 60 13 12 28 b0 
+    22 90 01 a6 e0 b4 08 04 a3 e0 60 04 12 28 b0 22 7b 00 7a 00 79 47 8b 4b 8a 4c 89 4d 90 01 a2 e0 
+    90 00 03 12 1a 03 90 01 a3 e0 90 00 02 12 1a 03 90 01 a4 e0 90 00 01 12 1a 03 90 01 a5 e0 12 19 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0006, Index: 0x0000, Length:  256) : 
+    f1 e4 ff fe 7d 04 fc ab 4a aa 49 a9 48 a8 47 c3 12 1a 25 40 55 7f f8 7e ff 7d 7f 7c 00 a8 47 d3 
+    12 1a 25 50 45 e5 46 60 04 12 28 b0 22 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 
+    92 af a2 af 92 32 c2 af 90 80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af af 4a ae 49 ad 48 ac 
+    47 f5 5a 75 5b 08 12 21 db 22 e4 ff fe 7d 03 fc ab 4a aa 49 a9 48 a8 47 c3 12 1a 25 40 55 7f f8 
+    7e ff 7d 03 7c 00 a8 47 d3 12 1a 25 50 45 e5 46 60 04 12 28 b0 22 a2 af 92 32 c2 af 90 80 1c e4 
+    f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 
+    92 af af 4a ae 49 ad 48 ac 47 f5 5a 75 5b 08 12 21 db 22 c3 e5 4a 94 00 f5 4a e5 49 94 00 f5 49 
+    e5 48 94 01 f5 48 e5 47 94 00 f5 47 e4 ff 7e 90 fd fc ab 4a aa 49 a9 48 a8 47 c3 12 1a 25 40 3c 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0007, Index: 0x0000, Length:  256) : 
+    e4 7f f8 7e 93 fd fc a8 47 d3 12 1a 25 50 2d ae 49 af 4a 12 27 7f 8f 51 8e 50 8d 4f 8c 4e e5 46 
+    60 03 02 07 d8 e5 4a 24 04 ff e4 35 49 fe 12 27 7f 8f 55 8e 54 8d 53 8c 52 02 07 d8 e4 ff 7e 80 
+    fd fc ab 4a aa 49 a9 48 a8 47 c3 12 1a 25 40 38 e4 7f f8 7e 83 fd fc a8 47 d3 12 1a 25 50 29 ae 
+    49 af 4a 12 27 7f 8f 51 8e 50 8d 4f 8c 4e e5 46 70 66 e5 4a 24 04 ff e4 35 49 fe 12 27 7f 8f 55 
+    8e 54 8d 53 8c 52 80 50 e4 ff 7e a0 fd fc ab 4a aa 49 a9 48 a8 47 c3 12 1a 25 40 38 e4 7f f8 7e 
+    a7 fd fc a8 47 d3 12 1a 25 50 29 ae 49 af 4a 12 27 7f 8f 51 8e 50 8d 4f 8c 4e e5 46 70 1a e5 4a 
+    24 04 ff e4 35 49 fe 12 27 7f 8f 55 8e 54 8d 53 8c 52 80 04 12 28 b0 22 7b 00 7a 00 79 4e 8b 4b 
+    8a 4c 89 4d 90 00 03 12 19 c4 90 00 18 f0 90 00 02 12 19 c4 90 00 19 f0 90 00 01 12 19 c4 90 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0008, Index: 0x0000, Length:  256) : 
+    1a f0 12 19 ab 90 00 1b f0 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 
+    92 32 c2 af 90 80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af e5 46 70 3b 7a 00 79 52 f5 4b 8a 
+    4c 89 4d 90 00 03 12 19 c4 90 00 1c f0 90 00 02 12 19 c4 90 00 1d f0 90 00 01 12 19 c4 90 00 1e 
+    f0 12 19 ab 90 00 1f f0 7e 00 7f 18 7d 08 7c 00 12 1f 69 22 7e 00 7f 18 7d 04 7c 00 12 1f 69 22 
+    90 80 04 e0 ff c4 54 07 ff 24 fe 60 0a 14 60 07 14 70 06 d2 29 80 02 c2 29 90 01 a7 e0 75 46 00 
+    f5 47 e5 47 fe 90 01 a6 e0 7c 00 24 00 f5 47 ec 3e f5 46 90 01 a3 e0 f9 24 fe 60 56 14 70 03 02 
+    0a 31 24 fd 70 03 02 0a 64 14 60 46 24 f8 70 03 02 0a b3 24 0e 60 03 02 0b 1d d3 e5 47 94 12 e5 
+    46 94 00 40 06 75 46 00 75 47 12 30 29 12 7e 19 7f 10 7c 00 7d 18 ab 47 aa 46 12 26 bb 02 0a e5 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0009, Index: 0x0000, Length:  256) : 
+    7e 18 7f ab 7c 00 7d 18 ab 47 aa 46 12 26 bb 02 0a e5 20 29 03 02 09 97 d3 e5 47 94 09 e5 46 94 
+    00 50 28 e9 b4 02 12 7e 19 7f 2c 7c 00 7d 18 ab 47 aa 46 12 26 bb 02 0a 12 7e 19 7f 35 7c 00 7d 
+    18 ab 47 aa 46 12 26 bb 02 0a 12 d3 e5 47 94 60 e5 46 94 00 40 06 75 46 00 75 47 60 e9 b4 02 11 
+    7e 19 7f 2c 7c 00 7d 18 7b 09 7a 00 12 26 bb 80 0f 7e 19 7f 35 7c 00 7d 18 7b 09 7a 00 12 26 bb 
+    7e 19 7f 3e 7c 00 7d 21 e5 47 24 f7 fb e5 46 34 ff fa 12 26 bb 80 7b d3 e5 47 94 09 e5 46 94 00 
+    50 26 e9 b4 02 11 7e 18 7f c7 7c 00 7d 18 ab 47 aa 46 12 26 bb 80 5b 7e 18 7f d0 7c 00 7d 18 ab 
+    47 aa 46 12 26 bb 80 4a d3 e5 47 94 3c e5 46 94 00 40 06 75 46 00 75 47 3c e9 b4 02 11 7e 18 7f 
+    c7 7c 00 7d 18 7b 09 7a 00 12 26 bb 80 0f 7e 18 7f d0 7c 00 7d 18 7b 09 7a 00 12 26 bb 7e 18 7f 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x000a, Index: 0x0000, Length:  256) : 
+    d9 7c 00 7d 21 e5 47 24 f7 fb e5 46 34 ff fa 12 26 bb 30 21 03 02 0a e5 90 00 1f 74 80 f0 30 29 
+    07 a3 74 70 f0 02 0a e5 90 00 20 74 f9 f0 02 0a e5 90 01 a2 e0 60 03 02 0b 1d 90 19 0c e4 93 ff 
+    7e 00 d3 e5 47 9f e5 46 9e 40 04 8e 46 8f 47 7e 19 7f 0c 7c 00 7d 18 ab 47 aa 46 12 26 bb 02 0a 
+    e5 02 0a e5 30 29 26 90 19 22 e4 93 ff 7e 00 d3 e5 47 9f e5 46 9e 40 04 8e 46 8f 47 7e 19 7f 22 
+    7c 00 7d 18 ab 47 aa 46 12 26 bb 80 58 90 18 bd e4 93 ff 7e 00 d3 e5 47 9f e5 46 9e 40 04 8e 46 
+    8f 47 7e 18 7f bd 7c 00 7d 18 ab 47 aa 46 12 26 bb 80 32 90 19 98 e4 93 ff 7e 00 fe 90 19 97 e4 
+    93 7c 00 24 00 ff ec 3e fe d3 e5 47 9f e5 46 9e 40 04 8e 46 8f 47 7e 19 7f 95 7c 00 7d 18 ab 47 
+    aa 46 12 26 bb a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x000b, Index: 0x0000, Length:  256) : 
+    90 80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 7e 00 7f 18 ad 47 ac 46 12 1f 69 22 12 28 b0 
+    22 20 2c 03 02 0b c8 c2 2c 7f 28 7e 90 12 27 7f 8f 49 8e 48 8d 47 8c 46 7b 00 7a 00 79 46 90 00 
+    03 12 19 c4 90 00 10 f0 90 00 02 12 19 c4 90 00 11 f0 90 00 01 12 19 c4 90 00 12 f0 12 19 ab 90 
+    00 13 f0 a2 af 92 32 c2 af 90 80 1c 74 83 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 0b 7a 01 79 48 e9 
+    ea e4 29 f5 61 e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 7e 80 12 26 ff a2 af 92 32 c2 af 90 
+    80 38 e4 f0 a3 f0 a3 74 08 f0 a3 e4 f0 a2 32 92 af a2 af 92 32 c2 af 90 90 30 74 80 f0 a3 e4 f0 
+    a3 f0 a3 f0 a2 32 92 af 20 25 03 02 0c 4f c2 25 a2 af 92 32 c2 af 90 80 1c 74 01 f0 a3 e4 f0 a3 
+    f0 a3 f0 a2 32 92 af 30 29 4e 90 90 19 e0 54 1f 90 29 dd 93 f5 4a e4 78 62 f6 08 f6 08 f6 08 f6 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x000c, Index: 0x0000, Length:  256) : 
+    08 f6 08 f6 e5 4a f8 e4 79 69 f7 e8 25 e0 25 e0 19 f7 a2 af 92 32 c2 af 90 80 28 e4 f0 e5 4a 25 
+    e0 04 a3 f0 a3 e4 f0 a3 f0 a2 32 92 af 7b 01 7a 01 79 5c ad 4a 12 29 b9 a2 af 92 32 c2 af 90 80 
+    38 74 02 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 20 27 03 02 0c d6 c2 27 a2 af 92 32 c2 af 90 80 1c 
+    74 02 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 30 29 4e 90 90 1d e0 54 1f 90 29 dd 93 f5 4a e4 78 6a 
+    f6 08 f6 08 f6 08 f6 08 f6 08 f6 e5 4a f8 e4 79 71 f7 e8 25 e0 25 e0 19 f7 a2 af 92 32 c2 af 90 
+    80 28 e4 f0 e5 4a 25 e0 04 a3 f0 a3 e4 f0 a3 f0 a2 32 92 af 7b 01 7a 01 79 74 ad 4a 12 29 b9 a2 
+    af 92 32 c2 af 90 80 38 74 04 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 20 28 03 02 0d 5d c2 28 a2 af 
+    92 32 c2 af 90 80 1c 74 03 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 30 29 4e 90 90 21 e0 54 1f 90 29 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x000d, Index: 0x0000, Length:  256) : 
+    dd 93 f5 4a e4 78 72 f6 08 f6 08 f6 08 f6 08 f6 08 f6 e5 4a f8 e4 79 79 f7 e8 25 e0 25 e0 19 f7 
+    a2 af 92 32 c2 af 90 80 28 e4 f0 e5 4a 25 e0 04 a3 f0 a3 e4 f0 a3 f0 a2 32 92 af 7b 01 7a 01 79 
+    8c ad 4a 12 29 b9 a2 af 92 32 c2 af 90 80 38 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 22 8e 46 
+    8f 47 c2 20 30 16 30 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 
+    c2 af 90 80 2c f0 a3 74 40 f0 a3 e4 f0 a3 f0 a2 32 92 af 12 28 b0 22 7b 00 7a 00 79 48 90 00 1b 
+    e0 12 19 f1 90 00 1a e0 90 00 01 12 1a 03 90 00 19 e0 90 00 02 12 1a 03 90 00 18 e0 90 00 03 12 
+    1a 03 e5 47 45 46 70 29 7a 00 79 4c 90 00 1f e0 12 19 f1 90 00 1e e0 90 00 01 12 1a 03 90 00 1d 
+    e0 90 00 02 12 1a 03 90 00 1c e0 90 00 03 12 1a 03 78 8b 12 1a 36 c3 ef 94 00 ff ee 94 00 fe ed 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x000e, Index: 0x0000, Length:  256) : 
+    94 01 fd ec 94 00 fc 78 8b 12 1a 4f e4 ff 7e 90 fd fc 78 8b 12 1a 42 c3 12 1a 25 40 4b e4 7f f8 
+    7e 93 fd fc 78 8b 12 1a 42 d3 12 1a 25 50 39 78 8b 12 1a 36 85 4b 61 85 4a 60 85 49 5f 85 48 5e 
+    12 26 ff e5 47 45 46 60 03 02 0f 19 78 8b 12 1a 36 ef 24 04 ff e4 3e fe 85 4f 61 85 4e 60 85 4d 
+    5f 85 4c 5e 12 26 ff 22 e4 ff 7e 80 fd fc 78 8b 12 1a 42 c3 12 1a 25 40 48 e4 7f f8 7e 83 fd fc 
+    78 8b 12 1a 42 d3 12 1a 25 50 36 78 8b 12 1a 36 85 4b 61 85 4a 60 85 49 5f 85 48 5e 12 26 ff e5 
+    47 45 46 70 74 78 8b 12 1a 36 ef 24 04 ff e4 3e fe 85 4f 61 85 4e 60 85 4d 5f 85 4c 5e 12 26 ff 
+    22 e4 ff 7e a0 fd fc 78 8b 12 1a 42 c3 12 1a 25 40 47 e4 7f f8 7e a7 fd fc 78 8b 12 1a 42 d3 12 
+    1a 25 50 35 78 8b 12 1a 36 85 4b 61 85 4a 60 85 49 5f 85 48 5e 12 26 ff e5 47 45 46 70 1b 78 8b 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x000f, Index: 0x0000, Length:  256) : 
+    12 1a 36 ef 24 04 ff e4 3e fe 85 4f 61 85 4e 60 85 4d 5f 85 4c 5e 12 26 ff 22 a2 af 92 32 c2 af 
+    90 80 1c ef f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 30 29 60 ef 64 01 70 34 a2 af 92 32 c2 af 90 80 
+    24 74 05 f0 a3 74 0f f0 a3 e4 f0 a3 74 7c f0 a2 32 92 af a2 af 92 32 c2 af 90 80 38 74 02 f0 a3 
+    e4 f0 a3 f0 a3 f0 a2 32 92 af 80 5b ef 64 02 60 56 ef 64 03 60 51 a2 af 92 32 c2 af 90 80 24 74 
+    05 f0 a3 74 0f f0 a3 e4 f0 a3 74 1c f0 a2 32 92 af 80 34 a2 af 92 32 c2 af 90 80 24 74 05 f0 a3 
+    e4 f0 a3 f0 a3 74 42 f0 a2 32 92 af ef 14 70 17 a2 af 92 32 c2 af 90 80 38 74 02 f0 a3 e4 f0 a3 
+    f0 a3 f0 a2 32 92 af ef 30 e7 19 a2 af 92 32 c2 af 90 80 34 74 80 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 
+    92 af 80 33 30 29 19 a2 af 92 32 c2 af 90 80 34 74 10 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 80 17 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0010, Index: 0x0000, Length:  256) : 
+    a2 af 92 32 c2 af 90 80 34 74 10 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af ef 24 fe 60 21 14 60 31 24 
+    82 60 40 14 60 50 24 81 70 5d 7b 01 7a 01 79 58 e9 f5 49 ea f5 48 e4 f5 47 f5 46 80 4a 7b 01 7a 
+    01 79 70 e9 f5 49 ea f5 48 e4 f5 47 f5 46 80 37 7b 01 7a 01 79 88 e9 f5 49 ea f5 48 e4 f5 47 f5 
+    46 80 24 7b 01 7a 01 79 18 e9 f5 49 ea f5 48 e4 f5 47 f5 46 80 11 7b 01 7a 01 79 30 e9 f5 49 ea 
+    f5 48 e4 f5 47 f5 46 e4 25 49 f5 61 e4 35 48 f5 60 e5 47 34 01 f5 5f e4 35 46 f5 5e 7f 20 7e 80 
+    12 26 ff 22 e4 ff 90 01 a0 e0 14 70 03 02 11 39 14 70 03 02 11 71 24 02 60 03 02 12 29 30 29 4c 
+    90 01 a3 e0 60 03 02 12 29 a3 e0 60 03 02 12 29 a3 e0 60 03 02 12 29 a3 e0 60 03 02 12 29 a3 e0 
+    60 03 02 12 29 20 33 03 02 12 29 90 01 a2 e0 24 cf 60 0b 04 60 03 02 12 29 d2 2f 02 11 aa d2 31 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0011, Index: 0x0000, Length:  256) : 
+    02 11 aa 02 12 29 02 11 aa 02 11 aa 90 01 a2 e0 64 02 60 03 02 12 29 a3 e0 60 03 02 12 29 a3 e0 
+    60 03 02 12 29 90 01 a6 e0 60 03 02 12 29 a3 e0 60 03 02 12 29 7f 01 80 71 20 29 03 02 12 29 90 
+    01 a2 e0 60 03 02 12 29 a3 e0 60 03 02 12 29 a3 e0 60 03 02 12 29 90 01 a6 e0 60 03 02 12 29 a3 
+    e0 60 03 02 12 29 90 01 a5 e0 30 e0 3d 80 3b 80 39 90 01 a2 e0 60 03 02 12 29 a2 af 92 32 c2 af 
+    90 01 a4 e0 90 80 1c f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 28 74 02 f0 a3 
+    e4 f0 a3 f0 a3 f0 a2 32 92 af ef 60 78 90 01 a5 e0 24 fe 60 24 14 60 3b 14 60 52 24 03 70 66 a2 
+    af 92 32 c2 af 90 80 08 e4 f0 a3 74 02 f0 a3 e4 f0 a3 f0 a2 32 92 af 80 4c a2 af 92 32 c2 af 90 
+    80 08 e4 f0 a3 74 06 f0 a3 e4 f0 a3 f0 a2 32 92 af 80 32 a2 af 92 32 c2 af 90 80 08 e4 f0 a3 74 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0012, Index: 0x0000, Length:  256) : 
+    0a f0 a3 e4 f0 a3 f0 a2 32 92 af 80 18 a2 af 92 32 c2 af 90 80 08 e4 f0 a3 74 0e f0 a3 e4 f0 a3 
+    f0 a2 32 92 af 12 24 68 22 12 28 b0 22 8f 3c 90 80 04 e0 ff c4 54 07 ff 24 fe 60 0a 14 60 07 14 
+    70 06 d2 29 80 02 c2 29 a2 af 92 24 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 24 92 af a2 af 92 
+    24 c2 af 90 80 2c 74 ff f0 a3 f0 a3 f0 a3 f0 a2 24 92 af a2 af 92 24 c2 af 90 80 28 74 01 f0 a3 
+    e4 f0 a3 f0 a3 f0 a2 24 92 af 90 80 28 e0 20 e0 f9 e5 3c 60 71 30 29 1b a2 af 92 24 c2 af 90 80 
+    24 74 01 f0 a3 e4 f0 a3 f0 a3 74 02 f0 a2 24 92 af 80 1a a2 af 92 24 c2 af 90 80 24 74 01 f0 a3 
+    e4 f0 a3 74 40 f0 a3 e4 f0 a2 24 92 af a2 af 92 24 c2 af 90 80 34 74 91 f0 a3 74 50 f0 a3 e4 f0 
+    a3 f0 a2 24 92 af 7b 01 7a 01 79 a8 e9 ea e4 29 f5 45 e4 3a f5 44 e4 34 01 f5 43 e4 33 f5 42 7f 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0013, Index: 0x0000, Length:  256) : 
+    20 7e 80 12 27 3f a2 af 92 24 c2 af 90 80 1c 74 80 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af a2 af 92 
+    24 c2 af 90 80 28 04 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 90 80 28 e0 20 e0 f9 e5 3c 60 69 30 29 
+    1b a2 af 92 24 c2 af 90 80 24 74 01 f0 a3 e4 f0 a3 f0 a3 74 02 f0 a2 24 92 af 80 1a a2 af 92 24 
+    c2 af 90 80 24 74 01 f0 a3 e4 f0 a3 74 40 f0 a3 e4 f0 a2 24 92 af a2 af 92 24 c2 af 90 80 34 74 
+    80 f0 a3 74 50 f0 a3 e4 f0 a3 f0 a2 24 92 af a2 af 92 32 c2 af 90 80 3c 04 f0 a3 e4 f0 a3 04 f0 
+    a3 e4 f0 a2 32 92 af 22 e4 f5 61 f5 60 f5 5f f5 5e 7f 1c 7e 80 12 26 ff 78 ab 12 1a 36 8f 23 8e 
+    22 8d 21 8c 20 20 18 03 02 14 9d 90 01 a0 e0 54 60 70 6b a3 e0 24 d0 60 60 14 60 59 24 31 b4 0c 
+    00 40 03 02 14 f9 90 13 ed f8 28 28 73 02 14 11 02 14 15 02 14 f9 02 14 19 02 14 f9 02 14 1d 02 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0014, Index: 0x0000, Length:  256) : 
+    14 21 02 14 f9 02 14 25 02 14 29 02 14 2d 02 14 31 12 1a b1 22 12 20 73 22 12 10 a4 22 12 29 3e 
+    22 12 08 80 22 12 21 68 22 12 23 97 22 12 24 01 22 12 29 93 22 12 00 0d 22 12 27 fb 22 22 90 01 
+    a0 e0 ff 54 60 64 40 70 32 a3 e0 70 10 ef 30 e7 06 e4 ff 12 05 ac 22 e4 ff 12 17 7d 22 90 01 a1 
+    e0 64 01 60 03 02 14 f9 90 01 a0 e0 30 e7 06 7f 01 12 05 ac 22 7f 01 12 17 7d 22 90 01 a0 e0 54 
+    60 64 20 70 74 a3 e0 70 10 90 01 a6 e0 70 0a a3 e0 70 06 d2 22 12 24 68 22 12 28 b0 22 30 1a 53 
+    30 20 4c 78 8a e6 24 fe 60 0f 14 60 15 24 02 70 14 e4 ff fe 12 0d 5e 80 0c 7f 01 7e 00 12 0d 5e 
+    80 03 12 2a 1c 7e 01 7f a8 7b 01 7a 01 79 a0 e9 ea e4 29 f5 4b e4 3a f5 4a e4 34 01 f5 49 e4 33 
+    f5 48 e4 75 4f 08 f5 4e f5 4d f5 4c 12 20 f4 12 24 68 22 30 1b 03 12 24 68 22 c0 e0 c0 83 c0 82 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0015, Index: 0x0000, Length:  256) : 
+    c0 d0 75 d0 00 c0 00 c0 01 c0 02 c0 03 c0 06 c0 07 d2 26 90 90 30 e0 f5 28 90 90 34 e0 f5 27 e5 
+    28 30 e0 62 90 90 05 e0 75 29 00 f5 2a 75 2a 00 f5 29 90 90 04 e0 25 2a f5 2a e4 35 29 f5 29 53 
+    29 03 e5 2a ae 29 78 03 c3 33 ce 33 ce d8 f9 f5 2a 8e 29 7e 01 7f 18 c0 07 ff e4 8f 30 85 29 2f 
+    f5 2e f5 2d 75 31 81 d0 07 12 1b a0 a2 af 92 2b c2 af 90 90 30 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 
+    2b 92 af 43 27 01 e5 28 30 e1 62 90 90 0d e0 75 29 00 f5 2a 75 2a 00 f5 29 90 90 0c e0 25 2a f5 
+    2a e4 35 29 f5 29 53 29 03 e5 2a ae 29 78 03 c3 33 ce 33 ce d8 f9 f5 2a 8e 29 7e 01 7f 30 c0 07 
+    ff e4 8f 30 85 29 2f f5 2e f5 2d 75 31 82 d0 07 12 1b a0 a2 af 92 2b c2 af 90 90 30 74 02 f0 a3 
+    e4 f0 a3 f0 a3 f0 a2 2b 92 af 43 27 02 e5 28 30 e7 05 d2 2c 43 27 80 e5 28 30 e3 05 d2 25 43 27 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0016, Index: 0x0000, Length:  256) : 
+    08 e5 28 30 e4 05 d2 27 43 27 10 e5 28 30 e5 05 d2 28 43 27 20 a2 af 92 2b c2 af 90 90 34 e5 27 
+    f0 a3 e4 f0 a3 f0 a3 f0 a2 2b 92 af d0 07 d0 06 d0 03 d0 02 d0 01 d0 00 d0 d0 d0 82 d0 83 d0 e0 
+    32 78 8f 12 1a 67 00 02 80 00 30 29 0b 78 93 12 1a 67 80 00 80 00 80 09 78 93 12 1a 67 10 00 80 
+    00 78 97 12 1a 67 00 00 04 25 7b 01 7a 01 79 58 e9 ea e4 29 ff e4 3a fe e4 34 01 fd e4 33 fc 78 
+    9b 12 1a 4f 78 9f 12 1a 67 00 00 00 00 78 a3 12 1a 67 00 00 18 11 7f 8f 7c 01 7d 58 12 23 2c 7f 
+    9b 7c 01 7d 64 12 23 2c 78 8f 12 1a 67 00 03 00 00 7b 01 7a 01 79 70 e9 ea e4 29 ff e4 3a fe e4 
+    34 01 fd e4 33 fc 78 9b 12 1a 4f 7f 8f 7c 01 7d 70 12 23 2c 7f 9b 7c 01 7d 7c 12 23 2c 78 8f 12 
+    1a 67 00 03 80 00 7b 01 7a 01 79 88 e9 ea e4 29 ff e4 3a fe e4 34 01 fd e4 33 fc 78 9b 12 1a 4f 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0017, Index: 0x0000, Length:  256) : 
+    7f 8f 7c 01 7d 88 12 23 2c 7f 9b 7c 01 7d 94 12 23 2c 78 7a 12 1a 67 00 02 00 00 7b 01 7a 01 79 
+    18 e9 ea e4 29 ff e4 3a fe e4 34 01 fd e4 33 fc 78 9b 12 1a 4f 7f 7a 7c 01 7d 18 12 23 2c 7f 9b 
+    7c 01 7d 24 12 23 2c 78 7a 12 1a 67 00 02 68 00 7b 01 7a 01 79 30 e9 ea e4 29 ff e4 3a fe e4 34 
+    01 fd e4 33 fc 78 9b 12 1a 4f 7f 7a 7c 01 7d 30 12 23 2c 7f 9b 7c 01 7d 3c 12 23 2c 22 8f 46 e5 
+    46 60 0f 90 01 a6 e0 b4 04 04 a3 e0 60 13 12 28 b0 22 90 01 a6 e0 b4 08 04 a3 e0 60 04 12 28 b0 
+    22 7b 00 7a 00 79 8b 90 01 a2 e0 90 00 03 12 1a 03 90 01 a3 e0 90 00 02 12 1a 03 90 01 a4 e0 90 
+    00 01 12 1a 03 90 01 a5 e0 12 19 f1 d2 20 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 
+    32 92 af a2 af 92 32 c2 af 90 80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af ff fe 7d 04 fc 78 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0018, Index: 0x0000, Length:  256) : 
+    8b 12 1a 42 c3 12 1a 25 40 2e 7f f8 7e ff 7d 7f 7c 00 78 8b 12 1a 42 d3 12 1a 25 50 1b e5 46 60 
+    04 12 28 b0 22 e4 78 8a f6 78 8b 12 1a 36 75 4b 00 75 4c 08 12 22 4d 22 e4 ff fe 7d 03 fc 78 8b 
+    12 1a 42 c3 12 1a 25 40 2e 7f f8 7e ff 7d 03 7c 00 78 8b 12 1a 42 d3 12 1a 25 50 1b e5 46 60 04 
+    12 28 b0 22 e4 78 8a f6 78 8b 12 1a 36 75 4b 00 75 4c 08 12 22 4d 22 e5 46 60 10 78 8a 76 02 7e 
+    00 7f 18 7d 04 7c 00 12 1f ef 22 78 8a 76 01 7e 00 7f 18 7d 08 7c 00 12 1f ef 22 47 55 43 2d 56 
+    65 72 3a 18 09 10 05 3a 45 4e 44 12 01 10 02 00 00 00 40 d1 18 02 93 00 01 00 00 00 01 0a 06 10 
+    02 00 00 00 40 01 00 09 02 3c 00 01 01 00 c0 31 09 07 3c 00 01 01 00 c0 31 09 04 00 00 06 ff ff 
+    ff 00 07 05 01 02 00 02 00 07 05 02 02 00 02 00 07 05 03 02 00 02 00 07 05 81 02 00 02 00 07 05 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0019, Index: 0x0000, Length:  256) : 
+    82 02 00 02 00 07 05 83 03 40 00 01 04 03 09 04 12 01 10 03 00 00 00 09 d1 18 02 93 00 01 00 00 
+    00 01 0a 06 10 03 00 00 00 09 01 00 09 02 60 00 01 01 00 c0 0c 09 07 60 00 01 01 00 c0 0c 09 04 
+    00 00 06 ff ff ff 00 07 05 01 02 00 04 00 06 30 0f 00 00 00 07 05 02 02 00 04 00 06 30 0f 00 00 
+    00 07 05 03 02 00 04 00 06 30 0f 00 00 00 07 05 81 02 00 04 00 06 30 0f 00 00 00 07 05 82 02 00 
+    04 00 06 30 0f 00 00 00 07 05 83 03 40 00 01 06 30 00 00 04 00 05 0f 16 00 02 07 10 02 02 00 00 
+    00 0a 10 03 00 0c 00 02 00 00 00 bb 01 06 89 82 8a 83 e0 22 50 02 e7 22 bb fe 02 e3 22 89 82 8a 
+    83 e4 93 22 bb 01 0c e5 82 29 f5 82 e5 83 3a f5 83 e0 22 50 06 e9 25 82 f8 e6 22 bb fe 06 e9 25 
+    82 f8 e2 22 e5 82 29 f5 82 e5 83 3a f5 83 e4 93 22 bb 01 06 89 82 8a 83 f0 22 50 02 f7 22 bb fe 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x001a, Index: 0x0000, Length:  256) : 
+    01 f3 22 f8 bb 01 0d e5 82 29 f5 82 e5 83 3a f5 83 e8 f0 22 50 06 e9 25 82 c8 f6 22 bb fe 05 e9 
+    25 82 c8 f2 22 eb 9f f5 f0 ea 9e 42 f0 e9 9d 42 f0 e8 9c 45 f0 22 e6 fc 08 e6 fd 08 e6 fe 08 e6 
+    ff 22 e6 fb 08 e6 f9 08 e6 fa 08 e6 cb f8 22 ec f6 08 ed f6 08 ee f6 08 ef f6 22 ec f0 a3 ed f0 
+    a3 ee f0 a3 ef f0 22 d0 83 d0 82 e4 93 f6 08 74 01 93 f6 08 74 02 93 f6 08 74 03 93 f6 74 04 73 
+    a8 82 85 83 f0 d0 83 d0 82 12 1a 97 12 1a 97 12 1a 97 12 1a 97 e4 73 e4 93 a3 c5 83 c5 f0 c5 83 
+    c8 c5 82 c8 f0 a3 c5 83 c5 f0 c5 83 c8 c5 82 c8 22 90 01 a3 e0 ff 90 01 a2 e0 4f ff 90 01 a5 e0 
+    4f ff 90 01 a7 e0 4f 60 03 02 1b 9c 90 01 a6 e0 64 02 60 03 02 1b 9c 90 01 a0 e0 24 7f 60 4b 14 
+    60 51 24 02 60 03 02 1b 9c 90 01 a4 e0 60 03 02 1b 9c 30 21 08 90 00 18 74 01 f0 80 05 e4 90 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x001b, Index: 0x0000, Length:  256) : 
+    18 f0 30 29 1e 30 2f 07 90 00 18 e0 44 04 f0 30 31 07 90 00 18 e0 44 08 f0 30 23 07 90 00 18 e0 
+    44 10 f0 e4 90 00 19 f0 80 3b e4 90 00 18 f0 a3 f0 80 32 a2 af 92 32 c2 af 90 01 a4 e0 90 80 1c 
+    f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 90 80 2c e0 30 e1 08 90 00 18 74 01 f0 80 05 e4 90 00 18 f0 
+    e4 90 00 19 f0 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 
+    90 80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 7e 00 7f 18 7d 02 fc 12 1f 69 22 12 28 b0 22 
+    8f 82 8e 83 30 29 14 e5 30 f5 30 e5 2f f5 2f e5 2e f5 2e e5 2d 44 80 f5 2d 80 12 e5 30 f5 30 e5 
+    2f f5 2f e5 2e f5 2e e5 2d 44 10 f5 2d 7b 00 7a 00 79 2d ae 83 af 82 ef 24 04 ff e4 3e fe 90 00 
+    03 12 19 c4 8f 82 8e 83 f0 90 00 02 12 19 c4 8f 82 8e 83 a3 f0 90 00 01 12 19 c4 8f 82 8e 83 a3 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x001c, Index: 0x0000, Length:  256) : 
+    a3 f0 12 19 ab 8f 82 8e 83 a3 a3 a3 f0 90 80 1c e0 ff a2 af 92 2b c2 af e5 31 f0 a3 e4 f0 a3 f0 
+    a3 f0 a2 2b 92 af e5 31 24 7e 60 1d 04 70 32 a2 af 92 2b c2 af 90 80 38 e4 f0 a3 f0 a3 74 02 f0 
+    a3 e4 f0 a2 2b 92 af 80 18 a2 af 92 2b c2 af 90 80 38 e4 f0 a3 f0 a3 74 04 f0 a3 e4 f0 a2 2b 92 
+    af a2 af 92 2b c2 af 90 80 1c ef f0 a3 e4 f0 a3 f0 a3 f0 a2 2b 92 af 22 8f 82 8e 83 30 29 14 e5 
+    41 f5 41 e5 40 f5 40 e5 3f f5 3f e5 3e 44 80 f5 3e 80 12 e5 41 f5 41 e5 40 f5 40 e5 3f f5 3f e5 
+    3e 44 10 f5 3e 7b 00 7a 00 79 3e ae 83 af 82 ef 24 04 ff e4 3e fe 90 00 03 12 19 c4 8f 82 8e 83 
+    f0 90 00 02 12 19 c4 8f 82 8e 83 a3 f0 90 00 01 12 19 c4 8f 82 8e 83 a3 a3 f0 12 19 ab 8f 82 8e 
+    83 a3 a3 a3 f0 e5 42 24 7e 60 1c 04 70 31 a2 af 92 24 c2 af 90 80 38 e4 f0 a3 f0 a3 74 02 f0 a3 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x001d, Index: 0x0000, Length:  256) : 
+    e4 f0 a2 24 92 af 22 a2 af 92 24 c2 af 90 80 38 e4 f0 a3 f0 a3 74 04 f0 a3 e4 f0 a2 24 92 af 22 
+    a2 af 92 32 c2 af 90 80 1c ef f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 24 74 
+    07 f0 a3 e4 f0 a3 74 40 f0 a3 e4 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 34 74 80 f0 a3 e4 f0 a3 
+    74 08 f0 a3 e4 f0 a2 32 92 af 7b 01 7a 00 79 10 e9 ea e4 29 ff e4 3a fe e4 34 01 fd e4 33 fc 78 
+    7a 12 1a 4f 78 7e 12 1a 67 00 00 00 04 78 82 12 1a 67 00 00 04 25 7f 7a 7c 01 7d 48 12 23 2c 7b 
+    01 7a 01 79 48 e9 ea e4 29 f5 61 e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 7e 80 12 26 ff 22 
+    a2 af 92 32 c2 af 90 80 1c 74 80 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 78 a7 12 
+    1a 36 8f 23 8e 22 8d 21 8c 20 a2 32 92 af 20 1a 03 30 1b 62 a2 af 92 32 c2 af 90 80 28 74 20 f0 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x001e, Index: 0x0000, Length:  256) : 
+    a3 e4 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 1c f0 a3 f0 a3 f0 a3 f0 a2 32 92 af 7b 
+    01 7a 01 79 a8 e9 ea e4 29 f5 61 e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 7e 80 12 26 ff a2 
+    af 92 32 c2 af 90 80 38 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 22 78 7f e4 f6 d8 fd 75 81 ae 
+    02 1e 9e 02 25 db e4 93 a3 f8 e4 93 a3 40 03 f6 80 01 f2 08 df f4 80 29 e4 93 a3 f8 54 07 24 0c 
+    c8 c3 33 c4 54 0f 44 20 c8 83 40 04 f4 56 80 01 46 f6 df e4 80 0b 01 02 04 08 10 20 40 80 90 29 
+    10 e4 7e 01 93 60 bc a3 ff 54 3f 30 e5 09 54 1f fe e4 93 a3 60 01 0e cf 54 c0 25 e0 60 a8 40 b8 
+    e4 93 a3 fa e4 93 a3 f8 e4 93 a3 c8 c5 82 c8 ca c5 83 ca f0 a3 c8 c5 82 c8 ca c5 83 ca df e9 de 
+    e7 80 be 90 80 04 e0 ff c4 54 07 60 16 e5 09 45 08 70 75 f5 08 75 09 01 90 01 c0 12 1a 80 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x001f, Index: 0x0000, Length:  256) : 
+    00 00 22 e4 f5 08 f5 09 90 01 c0 e0 fc a3 e0 fd a3 e0 fe a3 e0 24 01 ff e4 3e fe e4 3d fd e4 3c 
+    fc 90 01 c0 12 1a 5b 7f a0 7e bb 7d 0d 7c 00 90 01 c0 e0 f8 a3 e0 f9 a3 e0 fa a3 e0 fb d3 12 1a 
+    25 40 25 90 01 c0 12 1a 80 00 00 00 00 a2 af 92 32 c2 af 90 80 00 e4 f0 a3 74 80 f0 a3 e4 f0 a3 
+    f0 a2 32 92 af 12 24 cc 22 ab 05 aa 04 e4 ef ee e4 2f ff e4 3e fe e4 34 01 fd e4 33 fc 78 7a 12 
+    1a 4f ae 02 af 03 e4 fc fd 78 7e 12 1a 4f 78 82 12 1a 67 00 00 04 25 7f 7a 7c 00 7d 00 12 23 2c 
+    a2 af 92 32 c2 af 90 80 1c 74 80 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 7b 01 7a 00 79 00 e9 ea e4 
+    29 f5 61 e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 7e 80 12 26 ff a2 af 92 32 c2 af 90 80 38 
+    e4 f0 a3 f0 a3 04 f0 a3 e4 f0 a2 32 92 af 22 ab 05 aa 04 e4 ef ee e4 2f ff e4 3e fe e4 34 01 fd 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0020, Index: 0x0000, Length:  256) : 
+    e4 33 fc 78 7a 12 1a 4f ae 02 af 03 e4 fc fd 78 7e 12 1a 4f 78 82 12 1a 67 00 00 04 25 7f 7a 7c 
+    01 7d a8 12 23 2c a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af 7b 01 7a 01 79 
+    a8 e9 ea e4 29 f5 61 e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 7e 80 12 26 ff a2 af 92 32 c2 
+    af 90 80 38 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 22 90 01 a0 e0 24 fe 60 3b 24 02 70 71 30 
+    29 6e 90 01 a3 e0 70 68 a3 e0 70 64 a3 e0 70 60 a3 e0 70 5c a3 e0 70 58 30 33 55 90 01 a2 e0 24 
+    cf 60 07 04 70 4a c2 2f 80 42 c2 31 80 3e 80 40 80 3a 80 38 80 36 90 01 a2 e0 70 34 a2 af 92 32 
+    c2 af 90 01 a4 e0 90 80 1c f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 28 74 04 
+    f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 12 24 68 22 12 28 b0 22 8e 46 8f 47 7b 00 7a 00 79 48 90 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0021, Index: 0x0000, Length:  256) : 
+    03 12 19 c4 8f 82 8e 83 f0 90 00 02 12 19 c4 8f 82 8e 83 a3 f0 90 00 01 12 19 c4 8f 82 8e 83 a3 
+    a3 f0 12 19 ab 8f 82 8e 83 a3 a3 a3 f0 7a 00 79 4c ef 24 04 ff e4 3e fe 90 00 03 12 19 c4 8f 82 
+    8e 83 f0 90 00 02 12 19 c4 8f 82 8e 83 a3 f0 90 00 01 12 19 c4 8f 82 8e 83 a3 a3 f0 12 19 ab 8f 
+    82 8e 83 a3 a3 a3 f0 22 90 01 a3 e0 ff 90 01 a2 e0 4f ff 90 01 a4 e0 4f ff a3 e0 4f ff 90 01 a7 
+    e0 4f 60 04 12 28 b0 22 90 01 a6 e0 64 01 60 04 12 28 b0 22 30 33 08 90 00 18 74 01 f0 80 05 e4 
+    90 00 18 f0 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 
+    80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 7e 00 7f 18 7d 01 fc 12 1f 69 22 78 7a 12 1a 4f 
+    ae 5a af 5b e4 fc fd 78 7e 12 1a 4f 78 82 12 1a 67 00 00 04 25 7f 7a 7c 00 7d 00 12 23 2c a2 af 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0022, Index: 0x0000, Length:  256) : 
+    92 32 c2 af 90 80 1c 74 80 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 7b 01 7a 00 79 00 e9 ea e4 29 f5 
+    61 e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 7e 80 12 26 ff a2 af 92 32 c2 af 90 80 38 e4 f0 
+    a3 f0 a3 04 f0 a3 e4 f0 a2 32 92 af 22 78 7a 12 1a 4f ae 4b af 4c e4 fc fd 78 7e 12 1a 4f 78 82 
+    12 1a 67 00 00 04 25 7f 7a 7c 01 7d a8 12 23 2c a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 
+    f0 a2 32 92 af 7b 01 7a 01 79 a8 e9 ea e4 29 f5 61 e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 
+    7e 80 12 26 ff a2 af 92 32 c2 af 90 80 38 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 22 8b 3c 8a 
+    3d 89 3e 8f 42 8e 41 8d 40 8c 3f 7b 00 7a 00 79 3f 8b 43 8a 44 89 45 90 00 03 12 19 c4 ab 3c aa 
+    3d a9 3e 12 19 f1 ab 43 aa 44 a9 45 90 00 02 12 19 c4 ab 3c aa 3d a9 3e 90 00 01 12 1a 03 ab 43 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0023, Index: 0x0000, Length:  256) : 
+    aa 44 a9 45 90 00 01 12 19 c4 ab 3c aa 3d a9 3e 90 00 02 12 1a 03 ab 43 aa 44 a9 45 12 19 ab ab 
+    3c aa 3d a9 3e 90 00 03 12 1a 03 22 8f 5c e4 f9 e9 c3 94 0c 50 60 e9 24 03 25 5c f8 e6 ff ed 29 
+    f5 82 e4 3c f5 83 ef f0 e9 24 02 25 5c f8 e6 ff e9 24 01 fb e4 33 fa ed 2b f5 82 ec 3a f5 83 ef 
+    f0 e9 04 25 5c f8 e6 ff e9 24 02 fb e4 33 fa ed 2b f5 82 ec 3a f5 83 ef f0 e5 5c 29 f8 e6 ff e9 
+    24 03 fb e4 33 fa ed 2b f5 82 ec 3a f5 83 ef f0 74 04 29 f9 80 9a 22 90 01 a2 e0 60 3a 12 25 2c 
+    d2 30 a2 af 92 32 c2 af 90 80 00 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 12 28 38 a2 af 92 32 
+    c2 af 90 80 00 74 02 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af d2 33 80 1e 12 29 fd d2 30 a2 af 92 32 
+    c2 af 90 80 00 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af c2 33 12 24 68 30 33 03 d2 a8 22 c2 a8 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0024, Index: 0x0000, Length:  256) : 
+    22 90 01 a3 e0 ff 90 01 a2 e0 4f ff 90 01 a4 e0 4f ff a3 e0 4f ff 90 01 a7 e0 4f 60 04 12 28 b0 
+    22 90 01 a6 e0 64 01 60 04 12 28 b0 22 e4 90 00 18 f0 a2 af 92 32 c2 af 90 80 1c f0 a3 f0 a3 f0 
+    a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 7e 00 7f 
+    18 7d 01 fc 12 1f 69 22 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 
+    32 c2 af 90 80 28 74 28 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 7b 01 7a 01 79 a8 e9 ea e4 29 f5 61 
+    e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 7e 80 12 26 ff a2 af 92 32 c2 af 90 80 38 74 01 f0 
+    a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 22 90 01 bc 12 1a 80 00 00 00 00 7f e0 7e 93 7d 04 7c 00 90 01 
+    bc e0 f8 a3 e0 f9 a3 e0 fa a3 e0 fb c3 12 1a 25 50 21 90 01 bc e0 fc a3 e0 fd a3 e0 fe a3 e0 24 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0025, Index: 0x0000, Length:  256) : 
+    01 ff e4 3e fe e4 3d fd e4 3c fc 90 01 bc 12 1a 5b 80 c3 a2 af 92 32 c2 af 90 80 00 e4 f0 a3 74 
+    40 f0 a3 e4 f0 a3 f0 a2 32 92 af 22 a2 af 92 32 c2 af 90 90 50 e4 f0 a3 74 04 f0 a3 e4 f0 a3 f0 
+    a2 32 92 af a2 af 92 32 c2 af a3 f0 a3 74 04 f0 a3 e4 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af a3 
+    f0 a3 74 04 f0 a3 e4 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 90 34 74 7c f0 a3 e4 f0 a3 f0 a3 
+    f0 a2 32 92 af 22 90 80 05 e0 30 e2 f9 a2 af 92 32 c2 af 90 80 00 e4 f0 a3 74 80 f0 a3 e4 f0 a3 
+    f0 a2 32 92 af a2 af 92 32 c2 af 90 80 00 f0 a3 04 f0 a3 74 4a f0 a3 74 0a f0 a2 32 92 af a2 af 
+    92 32 c2 af 90 80 14 74 ff f0 a3 74 0b f0 a3 74 37 f0 a3 74 07 f0 a2 32 92 af 22 75 8e 01 75 61 
+    05 75 60 10 75 5f 09 75 5e 18 7f 40 7e a3 12 26 ff 90 a3 0e e0 30 e3 04 c2 21 80 02 d2 21 12 26 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0026, Index: 0x0000, Length:  256) : 
+    76 c2 33 12 25 86 12 26 2f d2 2a 12 24 cc 75 a8 84 30 26 05 c2 26 12 0b 21 30 2e 05 c2 2e 12 13 
+    a8 30 2d 05 12 1d c0 c2 2d 12 1e e3 80 e3 22 e4 ff fe 7e 01 7f 00 90 00 18 e4 f0 a3 df fc de fa 
+    7b 01 7a 01 79 a0 e9 ea e4 29 ff e4 3a fe e4 34 01 fd e4 33 fc 78 7a 12 1a 4f 78 7e 12 1a 67 00 
+    00 00 08 78 82 12 1a 67 00 00 04 25 7f 7a 7c 01 7d a8 12 23 2c 22 a2 af 92 24 c2 af 90 a3 14 74 
+    04 f0 a3 74 80 f0 a3 e4 f0 a3 f0 a2 24 92 af a2 af 92 24 c2 af 90 a3 14 74 04 f0 a3 e4 f0 a3 f0 
+    a3 f0 a2 24 92 af a2 af 92 24 c2 af 90 a3 14 f0 a3 f0 a3 f0 a3 f0 a2 24 92 af 22 8e 48 8f 49 8c 
+    4a 8d 4b 8a 4c 8b 4d e4 f5 4e f5 4f c3 e5 4f 95 4d e5 4e 95 4c 50 27 e5 49 25 4f f5 82 e5 48 35 
+    4e f5 83 e4 93 ff e5 4b 25 4f f5 82 e5 4a 35 4e f5 83 ef f0 05 4f e5 4f 70 02 05 4e 80 ce 22 7b 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0027, Index: 0x0000, Length:  256) : 
+    00 7a 00 79 5e a2 af 92 32 c2 af 90 00 03 12 19 c4 8f 82 8e 83 f0 90 00 02 12 19 c4 8f 82 8e 83 
+    a3 f0 90 00 01 12 19 c4 8f 82 8e 83 a3 a3 f0 12 19 ab 8f 82 8e 83 a3 a3 a3 f0 a2 32 92 af 22 7b 
+    00 7a 00 79 42 a2 af 92 32 c2 af 90 00 03 12 19 c4 8f 82 8e 83 f0 90 00 02 12 19 c4 8f 82 8e 83 
+    a3 f0 90 00 01 12 19 c4 8f 82 8e 83 a3 a3 f0 12 19 ab 8f 82 8e 83 a3 a3 a3 f0 a2 32 92 af 22 7b 
+    00 7a 00 79 56 8f 82 8e 83 e0 90 00 03 12 1a 03 8f 82 8e 83 a3 e0 90 00 02 12 1a 03 8f 82 8e 83 
+    a3 a3 e0 90 00 01 12 1a 03 8f 82 8e 83 a3 a3 a3 e0 12 19 f1 af 59 ae 58 ad 57 ac 56 22 7b 00 7a 
+    00 79 40 8f 82 8e 83 e0 90 00 03 12 1a 03 8f 82 8e 83 a3 e0 90 00 02 12 1a 03 8f 82 8e 83 a3 a3 
+    e0 90 00 01 12 1a 03 8f 82 8e 83 a3 a3 a3 e0 12 19 f1 af 43 ae 42 ad 41 ac 40 22 a2 af 92 32 c2 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0028, Index: 0x0000, Length:  256) : 
+    af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 28 74 08 f0 a3 e4 f0 a3 
+    f0 a3 f0 a2 32 92 af d2 20 78 8a 76 03 7e 00 7f 18 7d 06 fc 12 1f ef 22 12 16 41 7f 01 12 0f 1a 
+    7f 02 12 0f 1a 7f 03 12 0f 1a 7f 81 12 0f 1a 7f 82 12 0f 1a 7f 83 12 1d 20 a2 af 92 32 c2 af 90 
+    80 3c 74 0f f0 a3 e4 f0 a3 74 0f f0 a3 e4 f0 a2 32 92 af 22 a2 af 92 32 c2 af 90 80 1c ef f0 a3 
+    e4 f0 a3 f0 a3 f0 a2 32 92 af 7f 24 7e 80 12 27 7f ef 54 fe f5 49 ee f5 48 ed f5 47 ec f5 46 85 
+    49 61 8e 60 8d 5f f5 5e 7f 24 7e 80 12 26 ff 22 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 
+    f0 a2 32 92 af a2 af 92 32 c2 af 90 80 28 74 02 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 12 24 68 22 
+    7f 1c 7e a3 12 27 bd 8f 3f 8e 3e 8d 3d 8c 3c e5 3f 54 fc ff e5 3e e5 3d e5 3c ef 44 02 f5 45 ee 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x0029, Index: 0x0000, Length:  256) : 
+    f5 44 ed f5 43 ec f5 42 7f 1c 7e a3 12 27 3f 22 02 08 00 00 44 01 c0 00 00 00 00 c1 2e c1 2d c1 
+    26 c1 20 c1 29 c1 25 c1 27 c1 28 c1 2c c1 2a c1 33 c1 22 c1 30 c1 a1 c1 2f c1 31 c1 23 00 90 01 
+    a2 e0 25 e0 ff e4 33 fe ef 44 01 ff e4 8f 49 8e 48 f5 47 f5 46 8f 61 8e 60 85 47 5f 85 46 5e 7f 
+    08 7e 80 12 26 ff 12 24 68 22 7f 1c 7e a3 12 27 bd 8f 3f 8e 3e 8d 3d 8c 3c e5 3f 44 03 f5 45 e5 
+    3e f5 44 e5 3d f5 43 e5 3c f5 42 7f 1c 7e a3 12 27 3f 22 90 01 a3 e0 ff 90 01 a2 e0 4f ff 90 01 
+    a4 e0 4f ff a3 e0 4f ff a3 e0 4f ff a3 e0 4f 60 04 12 28 b0 22 12 24 68 22 e4 12 19 f1 ed 25 e0 
+    25 e0 90 00 01 12 1a 03 ed c4 13 13 54 03 90 00 02 12 1a 03 90 00 03 74 80 12 1a 03 22 00 02 04 
+    04 08 08 08 08 10 10 10 10 10 10 10 10 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 7f 01 12 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x002a, Index: 0x0000, Length:   31) : 
+    28 74 7f 02 12 28 74 7f 03 12 28 74 7f 81 12 28 74 7f 82 12 28 74 7f 83 12 28 74 22 c2 20 22 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x21, Request: 0x01, Value: 0x002b, Index: 0x0000, Length:    0) : 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x03, Value: 0x0000, Index: 0x0000, Length:    6) : 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0000, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0001, Index: 0x0000, Length:  256) : 
+    02 1e 57 02 14 fa c2 2f c2 31 c2 23 22 12 24 68 22 ff ff 02 00 16 c0 e0 c0 f0 c0 83 c0 82 c0 d0 
+    75 d0 00 c0 00 c0 01 c0 02 c0 03 c0 04 c0 05 c0 06 c0 07 7f 18 7e 80 12 27 bd 8f 35 8e 34 8d 33 
+    8c 32 e4 ff fe fd e5 32 54 04 fc 70 03 02 00 f8 30 30 05 c2 30 02 00 f8 20 33 03 02 00 eb c2 33 
+    30 22 69 c2 af 12 26 76 a2 af 92 24 c2 af 90 80 00 e4 f0 a3 74 80 f0 a3 e4 f0 a3 f0 a2 24 92 af 
+    90 01 b8 12 1a 80 00 00 00 00 7f a0 7e bb 7d 0d 7c 00 90 01 b8 e0 f8 a3 e0 f9 a3 e0 fa a3 e0 fb 
+    c3 12 1a 25 50 21 90 01 b8 e0 fc a3 e0 fd a3 e0 fe a3 e0 24 01 ff e4 3e fe e4 3d fd e4 3c fc 90 
+    01 b8 12 1a 5b 80 c3 12 28 e0 80 2c c2 af 85 35 45 85 34 44 85 33 43 85 32 42 7f 18 7e 80 12 27 
+    3f e4 ff 12 12 2d 12 29 6a 80 0d 7f 01 12 12 2d 12 26 76 12 00 06 d2 2a e5 35 54 0c ff e4 fe e5 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0002, Index: 0x0000, Length:  256) : 
+    33 54 04 fd e4 fc ed 4f 60 02 d2 2a af 35 ae 34 ad 33 ac 32 ec 4d 4e 4f 60 0f 8f 45 8e 44 8d 43 
+    8c 42 7f 18 7e 80 12 27 3f 90 80 1c e0 f5 36 90 80 40 e0 f5 37 90 80 42 e0 f5 38 e5 37 20 e1 03 
+    02 02 12 a2 af 92 24 c2 af 90 80 1c 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 90 80 2d e0 ff 13 
+    13 54 3f 13 92 34 90 80 2c e0 f5 39 a2 af 92 24 c2 af f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af e5 39 
+    54 1c 70 03 02 02 12 30 29 45 e5 39 30 e3 27 30 29 13 7b 01 7a 01 79 5c 7f 00 7e 80 7d 00 7c 80 
+    12 22 bd 80 11 7b 01 7a 01 79 5c 7f 00 7e 80 7d 00 7c 10 12 22 bd a2 af 92 24 c2 af 90 80 38 74 
+    02 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 80 43 e5 39 30 e3 27 30 29 13 7b 01 7a 01 79 5c 7f 00 7e 
+    80 7d 00 7c 80 12 22 bd 80 11 7b 01 7a 01 79 5c 7f 00 7e 80 7d 00 7c 10 12 22 bd a2 af 92 24 c2 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0003, Index: 0x0000, Length:  256) : 
+    af 90 80 38 74 02 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af e5 37 30 e2 3e a2 af 92 24 c2 af 90 80 1c 
+    74 02 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 90 80 2c e0 f5 39 a3 e0 ff 13 13 54 3f 13 92 34 a2 af 
+    92 24 c2 af 90 80 2c e5 39 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af e5 37 30 e3 2f a2 af 92 24 c2 af 
+    90 80 1c 74 03 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 90 80 2c e0 f5 39 a2 af 92 24 c2 af f0 a3 e4 
+    f0 a3 f0 a3 f0 a2 24 92 af e5 38 20 e1 03 02 03 50 a2 af 92 24 c2 af 90 80 1c 74 81 f0 a3 e4 f0 
+    a3 f0 a3 f0 a2 24 92 af 90 80 2c e0 f5 39 a2 af 92 24 c2 af f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 
+    e5 39 54 0c 70 03 02 03 50 90 90 2c e0 f5 39 30 e0 61 90 90 05 e0 75 3a 00 f5 3b 75 3b 00 f5 3a 
+    90 90 04 e0 25 3b f5 3b e4 35 3a f5 3a 53 3a 03 e5 3b ae 3a 78 03 c3 33 ce 33 ce d8 f9 f5 3b 8e 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0004, Index: 0x0000, Length:  256) : 
+    3a 7e 01 7f 18 c0 07 ff e4 8f 41 85 3a 40 f5 3f f5 3e 75 42 81 d0 07 12 1c 78 a2 af 92 24 c2 af 
+    90 90 30 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 80 1d 90 90 34 e0 f5 39 53 39 fe a2 af 92 24 
+    c2 af e5 39 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af e5 38 20 e2 03 02 04 17 a2 af 92 24 c2 af 90 80 
+    1c 74 82 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 90 80 2c e0 f5 39 a2 af 92 24 c2 af f0 a3 e4 f0 a3 
+    f0 a3 f0 a2 24 92 af e5 39 54 0c 70 03 02 04 17 90 90 2c e0 f5 39 30 e1 61 90 90 0d e0 75 3a 00 
+    f5 3b 75 3b 00 f5 3a 90 90 0c e0 25 3b f5 3b e4 35 3a f5 3a 53 3a 03 e5 3b ae 3a 78 03 c3 33 ce 
+    33 ce d8 f9 f5 3b 8e 3a 7e 01 7f 30 c0 07 ff e4 8f 41 85 3a 40 f5 3f f5 3e 75 42 82 d0 07 12 1c 
+    78 a2 af 92 24 c2 af 90 90 30 74 02 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 80 1d 90 90 34 e0 f5 39 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0005, Index: 0x0000, Length:  256) : 
+    53 39 fd a2 af 92 24 c2 af e5 39 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af e5 37 30 e0 7b a2 af 92 24 
+    c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 24 92 af 7f 2c 7e 80 12 27 bd 78 ab 12 1a 4f 78 ab 12 
+    1a 36 ef 54 10 ff e4 fe fd fc ef 60 34 a2 af 92 24 c2 af 90 80 2c 74 10 f0 a3 e4 f0 a3 f0 a3 f0 
+    a2 24 92 af 30 2a 30 c2 2a a2 af 92 24 c2 af 90 80 38 04 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 80 
+    16 d2 2e 78 ab 12 1a 36 8f 45 8e 44 8d 43 8c 42 7f 2c 7e 80 12 27 3f e5 38 20 e0 03 02 05 23 a2 
+    af 92 24 c2 af 90 80 1c 74 80 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 30 2d 1f 7f 2c 7e 80 12 27 bd 
+    78 a7 12 1a 42 ef 4b ff ee 4a fe ed 49 fd ec 48 fc 78 a7 12 1a 4f 80 0c 7f 2c 7e 80 12 27 bd 78 
+    a7 12 1a 4f 78 a7 12 1a 36 ef 54 10 ff e4 fe fd fc ef 60 19 a2 af 92 24 c2 af 90 80 2c 74 10 f0 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0006, Index: 0x0000, Length:  256) : 
+    a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 80 16 d2 2d 78 a7 12 1a 36 8f 45 8e 44 8d 43 8c 42 7f 2c 7e 80 
+    12 27 3f e5 38 30 e3 52 a2 af 92 24 c2 af 90 80 1c 74 83 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 90 
+    80 2c e0 f5 39 a2 af 92 24 c2 af f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af e5 39 54 0c 60 1d 90 90 34 
+    e0 f5 39 53 39 7f a2 af 92 24 c2 af e5 39 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af a2 af 92 24 c2 af 
+    90 80 1c e5 36 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af d0 07 d0 06 d0 05 d0 04 d0 03 d0 02 d0 01 d0 
+    00 d0 d0 d0 82 d0 83 d0 f0 d0 e0 32 8f 46 e5 46 60 0f 90 01 a6 e0 b4 04 04 a3 e0 60 13 12 28 b0 
+    22 90 01 a6 e0 b4 08 04 a3 e0 60 04 12 28 b0 22 7b 00 7a 00 79 47 8b 4b 8a 4c 89 4d 90 01 a2 e0 
+    90 00 03 12 1a 03 90 01 a3 e0 90 00 02 12 1a 03 90 01 a4 e0 90 00 01 12 1a 03 90 01 a5 e0 12 19 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0007, Index: 0x0000, Length:  256) : 
+    f1 e4 ff fe 7d 04 fc ab 4a aa 49 a9 48 a8 47 c3 12 1a 25 40 55 7f f8 7e ff 7d 7f 7c 00 a8 47 d3 
+    12 1a 25 50 45 e5 46 60 04 12 28 b0 22 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 
+    92 af a2 af 92 32 c2 af 90 80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af af 4a ae 49 ad 48 ac 
+    47 f5 5a 75 5b 08 12 21 db 22 e4 ff fe 7d 03 fc ab 4a aa 49 a9 48 a8 47 c3 12 1a 25 40 55 7f f8 
+    7e ff 7d 03 7c 00 a8 47 d3 12 1a 25 50 45 e5 46 60 04 12 28 b0 22 a2 af 92 32 c2 af 90 80 1c e4 
+    f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 
+    92 af af 4a ae 49 ad 48 ac 47 f5 5a 75 5b 08 12 21 db 22 c3 e5 4a 94 00 f5 4a e5 49 94 00 f5 49 
+    e5 48 94 01 f5 48 e5 47 94 00 f5 47 e4 ff 7e 90 fd fc ab 4a aa 49 a9 48 a8 47 c3 12 1a 25 40 3c 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0008, Index: 0x0000, Length:  256) : 
+    e4 7f f8 7e 93 fd fc a8 47 d3 12 1a 25 50 2d ae 49 af 4a 12 27 7f 8f 51 8e 50 8d 4f 8c 4e e5 46 
+    60 03 02 07 d8 e5 4a 24 04 ff e4 35 49 fe 12 27 7f 8f 55 8e 54 8d 53 8c 52 02 07 d8 e4 ff 7e 80 
+    fd fc ab 4a aa 49 a9 48 a8 47 c3 12 1a 25 40 38 e4 7f f8 7e 83 fd fc a8 47 d3 12 1a 25 50 29 ae 
+    49 af 4a 12 27 7f 8f 51 8e 50 8d 4f 8c 4e e5 46 70 66 e5 4a 24 04 ff e4 35 49 fe 12 27 7f 8f 55 
+    8e 54 8d 53 8c 52 80 50 e4 ff 7e a0 fd fc ab 4a aa 49 a9 48 a8 47 c3 12 1a 25 40 38 e4 7f f8 7e 
+    a7 fd fc a8 47 d3 12 1a 25 50 29 ae 49 af 4a 12 27 7f 8f 51 8e 50 8d 4f 8c 4e e5 46 70 1a e5 4a 
+    24 04 ff e4 35 49 fe 12 27 7f 8f 55 8e 54 8d 53 8c 52 80 04 12 28 b0 22 7b 00 7a 00 79 4e 8b 4b 
+    8a 4c 89 4d 90 00 03 12 19 c4 90 00 18 f0 90 00 02 12 19 c4 90 00 19 f0 90 00 01 12 19 c4 90 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0009, Index: 0x0000, Length:  256) : 
+    1a f0 12 19 ab 90 00 1b f0 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 
+    92 32 c2 af 90 80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af e5 46 70 3b 7a 00 79 52 f5 4b 8a 
+    4c 89 4d 90 00 03 12 19 c4 90 00 1c f0 90 00 02 12 19 c4 90 00 1d f0 90 00 01 12 19 c4 90 00 1e 
+    f0 12 19 ab 90 00 1f f0 7e 00 7f 18 7d 08 7c 00 12 1f 69 22 7e 00 7f 18 7d 04 7c 00 12 1f 69 22 
+    90 80 04 e0 ff c4 54 07 ff 24 fe 60 0a 14 60 07 14 70 06 d2 29 80 02 c2 29 90 01 a7 e0 75 46 00 
+    f5 47 e5 47 fe 90 01 a6 e0 7c 00 24 00 f5 47 ec 3e f5 46 90 01 a3 e0 f9 24 fe 60 56 14 70 03 02 
+    0a 31 24 fd 70 03 02 0a 64 14 60 46 24 f8 70 03 02 0a b3 24 0e 60 03 02 0b 1d d3 e5 47 94 12 e5 
+    46 94 00 40 06 75 46 00 75 47 12 30 29 12 7e 19 7f 10 7c 00 7d 18 ab 47 aa 46 12 26 bb 02 0a e5 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x000a, Index: 0x0000, Length:  256) : 
+    7e 18 7f ab 7c 00 7d 18 ab 47 aa 46 12 26 bb 02 0a e5 20 29 03 02 09 97 d3 e5 47 94 09 e5 46 94 
+    00 50 28 e9 b4 02 12 7e 19 7f 2c 7c 00 7d 18 ab 47 aa 46 12 26 bb 02 0a 12 7e 19 7f 35 7c 00 7d 
+    18 ab 47 aa 46 12 26 bb 02 0a 12 d3 e5 47 94 60 e5 46 94 00 40 06 75 46 00 75 47 60 e9 b4 02 11 
+    7e 19 7f 2c 7c 00 7d 18 7b 09 7a 00 12 26 bb 80 0f 7e 19 7f 35 7c 00 7d 18 7b 09 7a 00 12 26 bb 
+    7e 19 7f 3e 7c 00 7d 21 e5 47 24 f7 fb e5 46 34 ff fa 12 26 bb 80 7b d3 e5 47 94 09 e5 46 94 00 
+    50 26 e9 b4 02 11 7e 18 7f c7 7c 00 7d 18 ab 47 aa 46 12 26 bb 80 5b 7e 18 7f d0 7c 00 7d 18 ab 
+    47 aa 46 12 26 bb 80 4a d3 e5 47 94 3c e5 46 94 00 40 06 75 46 00 75 47 3c e9 b4 02 11 7e 18 7f 
+    c7 7c 00 7d 18 7b 09 7a 00 12 26 bb 80 0f 7e 18 7f d0 7c 00 7d 18 7b 09 7a 00 12 26 bb 7e 18 7f 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x000b, Index: 0x0000, Length:  256) : 
+    d9 7c 00 7d 21 e5 47 24 f7 fb e5 46 34 ff fa 12 26 bb 30 21 03 02 0a e5 90 00 1f 74 80 f0 30 29 
+    07 a3 74 70 f0 02 0a e5 90 00 20 74 f9 f0 02 0a e5 90 01 a2 e0 60 03 02 0b 1d 90 19 0c e4 93 ff 
+    7e 00 d3 e5 47 9f e5 46 9e 40 04 8e 46 8f 47 7e 19 7f 0c 7c 00 7d 18 ab 47 aa 46 12 26 bb 02 0a 
+    e5 02 0a e5 30 29 26 90 19 22 e4 93 ff 7e 00 d3 e5 47 9f e5 46 9e 40 04 8e 46 8f 47 7e 19 7f 22 
+    7c 00 7d 18 ab 47 aa 46 12 26 bb 80 58 90 18 bd e4 93 ff 7e 00 d3 e5 47 9f e5 46 9e 40 04 8e 46 
+    8f 47 7e 18 7f bd 7c 00 7d 18 ab 47 aa 46 12 26 bb 80 32 90 19 98 e4 93 ff 7e 00 fe 90 19 97 e4 
+    93 7c 00 24 00 ff ec 3e fe d3 e5 47 9f e5 46 9e 40 04 8e 46 8f 47 7e 19 7f 95 7c 00 7d 18 ab 47 
+    aa 46 12 26 bb a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x000c, Index: 0x0000, Length:  256) : 
+    90 80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 7e 00 7f 18 ad 47 ac 46 12 1f 69 22 12 28 b0 
+    22 20 2c 03 02 0b c8 c2 2c 7f 28 7e 90 12 27 7f 8f 49 8e 48 8d 47 8c 46 7b 00 7a 00 79 46 90 00 
+    03 12 19 c4 90 00 10 f0 90 00 02 12 19 c4 90 00 11 f0 90 00 01 12 19 c4 90 00 12 f0 12 19 ab 90 
+    00 13 f0 a2 af 92 32 c2 af 90 80 1c 74 83 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 0b 7a 01 79 48 e9 
+    ea e4 29 f5 61 e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 7e 80 12 26 ff a2 af 92 32 c2 af 90 
+    80 38 e4 f0 a3 f0 a3 74 08 f0 a3 e4 f0 a2 32 92 af a2 af 92 32 c2 af 90 90 30 74 80 f0 a3 e4 f0 
+    a3 f0 a3 f0 a2 32 92 af 20 25 03 02 0c 4f c2 25 a2 af 92 32 c2 af 90 80 1c 74 01 f0 a3 e4 f0 a3 
+    f0 a3 f0 a2 32 92 af 30 29 4e 90 90 19 e0 54 1f 90 29 dd 93 f5 4a e4 78 62 f6 08 f6 08 f6 08 f6 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x000d, Index: 0x0000, Length:  256) : 
+    08 f6 08 f6 e5 4a f8 e4 79 69 f7 e8 25 e0 25 e0 19 f7 a2 af 92 32 c2 af 90 80 28 e4 f0 e5 4a 25 
+    e0 04 a3 f0 a3 e4 f0 a3 f0 a2 32 92 af 7b 01 7a 01 79 5c ad 4a 12 29 b9 a2 af 92 32 c2 af 90 80 
+    38 74 02 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 20 27 03 02 0c d6 c2 27 a2 af 92 32 c2 af 90 80 1c 
+    74 02 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 30 29 4e 90 90 1d e0 54 1f 90 29 dd 93 f5 4a e4 78 6a 
+    f6 08 f6 08 f6 08 f6 08 f6 08 f6 e5 4a f8 e4 79 71 f7 e8 25 e0 25 e0 19 f7 a2 af 92 32 c2 af 90 
+    80 28 e4 f0 e5 4a 25 e0 04 a3 f0 a3 e4 f0 a3 f0 a2 32 92 af 7b 01 7a 01 79 74 ad 4a 12 29 b9 a2 
+    af 92 32 c2 af 90 80 38 74 04 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 20 28 03 02 0d 5d c2 28 a2 af 
+    92 32 c2 af 90 80 1c 74 03 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 30 29 4e 90 90 21 e0 54 1f 90 29 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x000e, Index: 0x0000, Length:  256) : 
+    dd 93 f5 4a e4 78 72 f6 08 f6 08 f6 08 f6 08 f6 08 f6 e5 4a f8 e4 79 79 f7 e8 25 e0 25 e0 19 f7 
+    a2 af 92 32 c2 af 90 80 28 e4 f0 e5 4a 25 e0 04 a3 f0 a3 e4 f0 a3 f0 a2 32 92 af 7b 01 7a 01 79 
+    8c ad 4a 12 29 b9 a2 af 92 32 c2 af 90 80 38 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 22 8e 46 
+    8f 47 c2 20 30 16 30 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 
+    c2 af 90 80 2c f0 a3 74 40 f0 a3 e4 f0 a3 f0 a2 32 92 af 12 28 b0 22 7b 00 7a 00 79 48 90 00 1b 
+    e0 12 19 f1 90 00 1a e0 90 00 01 12 1a 03 90 00 19 e0 90 00 02 12 1a 03 90 00 18 e0 90 00 03 12 
+    1a 03 e5 47 45 46 70 29 7a 00 79 4c 90 00 1f e0 12 19 f1 90 00 1e e0 90 00 01 12 1a 03 90 00 1d 
+    e0 90 00 02 12 1a 03 90 00 1c e0 90 00 03 12 1a 03 78 8b 12 1a 36 c3 ef 94 00 ff ee 94 00 fe ed 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x000f, Index: 0x0000, Length:  256) : 
+    94 01 fd ec 94 00 fc 78 8b 12 1a 4f e4 ff 7e 90 fd fc 78 8b 12 1a 42 c3 12 1a 25 40 4b e4 7f f8 
+    7e 93 fd fc 78 8b 12 1a 42 d3 12 1a 25 50 39 78 8b 12 1a 36 85 4b 61 85 4a 60 85 49 5f 85 48 5e 
+    12 26 ff e5 47 45 46 60 03 02 0f 19 78 8b 12 1a 36 ef 24 04 ff e4 3e fe 85 4f 61 85 4e 60 85 4d 
+    5f 85 4c 5e 12 26 ff 22 e4 ff 7e 80 fd fc 78 8b 12 1a 42 c3 12 1a 25 40 48 e4 7f f8 7e 83 fd fc 
+    78 8b 12 1a 42 d3 12 1a 25 50 36 78 8b 12 1a 36 85 4b 61 85 4a 60 85 49 5f 85 48 5e 12 26 ff e5 
+    47 45 46 70 74 78 8b 12 1a 36 ef 24 04 ff e4 3e fe 85 4f 61 85 4e 60 85 4d 5f 85 4c 5e 12 26 ff 
+    22 e4 ff 7e a0 fd fc 78 8b 12 1a 42 c3 12 1a 25 40 47 e4 7f f8 7e a7 fd fc 78 8b 12 1a 42 d3 12 
+    1a 25 50 35 78 8b 12 1a 36 85 4b 61 85 4a 60 85 49 5f 85 48 5e 12 26 ff e5 47 45 46 70 1b 78 8b 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0010, Index: 0x0000, Length:  256) : 
+    12 1a 36 ef 24 04 ff e4 3e fe 85 4f 61 85 4e 60 85 4d 5f 85 4c 5e 12 26 ff 22 a2 af 92 32 c2 af 
+    90 80 1c ef f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 30 29 60 ef 64 01 70 34 a2 af 92 32 c2 af 90 80 
+    24 74 05 f0 a3 74 0f f0 a3 e4 f0 a3 74 7c f0 a2 32 92 af a2 af 92 32 c2 af 90 80 38 74 02 f0 a3 
+    e4 f0 a3 f0 a3 f0 a2 32 92 af 80 5b ef 64 02 60 56 ef 64 03 60 51 a2 af 92 32 c2 af 90 80 24 74 
+    05 f0 a3 74 0f f0 a3 e4 f0 a3 74 1c f0 a2 32 92 af 80 34 a2 af 92 32 c2 af 90 80 24 74 05 f0 a3 
+    e4 f0 a3 f0 a3 74 42 f0 a2 32 92 af ef 14 70 17 a2 af 92 32 c2 af 90 80 38 74 02 f0 a3 e4 f0 a3 
+    f0 a3 f0 a2 32 92 af ef 30 e7 19 a2 af 92 32 c2 af 90 80 34 74 80 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 
+    92 af 80 33 30 29 19 a2 af 92 32 c2 af 90 80 34 74 10 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 80 17 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0011, Index: 0x0000, Length:  256) : 
+    a2 af 92 32 c2 af 90 80 34 74 10 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af ef 24 fe 60 21 14 60 31 24 
+    82 60 40 14 60 50 24 81 70 5d 7b 01 7a 01 79 58 e9 f5 49 ea f5 48 e4 f5 47 f5 46 80 4a 7b 01 7a 
+    01 79 70 e9 f5 49 ea f5 48 e4 f5 47 f5 46 80 37 7b 01 7a 01 79 88 e9 f5 49 ea f5 48 e4 f5 47 f5 
+    46 80 24 7b 01 7a 01 79 18 e9 f5 49 ea f5 48 e4 f5 47 f5 46 80 11 7b 01 7a 01 79 30 e9 f5 49 ea 
+    f5 48 e4 f5 47 f5 46 e4 25 49 f5 61 e4 35 48 f5 60 e5 47 34 01 f5 5f e4 35 46 f5 5e 7f 20 7e 80 
+    12 26 ff 22 e4 ff 90 01 a0 e0 14 70 03 02 11 39 14 70 03 02 11 71 24 02 60 03 02 12 29 30 29 4c 
+    90 01 a3 e0 60 03 02 12 29 a3 e0 60 03 02 12 29 a3 e0 60 03 02 12 29 a3 e0 60 03 02 12 29 a3 e0 
+    60 03 02 12 29 20 33 03 02 12 29 90 01 a2 e0 24 cf 60 0b 04 60 03 02 12 29 d2 2f 02 11 aa d2 31 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0012, Index: 0x0000, Length:  256) : 
+    02 11 aa 02 12 29 02 11 aa 02 11 aa 90 01 a2 e0 64 02 60 03 02 12 29 a3 e0 60 03 02 12 29 a3 e0 
+    60 03 02 12 29 90 01 a6 e0 60 03 02 12 29 a3 e0 60 03 02 12 29 7f 01 80 71 20 29 03 02 12 29 90 
+    01 a2 e0 60 03 02 12 29 a3 e0 60 03 02 12 29 a3 e0 60 03 02 12 29 90 01 a6 e0 60 03 02 12 29 a3 
+    e0 60 03 02 12 29 90 01 a5 e0 30 e0 3d 80 3b 80 39 90 01 a2 e0 60 03 02 12 29 a2 af 92 32 c2 af 
+    90 01 a4 e0 90 80 1c f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 28 74 02 f0 a3 
+    e4 f0 a3 f0 a3 f0 a2 32 92 af ef 60 78 90 01 a5 e0 24 fe 60 24 14 60 3b 14 60 52 24 03 70 66 a2 
+    af 92 32 c2 af 90 80 08 e4 f0 a3 74 02 f0 a3 e4 f0 a3 f0 a2 32 92 af 80 4c a2 af 92 32 c2 af 90 
+    80 08 e4 f0 a3 74 06 f0 a3 e4 f0 a3 f0 a2 32 92 af 80 32 a2 af 92 32 c2 af 90 80 08 e4 f0 a3 74 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0013, Index: 0x0000, Length:  256) : 
+    0a f0 a3 e4 f0 a3 f0 a2 32 92 af 80 18 a2 af 92 32 c2 af 90 80 08 e4 f0 a3 74 0e f0 a3 e4 f0 a3 
+    f0 a2 32 92 af 12 24 68 22 12 28 b0 22 8f 3c 90 80 04 e0 ff c4 54 07 ff 24 fe 60 0a 14 60 07 14 
+    70 06 d2 29 80 02 c2 29 a2 af 92 24 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 24 92 af a2 af 92 
+    24 c2 af 90 80 2c 74 ff f0 a3 f0 a3 f0 a3 f0 a2 24 92 af a2 af 92 24 c2 af 90 80 28 74 01 f0 a3 
+    e4 f0 a3 f0 a3 f0 a2 24 92 af 90 80 28 e0 20 e0 f9 e5 3c 60 71 30 29 1b a2 af 92 24 c2 af 90 80 
+    24 74 01 f0 a3 e4 f0 a3 f0 a3 74 02 f0 a2 24 92 af 80 1a a2 af 92 24 c2 af 90 80 24 74 01 f0 a3 
+    e4 f0 a3 74 40 f0 a3 e4 f0 a2 24 92 af a2 af 92 24 c2 af 90 80 34 74 91 f0 a3 74 50 f0 a3 e4 f0 
+    a3 f0 a2 24 92 af 7b 01 7a 01 79 a8 e9 ea e4 29 f5 45 e4 3a f5 44 e4 34 01 f5 43 e4 33 f5 42 7f 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0014, Index: 0x0000, Length:  256) : 
+    20 7e 80 12 27 3f a2 af 92 24 c2 af 90 80 1c 74 80 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af a2 af 92 
+    24 c2 af 90 80 28 04 f0 a3 e4 f0 a3 f0 a3 f0 a2 24 92 af 90 80 28 e0 20 e0 f9 e5 3c 60 69 30 29 
+    1b a2 af 92 24 c2 af 90 80 24 74 01 f0 a3 e4 f0 a3 f0 a3 74 02 f0 a2 24 92 af 80 1a a2 af 92 24 
+    c2 af 90 80 24 74 01 f0 a3 e4 f0 a3 74 40 f0 a3 e4 f0 a2 24 92 af a2 af 92 24 c2 af 90 80 34 74 
+    80 f0 a3 74 50 f0 a3 e4 f0 a3 f0 a2 24 92 af a2 af 92 32 c2 af 90 80 3c 04 f0 a3 e4 f0 a3 04 f0 
+    a3 e4 f0 a2 32 92 af 22 e4 f5 61 f5 60 f5 5f f5 5e 7f 1c 7e 80 12 26 ff 78 ab 12 1a 36 8f 23 8e 
+    22 8d 21 8c 20 20 18 03 02 14 9d 90 01 a0 e0 54 60 70 6b a3 e0 24 d0 60 60 14 60 59 24 31 b4 0c 
+    00 40 03 02 14 f9 90 13 ed f8 28 28 73 02 14 11 02 14 15 02 14 f9 02 14 19 02 14 f9 02 14 1d 02 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0015, Index: 0x0000, Length:  256) : 
+    14 21 02 14 f9 02 14 25 02 14 29 02 14 2d 02 14 31 12 1a b1 22 12 20 73 22 12 10 a4 22 12 29 3e 
+    22 12 08 80 22 12 21 68 22 12 23 97 22 12 24 01 22 12 29 93 22 12 00 0d 22 12 27 fb 22 22 90 01 
+    a0 e0 ff 54 60 64 40 70 32 a3 e0 70 10 ef 30 e7 06 e4 ff 12 05 ac 22 e4 ff 12 17 7d 22 90 01 a1 
+    e0 64 01 60 03 02 14 f9 90 01 a0 e0 30 e7 06 7f 01 12 05 ac 22 7f 01 12 17 7d 22 90 01 a0 e0 54 
+    60 64 20 70 74 a3 e0 70 10 90 01 a6 e0 70 0a a3 e0 70 06 d2 22 12 24 68 22 12 28 b0 22 30 1a 53 
+    30 20 4c 78 8a e6 24 fe 60 0f 14 60 15 24 02 70 14 e4 ff fe 12 0d 5e 80 0c 7f 01 7e 00 12 0d 5e 
+    80 03 12 2a 1c 7e 01 7f a8 7b 01 7a 01 79 a0 e9 ea e4 29 f5 4b e4 3a f5 4a e4 34 01 f5 49 e4 33 
+    f5 48 e4 75 4f 08 f5 4e f5 4d f5 4c 12 20 f4 12 24 68 22 30 1b 03 12 24 68 22 c0 e0 c0 83 c0 82 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0016, Index: 0x0000, Length:  256) : 
+    c0 d0 75 d0 00 c0 00 c0 01 c0 02 c0 03 c0 06 c0 07 d2 26 90 90 30 e0 f5 28 90 90 34 e0 f5 27 e5 
+    28 30 e0 62 90 90 05 e0 75 29 00 f5 2a 75 2a 00 f5 29 90 90 04 e0 25 2a f5 2a e4 35 29 f5 29 53 
+    29 03 e5 2a ae 29 78 03 c3 33 ce 33 ce d8 f9 f5 2a 8e 29 7e 01 7f 18 c0 07 ff e4 8f 30 85 29 2f 
+    f5 2e f5 2d 75 31 81 d0 07 12 1b a0 a2 af 92 2b c2 af 90 90 30 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 
+    2b 92 af 43 27 01 e5 28 30 e1 62 90 90 0d e0 75 29 00 f5 2a 75 2a 00 f5 29 90 90 0c e0 25 2a f5 
+    2a e4 35 29 f5 29 53 29 03 e5 2a ae 29 78 03 c3 33 ce 33 ce d8 f9 f5 2a 8e 29 7e 01 7f 30 c0 07 
+    ff e4 8f 30 85 29 2f f5 2e f5 2d 75 31 82 d0 07 12 1b a0 a2 af 92 2b c2 af 90 90 30 74 02 f0 a3 
+    e4 f0 a3 f0 a3 f0 a2 2b 92 af 43 27 02 e5 28 30 e7 05 d2 2c 43 27 80 e5 28 30 e3 05 d2 25 43 27 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0017, Index: 0x0000, Length:  256) : 
+    08 e5 28 30 e4 05 d2 27 43 27 10 e5 28 30 e5 05 d2 28 43 27 20 a2 af 92 2b c2 af 90 90 34 e5 27 
+    f0 a3 e4 f0 a3 f0 a3 f0 a2 2b 92 af d0 07 d0 06 d0 03 d0 02 d0 01 d0 00 d0 d0 d0 82 d0 83 d0 e0 
+    32 78 8f 12 1a 67 00 02 80 00 30 29 0b 78 93 12 1a 67 80 00 80 00 80 09 78 93 12 1a 67 10 00 80 
+    00 78 97 12 1a 67 00 00 04 25 7b 01 7a 01 79 58 e9 ea e4 29 ff e4 3a fe e4 34 01 fd e4 33 fc 78 
+    9b 12 1a 4f 78 9f 12 1a 67 00 00 00 00 78 a3 12 1a 67 00 00 18 11 7f 8f 7c 01 7d 58 12 23 2c 7f 
+    9b 7c 01 7d 64 12 23 2c 78 8f 12 1a 67 00 03 00 00 7b 01 7a 01 79 70 e9 ea e4 29 ff e4 3a fe e4 
+    34 01 fd e4 33 fc 78 9b 12 1a 4f 7f 8f 7c 01 7d 70 12 23 2c 7f 9b 7c 01 7d 7c 12 23 2c 78 8f 12 
+    1a 67 00 03 80 00 7b 01 7a 01 79 88 e9 ea e4 29 ff e4 3a fe e4 34 01 fd e4 33 fc 78 9b 12 1a 4f 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0018, Index: 0x0000, Length:  256) : 
+    7f 8f 7c 01 7d 88 12 23 2c 7f 9b 7c 01 7d 94 12 23 2c 78 7a 12 1a 67 00 02 00 00 7b 01 7a 01 79 
+    18 e9 ea e4 29 ff e4 3a fe e4 34 01 fd e4 33 fc 78 9b 12 1a 4f 7f 7a 7c 01 7d 18 12 23 2c 7f 9b 
+    7c 01 7d 24 12 23 2c 78 7a 12 1a 67 00 02 68 00 7b 01 7a 01 79 30 e9 ea e4 29 ff e4 3a fe e4 34 
+    01 fd e4 33 fc 78 9b 12 1a 4f 7f 7a 7c 01 7d 30 12 23 2c 7f 9b 7c 01 7d 3c 12 23 2c 22 8f 46 e5 
+    46 60 0f 90 01 a6 e0 b4 04 04 a3 e0 60 13 12 28 b0 22 90 01 a6 e0 b4 08 04 a3 e0 60 04 12 28 b0 
+    22 7b 00 7a 00 79 8b 90 01 a2 e0 90 00 03 12 1a 03 90 01 a3 e0 90 00 02 12 1a 03 90 01 a4 e0 90 
+    00 01 12 1a 03 90 01 a5 e0 12 19 f1 d2 20 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 
+    32 92 af a2 af 92 32 c2 af 90 80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af ff fe 7d 04 fc 78 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0019, Index: 0x0000, Length:  256) : 
+    8b 12 1a 42 c3 12 1a 25 40 2e 7f f8 7e ff 7d 7f 7c 00 78 8b 12 1a 42 d3 12 1a 25 50 1b e5 46 60 
+    04 12 28 b0 22 e4 78 8a f6 78 8b 12 1a 36 75 4b 00 75 4c 08 12 22 4d 22 e4 ff fe 7d 03 fc 78 8b 
+    12 1a 42 c3 12 1a 25 40 2e 7f f8 7e ff 7d 03 7c 00 78 8b 12 1a 42 d3 12 1a 25 50 1b e5 46 60 04 
+    12 28 b0 22 e4 78 8a f6 78 8b 12 1a 36 75 4b 00 75 4c 08 12 22 4d 22 e5 46 60 10 78 8a 76 02 7e 
+    00 7f 18 7d 04 7c 00 12 1f ef 22 78 8a 76 01 7e 00 7f 18 7d 08 7c 00 12 1f ef 22 47 55 43 2d 56 
+    65 72 3a 18 09 10 05 3a 45 4e 44 12 01 10 02 00 00 00 40 d1 18 02 93 00 01 00 00 00 01 0a 06 10 
+    02 00 00 00 40 01 00 09 02 3c 00 01 01 00 c0 31 09 07 3c 00 01 01 00 c0 31 09 04 00 00 06 ff ff 
+    ff 00 07 05 01 02 00 02 00 07 05 02 02 00 02 00 07 05 03 02 00 02 00 07 05 81 02 00 02 00 07 05 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x001a, Index: 0x0000, Length:  256) : 
+    82 02 00 02 00 07 05 83 03 40 00 01 04 03 09 04 12 01 10 03 00 00 00 09 d1 18 02 93 00 01 00 00 
+    00 01 0a 06 10 03 00 00 00 09 01 00 09 02 60 00 01 01 00 c0 0c 09 07 60 00 01 01 00 c0 0c 09 04 
+    00 00 06 ff ff ff 00 07 05 01 02 00 04 00 06 30 0f 00 00 00 07 05 02 02 00 04 00 06 30 0f 00 00 
+    00 07 05 03 02 00 04 00 06 30 0f 00 00 00 07 05 81 02 00 04 00 06 30 0f 00 00 00 07 05 82 02 00 
+    04 00 06 30 0f 00 00 00 07 05 83 03 40 00 01 06 30 00 00 04 00 05 0f 16 00 02 07 10 02 02 00 00 
+    00 0a 10 03 00 0c 00 02 00 00 00 bb 01 06 89 82 8a 83 e0 22 50 02 e7 22 bb fe 02 e3 22 89 82 8a 
+    83 e4 93 22 bb 01 0c e5 82 29 f5 82 e5 83 3a f5 83 e0 22 50 06 e9 25 82 f8 e6 22 bb fe 06 e9 25 
+    82 f8 e2 22 e5 82 29 f5 82 e5 83 3a f5 83 e4 93 22 bb 01 06 89 82 8a 83 f0 22 50 02 f7 22 bb fe 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x001b, Index: 0x0000, Length:  256) : 
+    01 f3 22 f8 bb 01 0d e5 82 29 f5 82 e5 83 3a f5 83 e8 f0 22 50 06 e9 25 82 c8 f6 22 bb fe 05 e9 
+    25 82 c8 f2 22 eb 9f f5 f0 ea 9e 42 f0 e9 9d 42 f0 e8 9c 45 f0 22 e6 fc 08 e6 fd 08 e6 fe 08 e6 
+    ff 22 e6 fb 08 e6 f9 08 e6 fa 08 e6 cb f8 22 ec f6 08 ed f6 08 ee f6 08 ef f6 22 ec f0 a3 ed f0 
+    a3 ee f0 a3 ef f0 22 d0 83 d0 82 e4 93 f6 08 74 01 93 f6 08 74 02 93 f6 08 74 03 93 f6 74 04 73 
+    a8 82 85 83 f0 d0 83 d0 82 12 1a 97 12 1a 97 12 1a 97 12 1a 97 e4 73 e4 93 a3 c5 83 c5 f0 c5 83 
+    c8 c5 82 c8 f0 a3 c5 83 c5 f0 c5 83 c8 c5 82 c8 22 90 01 a3 e0 ff 90 01 a2 e0 4f ff 90 01 a5 e0 
+    4f ff 90 01 a7 e0 4f 60 03 02 1b 9c 90 01 a6 e0 64 02 60 03 02 1b 9c 90 01 a0 e0 24 7f 60 4b 14 
+    60 51 24 02 60 03 02 1b 9c 90 01 a4 e0 60 03 02 1b 9c 30 21 08 90 00 18 74 01 f0 80 05 e4 90 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x001c, Index: 0x0000, Length:  256) : 
+    18 f0 30 29 1e 30 2f 07 90 00 18 e0 44 04 f0 30 31 07 90 00 18 e0 44 08 f0 30 23 07 90 00 18 e0 
+    44 10 f0 e4 90 00 19 f0 80 3b e4 90 00 18 f0 a3 f0 80 32 a2 af 92 32 c2 af 90 01 a4 e0 90 80 1c 
+    f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 90 80 2c e0 30 e1 08 90 00 18 74 01 f0 80 05 e4 90 00 18 f0 
+    e4 90 00 19 f0 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 
+    90 80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 7e 00 7f 18 7d 02 fc 12 1f 69 22 12 28 b0 22 
+    8f 82 8e 83 30 29 14 e5 30 f5 30 e5 2f f5 2f e5 2e f5 2e e5 2d 44 80 f5 2d 80 12 e5 30 f5 30 e5 
+    2f f5 2f e5 2e f5 2e e5 2d 44 10 f5 2d 7b 00 7a 00 79 2d ae 83 af 82 ef 24 04 ff e4 3e fe 90 00 
+    03 12 19 c4 8f 82 8e 83 f0 90 00 02 12 19 c4 8f 82 8e 83 a3 f0 90 00 01 12 19 c4 8f 82 8e 83 a3 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x001d, Index: 0x0000, Length:  256) : 
+    a3 f0 12 19 ab 8f 82 8e 83 a3 a3 a3 f0 90 80 1c e0 ff a2 af 92 2b c2 af e5 31 f0 a3 e4 f0 a3 f0 
+    a3 f0 a2 2b 92 af e5 31 24 7e 60 1d 04 70 32 a2 af 92 2b c2 af 90 80 38 e4 f0 a3 f0 a3 74 02 f0 
+    a3 e4 f0 a2 2b 92 af 80 18 a2 af 92 2b c2 af 90 80 38 e4 f0 a3 f0 a3 74 04 f0 a3 e4 f0 a2 2b 92 
+    af a2 af 92 2b c2 af 90 80 1c ef f0 a3 e4 f0 a3 f0 a3 f0 a2 2b 92 af 22 8f 82 8e 83 30 29 14 e5 
+    41 f5 41 e5 40 f5 40 e5 3f f5 3f e5 3e 44 80 f5 3e 80 12 e5 41 f5 41 e5 40 f5 40 e5 3f f5 3f e5 
+    3e 44 10 f5 3e 7b 00 7a 00 79 3e ae 83 af 82 ef 24 04 ff e4 3e fe 90 00 03 12 19 c4 8f 82 8e 83 
+    f0 90 00 02 12 19 c4 8f 82 8e 83 a3 f0 90 00 01 12 19 c4 8f 82 8e 83 a3 a3 f0 12 19 ab 8f 82 8e 
+    83 a3 a3 a3 f0 e5 42 24 7e 60 1c 04 70 31 a2 af 92 24 c2 af 90 80 38 e4 f0 a3 f0 a3 74 02 f0 a3 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x001e, Index: 0x0000, Length:  256) : 
+    e4 f0 a2 24 92 af 22 a2 af 92 24 c2 af 90 80 38 e4 f0 a3 f0 a3 74 04 f0 a3 e4 f0 a2 24 92 af 22 
+    a2 af 92 32 c2 af 90 80 1c ef f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 24 74 
+    07 f0 a3 e4 f0 a3 74 40 f0 a3 e4 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 34 74 80 f0 a3 e4 f0 a3 
+    74 08 f0 a3 e4 f0 a2 32 92 af 7b 01 7a 00 79 10 e9 ea e4 29 ff e4 3a fe e4 34 01 fd e4 33 fc 78 
+    7a 12 1a 4f 78 7e 12 1a 67 00 00 00 04 78 82 12 1a 67 00 00 04 25 7f 7a 7c 01 7d 48 12 23 2c 7b 
+    01 7a 01 79 48 e9 ea e4 29 f5 61 e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 7e 80 12 26 ff 22 
+    a2 af 92 32 c2 af 90 80 1c 74 80 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 78 a7 12 
+    1a 36 8f 23 8e 22 8d 21 8c 20 a2 32 92 af 20 1a 03 30 1b 62 a2 af 92 32 c2 af 90 80 28 74 20 f0 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x001f, Index: 0x0000, Length:  256) : 
+    a3 e4 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 1c f0 a3 f0 a3 f0 a3 f0 a2 32 92 af 7b 
+    01 7a 01 79 a8 e9 ea e4 29 f5 61 e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 7e 80 12 26 ff a2 
+    af 92 32 c2 af 90 80 38 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 22 78 7f e4 f6 d8 fd 75 81 ae 
+    02 1e 9e 02 25 db e4 93 a3 f8 e4 93 a3 40 03 f6 80 01 f2 08 df f4 80 29 e4 93 a3 f8 54 07 24 0c 
+    c8 c3 33 c4 54 0f 44 20 c8 83 40 04 f4 56 80 01 46 f6 df e4 80 0b 01 02 04 08 10 20 40 80 90 29 
+    10 e4 7e 01 93 60 bc a3 ff 54 3f 30 e5 09 54 1f fe e4 93 a3 60 01 0e cf 54 c0 25 e0 60 a8 40 b8 
+    e4 93 a3 fa e4 93 a3 f8 e4 93 a3 c8 c5 82 c8 ca c5 83 ca f0 a3 c8 c5 82 c8 ca c5 83 ca df e9 de 
+    e7 80 be 90 80 04 e0 ff c4 54 07 60 16 e5 09 45 08 70 75 f5 08 75 09 01 90 01 c0 12 1a 80 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0020, Index: 0x0000, Length:  256) : 
+    00 00 22 e4 f5 08 f5 09 90 01 c0 e0 fc a3 e0 fd a3 e0 fe a3 e0 24 01 ff e4 3e fe e4 3d fd e4 3c 
+    fc 90 01 c0 12 1a 5b 7f a0 7e bb 7d 0d 7c 00 90 01 c0 e0 f8 a3 e0 f9 a3 e0 fa a3 e0 fb d3 12 1a 
+    25 40 25 90 01 c0 12 1a 80 00 00 00 00 a2 af 92 32 c2 af 90 80 00 e4 f0 a3 74 80 f0 a3 e4 f0 a3 
+    f0 a2 32 92 af 12 24 cc 22 ab 05 aa 04 e4 ef ee e4 2f ff e4 3e fe e4 34 01 fd e4 33 fc 78 7a 12 
+    1a 4f ae 02 af 03 e4 fc fd 78 7e 12 1a 4f 78 82 12 1a 67 00 00 04 25 7f 7a 7c 00 7d 00 12 23 2c 
+    a2 af 92 32 c2 af 90 80 1c 74 80 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 7b 01 7a 00 79 00 e9 ea e4 
+    29 f5 61 e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 7e 80 12 26 ff a2 af 92 32 c2 af 90 80 38 
+    e4 f0 a3 f0 a3 04 f0 a3 e4 f0 a2 32 92 af 22 ab 05 aa 04 e4 ef ee e4 2f ff e4 3e fe e4 34 01 fd 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0021, Index: 0x0000, Length:  256) : 
+    e4 33 fc 78 7a 12 1a 4f ae 02 af 03 e4 fc fd 78 7e 12 1a 4f 78 82 12 1a 67 00 00 04 25 7f 7a 7c 
+    01 7d a8 12 23 2c a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af 7b 01 7a 01 79 
+    a8 e9 ea e4 29 f5 61 e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 7e 80 12 26 ff a2 af 92 32 c2 
+    af 90 80 38 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 22 90 01 a0 e0 24 fe 60 3b 24 02 70 71 30 
+    29 6e 90 01 a3 e0 70 68 a3 e0 70 64 a3 e0 70 60 a3 e0 70 5c a3 e0 70 58 30 33 55 90 01 a2 e0 24 
+    cf 60 07 04 70 4a c2 2f 80 42 c2 31 80 3e 80 40 80 3a 80 38 80 36 90 01 a2 e0 70 34 a2 af 92 32 
+    c2 af 90 01 a4 e0 90 80 1c f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 28 74 04 
+    f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 12 24 68 22 12 28 b0 22 8e 46 8f 47 7b 00 7a 00 79 48 90 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0022, Index: 0x0000, Length:  256) : 
+    03 12 19 c4 8f 82 8e 83 f0 90 00 02 12 19 c4 8f 82 8e 83 a3 f0 90 00 01 12 19 c4 8f 82 8e 83 a3 
+    a3 f0 12 19 ab 8f 82 8e 83 a3 a3 a3 f0 7a 00 79 4c ef 24 04 ff e4 3e fe 90 00 03 12 19 c4 8f 82 
+    8e 83 f0 90 00 02 12 19 c4 8f 82 8e 83 a3 f0 90 00 01 12 19 c4 8f 82 8e 83 a3 a3 f0 12 19 ab 8f 
+    82 8e 83 a3 a3 a3 f0 22 90 01 a3 e0 ff 90 01 a2 e0 4f ff 90 01 a4 e0 4f ff a3 e0 4f ff 90 01 a7 
+    e0 4f 60 04 12 28 b0 22 90 01 a6 e0 64 01 60 04 12 28 b0 22 30 33 08 90 00 18 74 01 f0 80 05 e4 
+    90 00 18 f0 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 
+    80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 7e 00 7f 18 7d 01 fc 12 1f 69 22 78 7a 12 1a 4f 
+    ae 5a af 5b e4 fc fd 78 7e 12 1a 4f 78 82 12 1a 67 00 00 04 25 7f 7a 7c 00 7d 00 12 23 2c a2 af 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0023, Index: 0x0000, Length:  256) : 
+    92 32 c2 af 90 80 1c 74 80 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 7b 01 7a 00 79 00 e9 ea e4 29 f5 
+    61 e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 7e 80 12 26 ff a2 af 92 32 c2 af 90 80 38 e4 f0 
+    a3 f0 a3 04 f0 a3 e4 f0 a2 32 92 af 22 78 7a 12 1a 4f ae 4b af 4c e4 fc fd 78 7e 12 1a 4f 78 82 
+    12 1a 67 00 00 04 25 7f 7a 7c 01 7d a8 12 23 2c a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 
+    f0 a2 32 92 af 7b 01 7a 01 79 a8 e9 ea e4 29 f5 61 e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 
+    7e 80 12 26 ff a2 af 92 32 c2 af 90 80 38 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 22 8b 3c 8a 
+    3d 89 3e 8f 42 8e 41 8d 40 8c 3f 7b 00 7a 00 79 3f 8b 43 8a 44 89 45 90 00 03 12 19 c4 ab 3c aa 
+    3d a9 3e 12 19 f1 ab 43 aa 44 a9 45 90 00 02 12 19 c4 ab 3c aa 3d a9 3e 90 00 01 12 1a 03 ab 43 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0024, Index: 0x0000, Length:  256) : 
+    aa 44 a9 45 90 00 01 12 19 c4 ab 3c aa 3d a9 3e 90 00 02 12 1a 03 ab 43 aa 44 a9 45 12 19 ab ab 
+    3c aa 3d a9 3e 90 00 03 12 1a 03 22 8f 5c e4 f9 e9 c3 94 0c 50 60 e9 24 03 25 5c f8 e6 ff ed 29 
+    f5 82 e4 3c f5 83 ef f0 e9 24 02 25 5c f8 e6 ff e9 24 01 fb e4 33 fa ed 2b f5 82 ec 3a f5 83 ef 
+    f0 e9 04 25 5c f8 e6 ff e9 24 02 fb e4 33 fa ed 2b f5 82 ec 3a f5 83 ef f0 e5 5c 29 f8 e6 ff e9 
+    24 03 fb e4 33 fa ed 2b f5 82 ec 3a f5 83 ef f0 74 04 29 f9 80 9a 22 90 01 a2 e0 60 3a 12 25 2c 
+    d2 30 a2 af 92 32 c2 af 90 80 00 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 12 28 38 a2 af 92 32 
+    c2 af 90 80 00 74 02 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af d2 33 80 1e 12 29 fd d2 30 a2 af 92 32 
+    c2 af 90 80 00 74 01 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af c2 33 12 24 68 30 33 03 d2 a8 22 c2 a8 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0025, Index: 0x0000, Length:  256) : 
+    22 90 01 a3 e0 ff 90 01 a2 e0 4f ff 90 01 a4 e0 4f ff a3 e0 4f ff 90 01 a7 e0 4f 60 04 12 28 b0 
+    22 90 01 a6 e0 64 01 60 04 12 28 b0 22 e4 90 00 18 f0 a2 af 92 32 c2 af 90 80 1c f0 a3 f0 a3 f0 
+    a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 28 74 08 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 7e 00 7f 
+    18 7d 01 fc 12 1f 69 22 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 
+    32 c2 af 90 80 28 74 28 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 7b 01 7a 01 79 a8 e9 ea e4 29 f5 61 
+    e4 3a f5 60 e4 34 01 f5 5f e4 33 f5 5e 7f 20 7e 80 12 26 ff a2 af 92 32 c2 af 90 80 38 74 01 f0 
+    a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 22 90 01 bc 12 1a 80 00 00 00 00 7f e0 7e 93 7d 04 7c 00 90 01 
+    bc e0 f8 a3 e0 f9 a3 e0 fa a3 e0 fb c3 12 1a 25 50 21 90 01 bc e0 fc a3 e0 fd a3 e0 fe a3 e0 24 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0026, Index: 0x0000, Length:  256) : 
+    01 ff e4 3e fe e4 3d fd e4 3c fc 90 01 bc 12 1a 5b 80 c3 a2 af 92 32 c2 af 90 80 00 e4 f0 a3 74 
+    40 f0 a3 e4 f0 a3 f0 a2 32 92 af 22 a2 af 92 32 c2 af 90 90 50 e4 f0 a3 74 04 f0 a3 e4 f0 a3 f0 
+    a2 32 92 af a2 af 92 32 c2 af a3 f0 a3 74 04 f0 a3 e4 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af a3 
+    f0 a3 74 04 f0 a3 e4 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 90 34 74 7c f0 a3 e4 f0 a3 f0 a3 
+    f0 a2 32 92 af 22 90 80 05 e0 30 e2 f9 a2 af 92 32 c2 af 90 80 00 e4 f0 a3 74 80 f0 a3 e4 f0 a3 
+    f0 a2 32 92 af a2 af 92 32 c2 af 90 80 00 f0 a3 04 f0 a3 74 4a f0 a3 74 0a f0 a2 32 92 af a2 af 
+    92 32 c2 af 90 80 14 74 ff f0 a3 74 0b f0 a3 74 37 f0 a3 74 07 f0 a2 32 92 af 22 75 8e 01 75 61 
+    05 75 60 10 75 5f 09 75 5e 18 7f 40 7e a3 12 26 ff 90 a3 0e e0 30 e3 04 c2 21 80 02 d2 21 12 26 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0027, Index: 0x0000, Length:  256) : 
+    76 c2 33 12 25 86 12 26 2f d2 2a 12 24 cc 75 a8 84 30 26 05 c2 26 12 0b 21 30 2e 05 c2 2e 12 13 
+    a8 30 2d 05 12 1d c0 c2 2d 12 1e e3 80 e3 22 e4 ff fe 7e 01 7f 00 90 00 18 e4 f0 a3 df fc de fa 
+    7b 01 7a 01 79 a0 e9 ea e4 29 ff e4 3a fe e4 34 01 fd e4 33 fc 78 7a 12 1a 4f 78 7e 12 1a 67 00 
+    00 00 08 78 82 12 1a 67 00 00 04 25 7f 7a 7c 01 7d a8 12 23 2c 22 a2 af 92 24 c2 af 90 a3 14 74 
+    04 f0 a3 74 80 f0 a3 e4 f0 a3 f0 a2 24 92 af a2 af 92 24 c2 af 90 a3 14 74 04 f0 a3 e4 f0 a3 f0 
+    a3 f0 a2 24 92 af a2 af 92 24 c2 af 90 a3 14 f0 a3 f0 a3 f0 a3 f0 a2 24 92 af 22 8e 48 8f 49 8c 
+    4a 8d 4b 8a 4c 8b 4d e4 f5 4e f5 4f c3 e5 4f 95 4d e5 4e 95 4c 50 27 e5 49 25 4f f5 82 e5 48 35 
+    4e f5 83 e4 93 ff e5 4b 25 4f f5 82 e5 4a 35 4e f5 83 ef f0 05 4f e5 4f 70 02 05 4e 80 ce 22 7b 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0028, Index: 0x0000, Length:  256) : 
+    00 7a 00 79 5e a2 af 92 32 c2 af 90 00 03 12 19 c4 8f 82 8e 83 f0 90 00 02 12 19 c4 8f 82 8e 83 
+    a3 f0 90 00 01 12 19 c4 8f 82 8e 83 a3 a3 f0 12 19 ab 8f 82 8e 83 a3 a3 a3 f0 a2 32 92 af 22 7b 
+    00 7a 00 79 42 a2 af 92 32 c2 af 90 00 03 12 19 c4 8f 82 8e 83 f0 90 00 02 12 19 c4 8f 82 8e 83 
+    a3 f0 90 00 01 12 19 c4 8f 82 8e 83 a3 a3 f0 12 19 ab 8f 82 8e 83 a3 a3 a3 f0 a2 32 92 af 22 7b 
+    00 7a 00 79 56 8f 82 8e 83 e0 90 00 03 12 1a 03 8f 82 8e 83 a3 e0 90 00 02 12 1a 03 8f 82 8e 83 
+    a3 a3 e0 90 00 01 12 1a 03 8f 82 8e 83 a3 a3 a3 e0 12 19 f1 af 59 ae 58 ad 57 ac 56 22 7b 00 7a 
+    00 79 40 8f 82 8e 83 e0 90 00 03 12 1a 03 8f 82 8e 83 a3 e0 90 00 02 12 1a 03 8f 82 8e 83 a3 a3 
+    e0 90 00 01 12 1a 03 8f 82 8e 83 a3 a3 a3 e0 12 19 f1 af 43 ae 42 ad 41 ac 40 22 a2 af 92 32 c2 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0029, Index: 0x0000, Length:  256) : 
+    af 90 80 1c e4 f0 a3 f0 a3 f0 a3 f0 a2 32 92 af a2 af 92 32 c2 af 90 80 28 74 08 f0 a3 e4 f0 a3 
+    f0 a3 f0 a2 32 92 af d2 20 78 8a 76 03 7e 00 7f 18 7d 06 fc 12 1f ef 22 12 16 41 7f 01 12 0f 1a 
+    7f 02 12 0f 1a 7f 03 12 0f 1a 7f 81 12 0f 1a 7f 82 12 0f 1a 7f 83 12 1d 20 a2 af 92 32 c2 af 90 
+    80 3c 74 0f f0 a3 e4 f0 a3 74 0f f0 a3 e4 f0 a2 32 92 af 22 a2 af 92 32 c2 af 90 80 1c ef f0 a3 
+    e4 f0 a3 f0 a3 f0 a2 32 92 af 7f 24 7e 80 12 27 7f ef 54 fe f5 49 ee f5 48 ed f5 47 ec f5 46 85 
+    49 61 8e 60 8d 5f f5 5e 7f 24 7e 80 12 26 ff 22 a2 af 92 32 c2 af 90 80 1c e4 f0 a3 f0 a3 f0 a3 
+    f0 a2 32 92 af a2 af 92 32 c2 af 90 80 28 74 02 f0 a3 e4 f0 a3 f0 a3 f0 a2 32 92 af 12 24 68 22 
+    7f 1c 7e a3 12 27 bd 8f 3f 8e 3e 8d 3d 8c 3c e5 3f 54 fc ff e5 3e e5 3d e5 3c ef 44 02 f5 45 ee 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x002a, Index: 0x0000, Length:  256) : 
+    f5 44 ed f5 43 ec f5 42 7f 1c 7e a3 12 27 3f 22 02 08 00 00 44 01 c0 00 00 00 00 c1 2e c1 2d c1 
+    26 c1 20 c1 29 c1 25 c1 27 c1 28 c1 2c c1 2a c1 33 c1 22 c1 30 c1 a1 c1 2f c1 31 c1 23 00 90 01 
+    a2 e0 25 e0 ff e4 33 fe ef 44 01 ff e4 8f 49 8e 48 f5 47 f5 46 8f 61 8e 60 85 47 5f 85 46 5e 7f 
+    08 7e 80 12 26 ff 12 24 68 22 7f 1c 7e a3 12 27 bd 8f 3f 8e 3e 8d 3d 8c 3c e5 3f 44 03 f5 45 e5 
+    3e f5 44 e5 3d f5 43 e5 3c f5 42 7f 1c 7e a3 12 27 3f 22 90 01 a3 e0 ff 90 01 a2 e0 4f ff 90 01 
+    a4 e0 4f ff a3 e0 4f ff a3 e0 4f ff a3 e0 4f 60 04 12 28 b0 22 12 24 68 22 e4 12 19 f1 ed 25 e0 
+    25 e0 90 00 01 12 1a 03 ed c4 13 13 54 03 90 00 02 12 1a 03 90 00 03 74 80 12 1a 03 22 00 02 04 
+    04 08 08 08 08 10 10 10 10 10 10 10 10 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 7f 01 12 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x002b, Index: 0x0000, Length:  256) : 
+    28 74 7f 02 12 28 74 7f 03 12 28 74 7f 81 12 28 74 7f 82 12 28 74 7f 83 12 28 74 22 c2 20 22 f5 
+    5e bc d2 35 9a b3 e3 7b cf 6f 56 ca ee 8a 9d fd 6c d8 ec 4c 7c 46 c9 fb 70 ef 6b ad 6a 86 47 fa 
+    9e 70 08 06 de ed df 4a 1c 49 51 65 de 79 ae d7 56 40 28 75 af 7f c1 de be 1c 49 86 2f a1 83 bf 
+    c6 13 21 63 41 7d 6e dd a2 4e 3d 01 3e af b3 65 e3 63 ff a6 07 6f d5 1f 54 61 70 55 57 fe d5 d2 
+    11 69 88 28 de 5a 15 7a 3b 45 e5 2a 1b 7e 57 71 53 b1 97 ca 7f 3c 34 89 81 8a 72 de 1a 9f 90 37 
+    0b 0e 84 bc 66 fc b1 d2 d9 70 dc a3 39 8d b1 78 6e 7f 8b 24 2b 10 e5 b0 31 70 4c 04 ce e6 22 9b 
+    ed 02 32 77 aa 56 af ff 62 b6 d9 39 31 bb 53 f6 bc 22 0e 25 93 f1 da 79 c2 12 3f 40 1d 8e 58 ea 
+    98 06 8e 05 b7 49 6f fe e1 b0 a2 5e 82 3a 54 7f 4d cc 4e 76 99 11 ad 4d 50 58 d4 9a 63 d4 ef 4e 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x002c, Index: 0x0000, Length:  256) : 
+    9f aa 20 dc 15 be 60 fe 2f dd cc 62 36 bc 6b 73 71 70 72 cc 24 1d f8 d7 30 08 64 e2 59 64 42 84 
+    6a 99 db 54 fc 6f f6 46 de c1 a3 1d 51 b4 7b fa 77 37 35 e1 40 bb 7d a3 0d 3a 71 ba 85 7e 2f 4a 
+    82 59 d9 7b 4d 5e 00 36 27 0a 95 2b dd 4e a9 17 14 45 b5 0c 2b 0e 97 63 c3 01 a0 89 4e 6b 0f 31 
+    fa c7 fc 4b e7 0b f4 b9 a9 29 33 c2 ef b6 4a 97 14 82 86 f3 4b 59 75 58 c4 79 37 04 34 b9 06 b9 
+    24 a1 44 08 8f 8a e1 09 91 f0 b0 a1 1e ff e6 e6 d9 a8 79 51 7b df f6 f6 46 95 e5 32 fa 64 c6 6e 
+    22 93 20 16 0b cb 7f db 30 1c 7b 6d 3b d0 f5 41 e0 36 b7 81 a2 75 fc ff 3c 86 52 c3 d4 35 86 e7 
+    60 06 10 af f4 87 34 7f 28 13 a2 61 46 c5 95 c3 54 0c 69 1c 25 a4 bd 52 e0 a2 c7 bd b8 ef 7d a7 
+    54 40 18 01 19 b7 79 ad d3 3e a5 00 cf 43 25 4a 1d 24 24 10 36 6e 55 ae b1 f0 e8 77 45 ee 5a d1 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x002d, Index: 0x0000, Length:  256) : 
+    0a c1 4e 2d 3c c7 9d 0c fe 0a c1 a6 a3 72 3e 93 4d 16 da 9d d7 b3 50 55 a7 e5 d1 5a a0 19 41 dd 
+    bd df 8c b0 ce 77 dc 0d cc d0 33 32 57 8a 10 a2 77 6c c7 4b 30 e7 16 67 c4 70 76 27 6c d8 39 c9 
+    49 13 fd 0b b3 87 56 9e 04 ae 44 63 74 87 f0 34 04 81 68 d3 ff a6 49 60 36 2c 02 dc e9 a4 9a 55 
+    50 97 84 e1 e3 5d 9f 9a b7 68 2f 82 0e 85 d2 6d 69 44 42 39 0f f7 f5 d2 2b 45 57 4d 73 52 71 bf 
+    bd 08 07 4e f4 cb ef 77 65 1d b0 2c 67 e0 8e bd 39 ea 58 cc 31 d5 2b ec e3 85 f3 32 0d 34 d1 f1 
+    f1 f3 34 af 3a 9c 1d 0e 2c 00 f6 ef 75 09 c1 85 83 79 ad f9 fe ea 27 d2 a8 89 bb 00 9d 7f 7f 78 
+    76 e7 40 c6 e7 f2 6e cf cd 48 d6 7b b3 ad 25 be cf 7a 89 99 db 30 b7 a6 3d 03 02 21 07 72 fb 9b 
+    03 12 51 d7 72 81 6a 7c 28 61 60 5d 25 17 91 cd 95 2c 6d f2 03 84 13 9b 60 d1 30 29 21 b6 c0 4b 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x002e, Index: 0x0000, Length:  256) : 
+    d6 25 24 2d e4 5b dc f8 e9 cc 39 b8 eb 74 78 54 44 eb de 1c 5e 7d 16 f6 39 c1 3f 2a e1 3c 20 cb 
+    c2 5d 98 06 38 76 bf 15 a6 da 9b 09 5e 3e 9a 4f 1d 3e c7 2f 44 25 ec 9a b0 71 35 d0 bd dd b7 8d 
+    37 65 1e d0 65 f4 a7 e1 0d 0a a7 29 ae e3 4f 60 2e c2 e7 54 4e a7 e5 a2 06 eb e4 01 28 74 25 bb 
+    cc e3 34 c7 65 bd 3f 8e c8 f1 d8 0f b9 75 27 57 02 e0 97 77 bc 52 6d f5 59 aa 0e 10 30 70 33 9b 
+    a1 f0 aa 07 d1 fd e8 c3 83 b8 24 40 19 9a ed ab 96 13 47 9b cb c3 56 57 7b 3b 5e 9a 68 25 74 a0 
+    60 30 19 e4 30 76 ce d7 ea 85 da 1a 06 e6 d3 bd ef 56 5c a0 8d ed 1a c9 eb 80 e0 2a 67 ee 18 3b 
+    68 48 c8 05 94 97 e6 1e ab 32 3f 80 fa 89 f6 82 98 8d 66 75 27 ee b3 fa 68 7b df bc 42 1d 4c 3e 
+    80 87 1c 0b 31 5e 73 db 25 01 84 4b d4 73 bf e0 38 a0 e4 2a d3 f8 d2 2b 50 98 1b 0b 32 99 9f d4 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x002f, Index: 0x0000, Length:  256) : 
+    00 90 a6 75 f5 47 15 5e 65 54 03 a9 56 08 8c d8 27 63 a6 90 9b 20 f5 c2 34 61 02 5a 65 ef f4 c6 
+    fe aa 63 31 72 4d f6 6d 6f c7 7b ec f7 8b d4 e9 2e 5f 86 15 e6 ed 4e b4 07 dc 6f af b7 72 63 81 
+    9b 52 45 3f e6 78 20 dc 43 65 aa 92 26 a3 a3 a1 62 5c e7 00 59 42 c6 4f e2 36 2d c6 a4 da 6a 97 
+    bf 6b c2 c6 9c 7b ac b5 a7 e4 83 f7 81 d3 5b fe e0 40 59 57 24 b0 c2 ea fb bd b1 16 80 3a e2 81 
+    6a 42 95 1a c5 69 35 86 11 99 63 ce ac d6 b9 ff 4f 01 06 51 73 b8 c3 b7 0e cc f7 82 51 75 7d 9c 
+    2c 43 8a 51 92 96 97 a4 40 65 60 21 5e 3e 94 d2 40 6d 8c bf 1d 0b db f9 6f d0 fb 44 af 98 63 65 
+    40 17 4e f4 f1 f5 cb 7e 34 b9 23 af e5 c3 7b 66 01 12 d7 da 6f d2 b9 74 5e a4 10 1a 6e 95 dc da 
+    42 97 0a 78 c2 55 c5 ce 82 01 f5 fc 1d ad 19 f9 c8 91 76 df 9a e0 fc 94 63 93 2c ae fc ee 9b 42 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0030, Index: 0x0000, Length:  256) : 
+    17 be 1b 0b 52 ef 6b 81 42 46 92 db bc b8 33 ad 03 6a f0 0f bd 24 45 e7 71 8c 9f 99 10 f2 c4 d3 
+    31 47 44 9a 06 7b a7 bc 28 e0 84 d1 f5 94 96 9c b2 95 ce 9f a7 de c3 a5 25 b7 70 19 6d ac 1f b3 
+    af 54 46 1a 93 08 95 b7 80 2c 0a 6f 6b b4 5c c3 e6 dd 20 56 fe 56 ac be 8c 31 2c 8a ba a7 93 2c 
+    ae 93 05 6b 21 57 7f 3b 91 d2 ef 48 a5 f5 3d da fd e2 07 67 66 2a fe ad 93 ee 3f 5b d2 2f f0 01 
+    1d 57 8c d3 af 7f cb f8 da ce f7 97 cb 3f a1 fb c2 60 3b 09 fc d8 aa df ec 91 6f 6f 09 51 b4 c8 
+    15 e0 a2 98 4f df b9 7f 26 32 c2 24 ed f9 d7 47 65 6e a2 8f 02 3d 40 3e a5 a9 c0 99 6c 20 be 47 
+    0d 94 70 63 dc c8 b9 f2 a4 30 a7 d7 20 db da ff b0 c5 70 d5 05 ac b6 9f 95 2e 2b da ae 70 be d8 
+    c6 db 1f 71 ea e3 e3 d6 3a 97 c2 40 87 c7 f8 30 52 82 c8 10 8a 5c 0e 59 80 90 11 60 16 43 50 4e 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0031, Index: 0x0000, Length:  256) : 
+    1e e6 88 80 b3 fa ca 51 6a eb 4a 25 6b aa e7 c7 a6 ff e2 65 3c d5 53 a4 08 1e 74 e0 2d 2a a1 ce 
+    5c 8b d5 b0 25 8f ca c5 69 4a b3 24 ea ac 64 a9 8b 4e be 43 77 c9 a7 8f 02 21 c1 32 65 19 ed da 
+    54 07 6a 69 62 ea 98 2d e4 51 bc 68 3f ae 4b 62 20 23 f0 7c 18 1f 1b ac aa c0 4c 19 d4 6a 0a 1e 
+    4d 9c 62 57 06 e3 96 ec 0e 6f ae 71 fc a7 78 62 1a 15 85 24 ac 77 6a d6 c1 dc 57 bb 89 2f ea f4 
+    1d 82 ee 9e 3e e1 f7 3b 4c 48 08 4e cd dc fa ed 4d 45 1b 02 d7 fa c3 9f 7f b5 cc 6d 61 c2 be 34 
+    62 a3 00 13 1f c5 50 7c 68 c6 74 f0 ff b4 0a 25 65 db dd 01 70 8c 30 bd b9 c3 a8 0b 28 fb aa dc 
+    f6 43 fc b5 4b 5f c9 38 b5 9f 73 c4 cf b8 f5 b3 9e a2 79 e5 0e f1 67 31 40 95 03 ae 54 34 fd da 
+    f8 93 77 83 0d 34 c0 ec 3a 21 b1 8a 04 e8 46 b3 18 64 c0 f3 91 13 ed 77 a1 08 50 13 ad 85 d9 15 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0032, Index: 0x0000, Length:  256) : 
+    14 f2 82 31 00 fd 9f 1d 74 57 49 3e c2 88 0c 63 1f fd a2 ab f2 d3 92 28 55 92 95 0e 7b 0b f4 56 
+    6d 4d db bf be 1c 9d b8 aa 5e 0f 16 e2 f2 34 44 73 6c 06 08 67 4a c5 51 9c 4c cd ec de d9 e4 99 
+    12 af 61 1c 94 cf c7 e5 95 18 c5 d2 3e e2 fc f1 3d b4 8d 5f 4d 52 e0 ea c8 8a a0 99 41 1b a7 48 
+    37 46 b7 84 47 dc 95 31 13 95 bd d6 66 3c f2 e8 50 56 c9 b9 64 6f 60 fd 7d 59 fc 6e 0e 3e 21 09 
+    9f 17 e7 94 ec 7f 81 f5 0b 3b c9 9b ef bc fd 99 d4 6b 5c 54 ae cd e5 36 71 93 b3 54 d6 e7 cf a6 
+    b2 00 25 c0 84 a1 ce 1a d8 83 53 ef 47 ca a0 b0 35 43 56 4c f3 d6 42 45 c9 19 03 00 98 9e 45 76 
+    28 76 5f 64 a1 c9 f9 6c 0b f6 ab 54 fa bd 88 f9 bc e0 42 bf 84 f6 af b5 69 3c ab 2b 46 ef 03 d5 
+    4a 89 b0 32 66 af 61 76 29 73 23 32 67 bb cf 92 44 4a 6d 40 fa 90 1a cc 5a d0 93 25 78 90 c2 d0 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0033, Index: 0x0000, Length:  256) : 
+    c6 1d 0a 18 a1 f4 10 1a 0d 99 f0 34 e2 35 1c 60 18 dd 87 1f 4a b1 45 37 e1 14 ab 10 7a 42 c2 b0 
+    e3 6d 0b 97 5d 54 e6 dd 3c be fe 9b ea c9 21 bf 0a 4e 4e 90 5a b9 2a bf b0 82 75 0d fe a4 12 53 
+    09 6b 2a 8a a0 28 53 b6 10 3e 97 0a a5 2b 15 59 37 08 63 c0 bb d7 9c 9e 07 d5 a9 8a 79 27 3b b6 
+    7e 47 96 87 28 4c 78 97 b3 60 8c b7 7f cf 9b 22 3d fe cc cd e9 7a 34 df 8b 87 59 95 65 42 1d cd 
+    83 d0 27 3a 67 97 6e de cc a7 07 c1 dc 7d 6e ce 90 47 ef 48 f4 f0 aa 9d 75 6a 47 4c 57 85 de b6 
+    44 ca 40 09 e8 90 b2 09 0c 78 18 7c 8d 6e 05 67 54 03 66 11 ed 0e 33 63 fd 02 36 2d d7 35 c6 3b 
+    3b 11 d2 b5 c3 1a f2 29 65 ca 2d 82 f1 de dd bc 54 04 46 d0 bf fc 99 dd eb 53 19 64 a6 57 77 f4 
+    ee 22 1f 61 cc ac 90 aa 65 b0 5d 64 a9 f9 99 7f e3 1b ec 5f b2 bd f1 66 72 1a 67 5d 2d e9 b7 f3 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0034, Index: 0x0000, Length:  256) : 
+    38 2a 00 0d 70 c1 3b fa 00 7a 82 8b b9 54 e0 6f c1 5c 9d c5 f5 5f 2b 44 92 d7 b7 b8 80 6b 34 3c 
+    21 1f 86 be ff 57 0b 8e 90 e3 e6 82 3d 18 6f ed 78 17 a0 ad ac 5f f2 7d c0 ec 16 71 59 f5 39 ec 
+    0a 54 ee 56 1a 57 8b 8c 71 bc 35 50 05 a9 c0 a3 73 5d 05 62 f4 76 52 23 00 64 eb f0 1a 66 8d 81 
+    69 13 5d 3b be 9d d2 51 6c ea a2 6c 6a 43 b8 7b 9a 4a 0e 5a cf e9 88 4e 88 c9 0e 23 9f 74 45 dc 
+    33 84 78 7d 61 ed c7 e4 e5 a2 17 24 5d 3e c1 fa cb a0 b0 d7 48 a4 f5 09 17 70 b0 9e dc 1f 6c ad 
+    f1 43 8a 64 e7 3b 87 21 8d 09 ae 26 ef 78 a4 d7 05 43 90 31 7c ca 0a e9 9e 3e 00 ab 49 89 99 de 
+    b1 26 76 c3 c6 76 bf a6 4a e1 3b 57 9e 35 7a f9 a2 42 b8 90 5d 7d f3 cd 1e d4 43 d3 a0 ba 2a db 
+    65 c0 f6 c3 89 84 95 bf 44 63 3d 17 fb 94 be 81 fc 05 1c 8b 60 1b e0 73 59 04 29 f0 71 ba 16 d5 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0035, Index: 0x0000, Length:  256) : 
+    57 0c b1 0a 07 53 f1 6e 99 40 e1 01 41 0a 0a 99 30 99 bc 04 a5 3f 86 63 f7 09 a1 81 60 6f c4 fd 
+    55 c5 d3 02 d8 3c 2b 13 71 c6 61 28 65 76 6c d1 1d 3e 58 ef 9c ab 96 57 c7 ad e3 c2 c6 9a 7c ec 
+    8d 2f 00 40 6f 61 23 c5 6c 09 e8 25 7e 73 ae fd 6e 99 18 66 a6 ca 09 dc 5a 8d d3 68 7f eb ec 99 
+    ff dc 00 36 6b 82 37 ee bb 63 c5 00 fc be ad 4e 96 6c 37 a9 f5 c9 38 5e 2f 39 f7 75 c1 8c ce c5 
+    5f b0 7d ce 90 de 27 76 6d ab 23 7e c5 e5 17 cb 28 20 8e 7e d6 0f 62 7c 58 32 89 de b7 1d aa 4b 
+    d7 11 5e 2f 33 20 8c b0 0b 02 bd 34 b5 1a 6a a3 41 af 87 02 be d9 47 8a 0e a3 14 40 a8 7f ad a6 
+    86 79 de 22 ca 08 bd c7 5f a5 2d 92 ce 55 be ee 9e 0b c3 5b 08 5a 7c d1 28 56 6a 4e ee ed cb 4f 
+    28 93 63 2e 14 a7 7e 8b b3 dd 2b 45 ed b7 c9 82 6a 9e 3b 0b ce 4c 48 c9 26 af 3a 8a 72 f0 9a 3e 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0036, Index: 0x0000, Length:  256) : 
+    db 4d 20 70 4e f7 b6 53 a9 01 4f 43 e9 ce c0 e6 28 34 a9 24 62 14 a6 a4 28 85 c8 a4 28 0b 02 46 
+    2f b6 f9 3d a9 bb fc d5 89 70 3d d9 38 f7 9c e3 63 a0 b2 2a ea 0e 8f 97 33 9f 41 1c aa 67 c7 d6 
+    45 66 40 21 2f 8b f2 c6 26 4a ec b2 7a 77 2b 62 15 42 e7 7a d6 c4 b0 85 30 4a 26 cb 86 39 1b 2c 
+    51 bf d6 0b f5 ce 87 f2 cf e2 30 86 6f d5 a3 69 1c 74 54 75 6a 9e 3f b7 25 b6 5c 8e e4 f9 33 da 
+    d2 50 10 54 80 02 f8 64 dc f7 fc 5d fd f3 7a ea 72 d5 c6 11 ea 69 b7 2e 66 83 61 4a 7e eb fe 6f 
+    32 72 d4 5d ab f2 4f 1d 99 00 49 b4 2a bf e1 dc df 8e 84 c8 c9 32 26 72 54 29 ec ea 6a c5 0f 3f 
+    bd 59 07 0d d7 3d 5c da ae eb ea 16 f4 b8 cf a6 0f 09 9f c9 65 af 5b d8 d2 ca 04 29 97 46 a8 7f 
+    db b4 04 24 9b 3a 52 37 12 6a 87 04 75 cb d3 c8 51 ce 4f 32 32 c8 39 93 97 81 34 f0 3a cf c4 fd 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0037, Index: 0x0000, Length:  256) : 
+    81 60 8a 29 de 12 0d a7 92 00 c4 52 ee 1f 0c e7 95 05 58 c3 6a b2 0a cc 64 0f 8c 58 cb 43 9f 31 
+    fb e4 9a aa dc 97 f7 a5 a9 5b 90 25 e7 87 c2 04 16 6b 31 e8 0a f4 d5 db f6 10 38 1e d4 37 da fa 
+    15 83 c0 c7 8a ef f9 a6 a7 d9 60 85 0f fe 65 0e 20 54 0f 51 59 c3 d7 62 5c f2 4e 7e 00 c6 32 b8 
+    c1 57 31 e6 99 65 fa aa 77 d6 43 2a fe b3 2b 8f f1 32 69 3d c6 bf e7 97 d5 cc 13 ce c0 0f 3f fe 
+    f5 c7 af 3f 30 5a f9 4b ca ae f9 a2 52 ce 7e 7b 28 60 b2 c2 da 86 c8 2d 6c 88 ee 37 14 d6 be 9f 
+    67 fa 2b 00 75 2b 09 3c e4 59 b1 21 59 81 e9 38 43 5f 12 16 49 94 2d 9c 8a 2b 23 e4 5c 39 89 ec 
+    96 41 6a 9b 93 2d 16 b1 1c 6b 54 9a 72 ce ee 77 f3 b0 8c a5 2d 78 31 1c ed 2c 4d cf af ce ed 84 
+    9b 41 f6 84 60 26 c4 a9 21 21 51 58 8d eb 32 7f 35 2c 08 8a 72 ad 09 56 c2 96 50 cc 53 6f 9b 07 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0038, Index: 0x0000, Length:  256) : 
+    8d d8 e1 0b f5 8c 2c b6 3f 0a d4 20 17 df 9f 19 80 5a 6d 8a e1 f3 a5 f7 f1 cc f0 06 70 9e b4 a0 
+    10 ab 58 42 cd 44 e7 e9 08 b4 77 73 88 b7 92 ef 41 6c 8b 95 d5 23 36 8a 81 71 35 08 97 3c 0e 7f 
+    96 16 04 b4 3e 3a a6 af 1b cc 9c 14 af 1a 1e d6 77 a2 af 22 cd 36 c4 2e 1a 09 d6 4a 3f cb d3 c2 
+    ff a6 59 67 a5 79 a5 f3 44 6b ab dd 79 e4 8e fb b9 1b 6f e3 c5 42 50 b8 5a f0 90 75 f8 24 85 4e 
+    a0 90 aa e3 73 78 4f d5 ed 36 2a 43 d6 bc 4c e4 55 29 87 03 f2 a2 ce 26 6b 12 4f 40 f4 4c 3d 71 
+    74 4f ee 33 b3 ca 7a c3 1a 84 ba 5a 41 9f d3 7f 33 b6 d8 00 71 17 3e 68 0a 91 28 5d 68 cc 30 2c 
+    7b 5e 08 7f 10 16 f4 b7 7d 18 a3 45 ae e5 3c a4 1d 4b ff f3 bc bf c2 5f 62 04 d0 34 f0 9d 22 dc 
+    99 41 98 6f 54 b2 7b 8e e5 44 e9 87 4e 41 09 b6 11 d6 04 60 26 7c 61 67 8e b7 1b 42 78 1c 36 8a 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0039, Index: 0x0000, Length:  256) : 
+    a8 1d fb 14 ed 26 89 fe 05 73 e0 1c 7c 24 87 65 f5 58 01 27 a4 52 37 52 51 0a 74 7b 81 9b 06 26 
+    7b 1d ac 87 3b 8c d7 93 93 5f 5c 1f 39 c7 92 e1 eb c3 13 9a cc 6d 8f cf 81 20 ef b6 7d 39 eb 7c 
+    0c 1c 61 80 16 3f a8 08 b8 2b 05 8c c6 e8 aa 3a 38 40 56 a9 ce 82 c4 e7 55 53 16 08 fb f2 96 d4 
+    15 66 8b 84 12 c4 de ec 3e 1c ba 02 54 80 bd 0f 77 dc 8d 54 6a bc 2a 6b ac b7 92 8c e6 4d ce 1b 
+    f7 12 91 61 c9 07 da 68 cb db 70 aa d8 5d 99 ff c7 94 f7 85 9b da a5 d8 07 b0 49 e7 b9 61 c6 b2 
+    b4 12 0f 03 ec 4a 8a da 04 a5 62 97 87 e6 a0 74 08 63 c8 4f e9 9c 00 d8 23 59 97 b0 01 86 ac 11 
+    65 38 c3 71 22 99 d9 aa a9 1d 09 95 99 ae dd 87 9d 52 0e 34 c3 64 35 bd 24 53 18 fe e8 41 2e 2b 
+    03 00 52 a2 78 5b 71 bf 85 54 cd ea 8c 92 99 e5 a7 b2 40 59 a4 b3 4a 18 09 95 44 51 da 9f f6 07 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x003a, Index: 0x0000, Length:  256) : 
+    68 25 81 cc ca d7 c6 8a c0 4d 4a 45 18 31 b8 3c a5 8d 57 3f 9f 36 3f de 85 94 c4 58 ca 16 e9 8d 
+    eb f1 55 60 61 fd bb c7 20 d3 1b 02 d8 79 36 1f 4b 58 d9 9a 81 ab de 42 8e ed 9e b6 9e 71 4d aa 
+    28 c1 a4 b5 66 f2 b8 62 33 52 e1 6f 71 fb 06 36 f8 74 27 dd 20 a2 9f ab 07 d2 61 3f 08 90 87 e9 
+    66 cb b7 25 4e 76 88 ef ed 72 9f 8b 3b 35 b9 72 34 a3 63 06 d0 8e b4 ff 69 fa 38 c2 a0 01 11 83 
+    25 87 be 8f b5 af a8 e9 3b 90 37 06 9f dc 23 61 d4 59 1f fa eb 77 7b 58 bd a2 b5 45 56 43 99 f3 
+    8e 59 a2 d0 27 19 6f d5 61 29 9e c7 6e 6f 46 fe d3 0b 94 04 e2 87 be de 19 a9 f1 a5 a0 3b 6d ff 
+    db 43 a1 71 d6 c8 57 dd 83 a1 12 1e 1c bb 7a ef c5 10 f1 ad b2 d2 92 e1 02 8d 06 bb f9 e9 ca 4f 
+    6b f3 18 ec 0f 59 9b fc 13 a9 0f 1c 91 34 04 92 30 c1 ae b1 53 f2 b7 49 21 6c fc ca fb 8c ac 4f 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x003b, Index: 0x0000, Length:  256) : 
+    57 21 f1 e4 ab 7c 61 90 89 56 4d 10 6c 0b 27 77 00 70 52 c4 0d 47 b3 8f 4e c6 1d 52 a4 99 6a 31 
+    a3 08 f5 44 7c 36 5f 6b 6d 10 6c 93 7c 9e a6 ef 30 45 4f 1c 2e 9c d7 e1 bc 96 47 7f c0 5f d8 bf 
+    0f 6c 27 21 ce b3 21 ab 87 09 6c 18 60 25 2e 92 26 3f 04 3f e1 e3 94 5c 7e 95 43 d0 0e 91 bf 8d 
+    ee c3 fa 42 1b 54 af c8 a1 78 be ac f4 5c 87 13 08 57 24 33 6d eb ad a7 34 69 7b 20 6d 2a bd ac 
+    e8 0d 7c 09 57 3f 31 8b e8 78 ea 48 d4 ad 36 61 2b 77 60 72 7b 11 dd 62 49 c8 d3 0c 7e e8 a3 78 
+    aa 69 9e 06 02 fe a5 bb bc 3e 59 e7 ee 39 f2 7a a2 6a 2e 47 46 71 8e a0 1a 97 47 c0 93 f0 7a 79 
+    db 2e a8 3e b3 a5 44 f6 90 3a bb 8d 8f fb fd 1a 2a 02 a6 29 c6 86 ee 55 96 62 00 75 bf 45 5a 9e 
+    31 82 a4 df 5d 14 ff ff 49 93 0c 6b 0b 42 9e ae ca a8 02 b2 76 4c ba b0 39 12 0b f9 8a 44 7e b8 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x003c, Index: 0x0000, Length:  256) : 
+    31 3c 24 28 59 7c 5d 29 65 f9 1f 15 e5 dd c0 a3 24 f5 82 41 3f ed 20 de 04 75 b6 59 c0 82 5a f8 
+    84 38 b8 7f 81 bb 9f 7c 21 3e d9 c1 af af 6b e1 13 8b 25 29 9d 95 b4 a8 e6 45 07 05 3a 75 4b 09 
+    87 c4 75 1b 04 1f 78 de c6 ba be fd bf 68 a1 27 61 89 fa 05 cb 3e 30 3b 0a 1d 1c d4 98 8b 0a 9d 
+    b2 7e 42 9c 63 3d 79 d9 7b 93 93 68 9f 4c 7b 6b 14 c8 7d ad 7c bf 9f 1b 11 51 fe 4c 4f f3 38 8e 
+    27 c1 8d 2c 73 5d 51 af 74 60 9f 11 ae 53 86 5a f5 a5 ae 29 6f ea c7 fd ae a1 b7 8e fa a8 11 e7 
+    fb 6a 49 19 90 ff e5 84 c7 50 5e c2 0d 06 71 5e 33 08 24 4d 52 73 be 48 c1 38 c5 7b 1a c8 57 60 
+    39 a0 d3 3c f4 7b 60 c4 c4 c8 f6 21 5d fb fa ce 3f 04 ed 5c d9 d0 70 02 6d ab 85 75 2e 76 ac a2 
+    66 be 30 f7 fb b6 7e e3 f7 02 e2 f9 46 dd fc d0 ef 4a 1d 3b 97 50 5f 15 0c c9 82 50 a4 cf 52 73 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x003d, Index: 0x0000, Length:  256) : 
+    96 29 64 99 e6 bf 6b 31 57 4e b1 2e 9d 36 e7 ac 81 3c 0c 71 17 46 09 59 3d f9 ae 04 95 2b 64 83 
+    b2 5d 41 e1 dc 38 8b 9b 0d fc 09 3e 4d a6 bf 7e ca d9 d6 79 cb 75 cf a3 18 ea 40 4d 37 ec 01 d7 
+    50 05 50 d3 b2 51 c3 74 50 a9 5c 95 ef d3 4b a4 22 63 e1 59 f6 e4 77 d5 70 55 40 40 d0 67 2e 2d 
+    29 65 4b a1 e4 8f e4 b3 72 bb fd 2a fa 56 ef 7e 67 82 fb 87 c9 ff 3e d0 c2 dc 1c 2c 9f 83 3d 9f 
+    d8 a1 96 98 1f e9 bb ee 8f 08 e0 1c 4f df 26 d3 a4 d1 47 cb 1a b2 e4 bb 96 df cd de ee 5b 24 d7 
+    d7 55 92 3e 68 bf 7d b9 18 39 1a 10 ba 92 4d b1 54 ef e8 00 e9 82 43 50 11 ed 44 20 84 50 bc 39 
+    2d f6 d8 d0 39 95 ef 70 8b 42 70 cf 8f 93 a4 e1 3a 86 79 b5 b0 98 8f a5 0f 8c 88 7f 56 c6 7e 6c 
+    8a ac ed b9 44 9c ed a0 74 00 49 e2 ea d7 8b 69 a4 80 f0 0b fd 31 bf 54 e3 c8 13 64 d2 33 e8 dd 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x003e, Index: 0x0000, Length:  256) : 
+    22 6e 43 25 b2 31 57 30 40 26 61 f6 56 b5 df db 74 43 bd 94 43 66 9b 63 50 90 48 15 ba 43 e8 f0 
+    69 72 e4 e8 3b fb f6 52 b1 58 37 56 46 da de 38 28 70 f3 6d eb 8d b2 fe 62 03 f4 09 f3 d7 12 c7 
+    55 a0 11 e4 b1 42 ea 98 91 21 12 26 af 23 69 5b 13 80 49 46 af a3 a5 df 31 7c e5 18 c8 16 60 5b 
+    4b 9d 00 24 83 eb 81 17 c8 29 43 3b 2b 92 77 11 0e 13 65 01 13 ae 27 7f 92 17 09 c6 6d 41 d5 15 
+    22 34 e1 b7 06 7b 75 b8 0f 2a c7 51 23 d0 7d 8b 32 73 69 32 33 3b 5a 8d 29 d4 d9 ae 39 02 9d ca 
+    61 5b 64 4e 18 b8 5f 6a 02 64 e1 d5 a2 3c ab 6a c3 89 a7 22 fe 55 aa e6 eb a8 24 0d c7 2f d6 bf 
+    26 11 d7 76 5c d6 21 7f 01 2c f2 7b ff 2f 5f ea f5 56 c7 cb c6 e9 3a d8 5c c5 06 a9 a1 08 e1 65 
+    ea c3 f3 70 06 37 ed 56 53 da 3d 22 e5 37 a6 fc 58 2d 02 6a d1 a6 66 ea b3 89 f1 78 31 22 f7 17 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x003f, Index: 0x0000, Length:  256) : 
+    a3 7b 71 9d 75 7d f5 b6 2f 6b 10 0a 68 f0 68 bb 03 cc 92 6f 26 e4 31 9f 79 bb 56 52 c2 d3 2a f4 
+    fa 2e 7d c8 88 b9 37 c0 2b 7b 04 db 50 9d ae 72 ea 25 e2 d2 1c fe e2 6f 98 33 06 1b 30 aa 52 f3 
+    eb b8 f7 13 7a fc 88 0a 30 97 af a2 f8 4b 13 71 ba c3 0c 5f 40 77 86 74 03 0b 69 44 01 ca a3 f4 
+    d9 79 48 ca f5 fe 40 85 f4 01 cf 25 95 f8 06 41 ba b7 ba 1e b2 4b fe 5a 2b f0 45 e0 bd 5a 47 fe 
+    fd 92 23 0c d2 7a fa 74 44 43 a7 d6 b9 cf bd 5b 9c 0e 89 0e df db f2 5b 4b 07 a4 91 f5 b9 0e 17 
+    4c 94 01 02 38 c0 c1 78 de f5 3b 21 0d a3 5d ef 24 78 19 63 7e c9 68 a9 fc ec 7b 27 a3 64 6d 2f 
+    1f 00 48 9b b6 5a 55 70 bd 1c 02 ef 55 ee 4a f7 41 4b 00 e6 ab 3f f5 c0 48 a5 1d 53 56 6b 49 7d 
+    00 df 90 20 ef ee 58 e8 75 2b 34 70 64 b6 ea 34 10 26 69 c5 b7 80 1e 43 ac 00 67 5c a9 44 4b 68 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0040, Index: 0x0000, Length:  256) : 
+    e9 23 9a ea 64 6e 1f 94 80 10 67 60 4e e5 22 74 5c b4 4d 29 79 82 af 30 f4 05 12 0c 49 63 54 cf 
+    a1 7c 15 81 12 bc d6 d4 70 30 90 d1 99 61 6a 09 24 7e 9c f1 d3 99 ff d3 ba b5 b2 22 0c e1 9c e4 
+    a8 db ea 41 da a1 4b 27 cd ca 93 a9 94 46 b9 0c 66 50 cf eb ce de a1 7b 8c b6 92 3e ec e1 f1 5e 
+    90 09 52 06 6d 0a 16 02 70 02 88 10 22 82 81 62 1d 2c 3a 00 07 08 c2 3f 20 c9 02 01 74 46 c0 cd 
+    55 b8 39 88 fe fa 5b f3 83 37 29 12 7e 40 cb 77 25 ba 63 d0 5c b9 a0 83 13 51 a4 cb 4b 38 ef 51 
+    74 42 d7 5a 9f 7f 5e 15 cf 36 85 62 5b 67 e2 a3 87 a6 95 01 63 a5 d6 0b 80 58 ca f0 52 fa b3 16 
+    04 34 94 16 bc fc 1e 0f ff 39 9d 44 9b 39 55 ff 7a 34 54 4e a8 7f 97 2e 8f 97 02 86 9a ce 98 b3 
+    80 40 8a f5 3d a8 b2 1a cc f0 86 11 49 f1 09 cf 28 85 88 83 48 7f 9f eb 2d 87 8d a8 de 94 68 fd 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0041, Index: 0x0000, Length:  256) : 
+    17 d5 32 01 28 84 68 00 a0 62 00 22 0f 8d 84 05 80 3c 00 4c 29 f7 88 21 48 41 06 0c 72 cc 21 44 
+    72 93 17 8a 57 dc fd 64 fd c7 2d 4b 55 a8 bc f6 4a 42 1d 53 f8 ff b7 e4 b8 1f 59 1f c1 b4 1a bd 
+    85 4d 82 a9 87 c2 f9 ec 46 31 fc 06 db 9c 1d 60 96 13 79 92 64 db 4d 76 c5 7b 18 20 04 35 76 78 
+    42 c5 a5 38 ca 9b af bf a7 34 98 14 4e b3 f1 5d 93 be 83 cc 96 09 16 75 f3 8e ec 53 c9 d0 d6 8b 
+    04 05 c6 91 0b 5d a5 8a 49 68 10 e4 51 02 6a ca d1 00 12 47 58 d6 26 39 54 76 00 00 83 68 89 25 
+    f7 69 82 30 6f ef 4e 5d f4 65 00 3f c3 28 f0 b3 2d 6c 86 5a 9c 6e 14 bd 99 83 37 14 13 73 fd c5 
+    66 36 34 2b 4f 1e 3c 27 5a 0e bf ad 45 46 4b f3 b1 ba 68 b5 1e 4c 8f 37 5d 47 c2 ac 61 40 f7 cc 
+    69 24 24 0a 75 f1 3d 3e b4 ac 86 3a e7 80 86 77 00 cd 11 56 01 28 4a 7f 48 af c9 89 99 58 1b 9f 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0042, Index: 0x0000, Length:  256) : 
+    72 b8 0c ab 44 67 09 bb d4 20 ab 4b 29 4a 8f 2f 15 b5 94 a8 b1 52 ee dd d1 1e b0 9a dc f0 7f 5b 
+    fd d1 f9 78 1a d2 0f 75 27 59 7a c5 a7 b8 2b 6b da 59 13 14 97 38 bd d2 28 cc 60 2d d9 ce 90 49 
+    19 42 49 1d a6 df 67 31 7f 5d 10 a4 00 1c 2b 5d c7 64 3d a5 33 dc 82 72 37 9a 28 17 80 3f 35 57 
+    57 b5 44 49 dd 28 dc af 4f 69 a8 70 6f c3 6f b5 4a f8 42 38 a7 76 88 ff 4a 5d eb cf be fc 22 f5 
+    b7 af db b3 bd 6d 5b df 98 83 44 07 37 4f d3 f0 c2 3b af 11 f4 4d f0 d8 73 a4 cb 7b d6 03 4f 74 
+    20 a0 e1 04 d7 48 d8 1b 15 68 a8 e2 7a 93 6c 26 06 92 63 58 b6 05 af 18 ac 99 21 a5 77 99 d3 67 
+    6c 83 34 df cc d7 d1 8a 66 0e de 94 16 17 d0 ac c9 34 fd 41 ed e3 31 7e 1f 4d 82 18 a3 c5 1c b7 
+    94 7e 53 65 22 fa 7b ea 27 24 40 08 14 bb 10 01 84 e5 46 6a f9 fb e8 9d 10 45 90 13 3c c0 6c f8 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0043, Index: 0x0000, Length:  256) : 
+    5f 30 07 e5 87 91 19 f9 73 5c f0 14 73 5d 9e e7 61 8e e1 29 7c bc 63 85 10 fe a1 83 0d 57 bf 94 
+    5a fb 10 dd 25 f4 29 72 02 31 09 6d 6f 93 c7 97 93 bd c5 ed c7 6e dc 61 a3 f7 d9 e8 d8 a4 fd 05 
+    70 63 59 3d 22 ff fe b9 3b 18 30 a0 fa f1 da 35 31 f6 c8 28 ba 6a 3e 98 6c 9e 43 a7 64 c7 f6 b6 
+    a0 c1 09 ec ec cb 0e e5 57 2a 09 1e 9c 11 c7 ee dc d9 31 1e 97 a5 33 6a 6e 2b cb 24 e7 f1 be 5f 
+    fa b9 c2 16 d3 64 cf 1c a9 79 c1 e0 75 5a d5 00 84 a8 27 14 4e 64 75 d2 19 75 5f 4e 7e 61 53 f9 
+    32 4e 36 53 20 ce d7 36 c5 d0 02 2c a0 07 88 ab f5 4e 42 d2 ce f5 4d 41 c9 86 e5 a6 fc eb ba ef 
+    bf bb 49 39 87 3e d6 c6 84 da 29 b1 8d bf 6d 4e 0a db fc 48 fa 32 97 89 4e c7 ed 1a e9 cf 72 a7 
+    44 07 f0 fa 91 6f b5 e8 44 1b 58 de 00 47 fe 89 82 52 25 92 06 27 31 ad bb cd d2 a1 49 20 28 2f 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0044, Index: 0x0000, Length:  256) : 
+    b2 92 d0 43 de e1 37 4e 5b 73 e1 a1 8f 61 d7 c2 4c 98 a2 8f ae ba c2 d8 62 32 53 22 28 7d b1 db 
+    65 43 9d 3b 54 63 96 ca ec 70 54 1d 35 b7 7f 6e 62 2c 36 95 5b b4 2e f7 fc 65 dd 21 f8 2f 37 f6 
+    02 5b 06 0e 3b 7b 92 97 44 cb 4a c5 a4 70 ce 5f fe d5 2a 27 d5 35 cd 6c e9 81 1d 27 a7 47 50 25 
+    4c 2a 47 b7 21 de 37 4a 05 28 81 95 e5 94 9d 9f 7f f4 87 49 a9 f0 c0 6d 05 0c c4 a6 21 4f 2a f8 
+    4c c1 37 10 ef 2b e5 a9 88 2b 1f 6d fa 5b fe 67 e1 f5 39 d5 58 38 57 e8 1e 52 89 3d 06 ed 4e f9 
+    d9 02 c0 08 62 24 ef 3e 5e 16 5a 64 99 23 00 8f 58 10 14 a6 a8 e3 36 e4 a4 60 24 51 c6 e4 0a 26 
+    b1 2b bd 6a 66 cb bf 3a 7c ee 74 4d 68 52 fd c4 42 e5 ce fb e0 ff 59 7b 22 6b 6c 7b 59 84 66 07 
+    d7 0e 85 8b 07 b2 54 cc 35 8f 54 06 8e e1 4a 72 34 9c 6a 8e e5 19 c0 b2 b1 06 f8 a3 58 cf 35 83 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0045, Index: 0x0000, Length:  256) : 
+    5c 05 3c 93 89 f8 88 8a 28 38 56 c0 97 2d 9f 6e 24 26 28 8e 4e 0d 7e 88 81 b1 46 78 ca 31 aa ff 
+    5d d6 31 e4 14 79 d7 a5 2c 9c 48 79 94 de 5f 1d 75 a4 0c 5e 61 bb 2b dc 01 18 50 22 55 0e 7c 7f 
+    00 2d 22 11 9e 74 25 ef 4c 86 24 95 39 4a 1d 28 f0 27 ae 39 5c 51 b4 3c 08 51 60 40 18 52 fe 63 
+    dd 4d ec 77 ca ef 81 f6 e1 d3 64 38 1a 19 77 df f3 bf aa bf 56 83 32 35 38 fa c1 00 76 ce bb a0 
+    a0 43 05 b9 fe 3b 1d 2f 9b ae 35 ac 19 16 16 0c 3d 21 f0 81 21 e8 fb ca 2c a3 94 d1 bd f6 29 f6 
+    33 38 c6 6b ec f2 dd 5b 90 78 36 9e 81 14 5f 16 c4 e8 7c 04 8a 41 d7 d0 07 46 53 c8 33 20 68 ef 
+    8f 3f 17 e1 d8 b4 f0 3a 2d 88 35 96 bd 45 b3 dc 89 17 14 bb ed 83 db 04 db f5 1b 6b 3f a1 e1 a4 
+    d9 77 bf f1 1d e9 ad f5 4b 89 b6 12 31 7c 6e 97 3f 25 cf cb 2b ac cb 57 53 ad 5f 30 de 7a b0 83 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0046, Index: 0x0000, Length:  256) : 
+    c1 06 00 64 30 c7 dc fc 9e 91 c6 be 27 2f 4f d3 34 2e c3 4f 7c f9 88 8a 71 4d e3 d2 81 c1 d4 de 
+    13 a6 69 d2 28 cd 2f ca 6e 0d aa 3c ae bc db df b8 2a 87 4a 09 57 8f df 8a 93 a2 c5 ff 1e 94 af 
+    28 44 79 e3 79 e8 a6 9c 20 bf 31 50 40 e1 9d df 19 bb 01 64 4e e5 de 25 1f 09 0d 44 52 2b d8 3e 
+    ac 24 70 4e ed fe ef dd de b3 e5 ec 26 e5 5d ce a7 66 0f e6 f3 29 fe d5 2c a7 c4 b6 8f a2 da 4e 
+    ba b5 72 80 85 f0 2f ed 69 e6 8d 3b 5f 52 f7 9b 36 ae 63 c6 bb 9b ef 52 19 7d d9 13 fd aa 98 c9 
+    00 c3 0a 0c 84 9c 93 a0 82 89 94 0d a5 1d b7 73 9c 57 ba 79 fd b7 b2 5a 6e 3a a5 c0 6e 42 07 95 
+    91 41 90 28 74 33 4a 08 fd af 6d 43 e8 92 2b 37 33 9e e7 05 ca 64 03 fb 2c ab 8a 54 76 68 8d 4b 
+    75 ae c5 9c b9 c2 f4 5c 24 99 34 2f 6e e4 8d 26 84 06 60 98 e1 2e ba 80 95 4b d0 c1 fa c7 eb 5d 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0047, Index: 0x0000, Length:  256) : 
+    00 32 c6 6c d8 7a 76 1c 82 70 fc 06 68 08 c5 03 5d 04 b0 02 97 03 9e c1 60 5d 25 58 ee ff 17 9d 
+    98 25 ce 65 3c eb fd c6 e1 a0 5a 11 a7 c8 ca ef 1d 15 e8 b8 ab 08 b5 b1 15 71 b8 80 5a ca 70 f6 
+    9b 93 e1 54 60 3e 74 81 7c f7 65 12 d4 c6 d2 4b be 14 96 0b 2b ee 1c 74 33 12 68 68 37 8e 71 ff 
+    73 30 5c 95 56 08 d0 35 72 c9 c6 36 27 4c b5 fb a5 f8 87 bf e8 bb ed e4 e1 07 79 84 77 dd bd 6d 
+    53 b4 5c 59 61 bc 85 fa 6e 8b a3 4d e6 fc 5a 45 9d c5 43 0c 4e 4b b6 54 b6 83 46 1d 0b 25 91 fa 
+    31 7b 5a 62 d5 fb 0a b8 b8 02 8c 18 40 8c 9d e1 3c c1 4f 85 4e 87 82 c2 38 04 14 08 a9 24 89 1c 
+    51 41 42 e5 6e fd 29 ef a7 d4 80 0a 1e bc 19 9d c3 cf ee 28 fe db a3 e2 eb 95 18 bb 7d 2b fc f4 
+    d1 29 c0 db 5c 37 8a f6 9c 09 0b 8e 0a 9a 59 30 26 e3 96 00 1d af 19 f8 f8 c4 4a df a7 ef d2 c5 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0048, Index: 0x0000, Length:  256) : 
+    b8 d9 eb 41 73 fc 9d 27 1d d0 a8 89 ab bf 15 d1 19 f6 48 2d 30 77 34 ad d1 bb 82 8b fb 70 16 a8 
+    bd 30 24 74 50 d0 e4 d7 5b e9 5d 0a 7f 38 f6 d1 82 78 ce 44 df 1d e8 ec 01 20 ab 58 4c cf d0 9b 
+    7c 7a bd a9 a7 6f f7 58 a4 b8 92 87 58 a7 6e d3 22 db b0 4f ee 6b d1 cc 16 40 69 22 62 61 9b ed 
+    01 54 ea fd 3b 71 69 9e 71 5a de 80 de 6f 38 bd 2e f4 28 43 69 39 97 a8 63 19 16 86 f6 9b fc fa 
+    52 08 a5 79 e1 4f ce 84 26 ba 80 90 4f 1c c9 79 b7 b8 25 a4 f0 91 af 77 7d 06 0c 2a b0 d7 3d 4c 
+    14 bb 1d 1e 45 44 91 e0 f9 b0 da 8b 6f 3f 36 cb bd a4 cb d9 04 b0 ad aa 4a f0 93 72 b7 56 3a 85 
+    89 82 08 c3 4c c5 9b b4 59 50 73 78 fd 3a 39 f0 0d e6 60 41 43 29 ef 68 8d bb 13 8c f3 59 ec 53 
+    41 18 7c 55 72 a4 0a b1 4d db d6 1f 36 89 f9 aa 44 4e e1 33 c2 ad a8 64 2a 37 31 a3 37 b8 eb ea 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0049, Index: 0x0000, Length:  256) : 
+    54 23 c6 20 68 b4 0d 5e 5b cd 4e 5d dd 5e 3d e6 3d 50 e1 2b 78 3f 72 64 10 3b 3f 31 98 71 ad bd 
+    f1 18 db 9b 2c 4c 0f ef db f2 ea 9e 6f d2 61 67 60 07 82 7a bb ad f9 ff 69 a2 a4 26 f9 22 f5 f9 
+    a5 d4 2a c4 64 0f 88 05 1b 61 aa e0 d2 09 e7 6c 1a 9e a1 22 33 dc 22 52 f8 64 6f 80 e4 d5 f9 10 
+    ae ed 1f 74 0e bd 7d 07 2e 22 a8 7e bd 92 cb c9 b8 10 2b 90 5e 70 bc 58 35 52 d8 bd d7 ec 13 67 
+    d3 36 07 06 06 e6 9f d7 42 2e e6 b1 d0 5f ba ab f6 e3 ab 23 42 19 fc 99 3f 93 44 c4 d7 b8 72 ec 
+    81 ba c4 46 d5 3a 30 ba cf 20 95 44 83 3d 22 4b 06 7c b0 41 17 39 4c ba c3 47 55 4c 8d 58 f1 d4 
+    77 62 25 6e 50 b6 58 db 81 06 a4 e5 ce ba dc 95 0d 9a 58 ae da 72 48 ae ab fa 95 43 9f fa 7d 55 
+    c8 7f a4 ac 22 5f 2f ab 55 8e 8a bc 35 de 99 61 66 21 4b 63 49 f3 83 5a 8c d3 cf f7 49 ed 05 6c 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x004a, Index: 0x0000, Length:  256) : 
+    02 a4 14 56 7f 99 a5 a0 4c c9 bc 3e a0 a8 cf c8 8a 11 13 6e 95 2f 65 24 2a 33 21 a4 d9 9b 1d 7b 
+    44 ae c5 a8 0a dc f4 e1 cc ae aa da 86 e1 5d 81 8d 9a 25 99 b7 24 85 6f 7a 4e 22 07 d2 55 d9 fc 
+    0a 80 ce 06 64 ba 96 cb 0a 4d 1c a2 dc 22 01 ff d5 1c 67 a2 e3 bc 3a 5e 6e 4f e0 58 16 13 92 6f 
+    46 01 eb 8e c5 ee cb ca 53 52 ec af 5f 2e 20 77 83 98 36 f6 f8 74 e5 7c 03 41 12 0a 59 f3 d5 24 
+    4d 9f 78 fa 55 ff b2 e3 a5 69 8c d5 a8 2b db cb 47 f0 3f e2 de 95 cd fd fa 04 22 b3 d8 fd db 33 
+    82 d5 c8 13 c5 7e cf 7e b9 7e 27 04 5c 9d 1b 69 a3 38 f6 71 bc d0 bc 87 0c 34 04 31 dc 0c 2f f2 
+    77 01 57 3a e3 74 75 b1 e9 e8 bc 8c 8a 1b a8 68 73 27 3a f5 a2 8a f8 91 05 80 c6 a3 3a a1 a0 e8 
+    16 12 f3 9f 60 f3 88 53 19 28 87 ea a6 9f 22 67 9c 98 17 33 3c 11 a9 1e 13 86 73 0a f9 7b 17 1d 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x004b, Index: 0x0000, Length:  256) : 
+    eb 3f 0e f3 72 ad 39 f2 cf 22 0c b6 8a 53 4e f8 4c 2b 2c 88 63 a1 4c ee 05 9e 28 e5 2f 42 df 81 
+    6e 64 2d 67 e6 8f dd 3e 12 1b a9 70 b5 79 c4 73 16 e2 89 69 bb f7 cd f7 05 11 cf cc 5b 6d 97 27 
+    63 be c6 28 bc 9c 6a 66 c1 0c c3 32 fb 27 11 bf 3b da 53 e9 b8 0f 08 2e 13 a1 1c 4e 7c dc a7 e2 
+    3c 3f 84 e3 ae 86 e8 bf 43 74 94 7b cd af 38 2d 3f 16 c8 9b 3f 69 d7 f8 00 a2 b5 19 6f 73 da c2 
+    be 46 a9 3a 92 99 7f 79 b6 40 2b 1c 7e 3e 98 c6 30 80 39 c5 6f 7f 69 f1 e5 62 98 c1 5b 69 fc de 
+    9d 0e 68 b7 3c 5c 30 f4 1a 2b 01 f8 79 dd 36 e8 b5 e1 60 21 52 7b 2a e8 75 07 bc 7c dd ec 55 73 
+    86 57 b6 2f 80 56 7d ee 52 d3 1b c3 7d 6f 7d b9 85 e5 76 ab f6 ba 66 0d 9a fa 31 4a 21 5a cc fb 
+    1a ac a5 76 03 e7 1d 09 32 94 4b 61 19 29 22 f1 cb ae cc f1 ee 60 9a 35 99 c6 19 b2 47 b2 97 35 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x004c, Index: 0x0000, Length:  256) : 
+    35 44 b0 da ee 47 30 38 b5 80 22 0b 94 f3 77 09 47 30 e4 bd b6 d3 46 95 17 e0 10 af 2d 92 8d 85 
+    68 3d 5d 3a 7e 9d 80 eb 17 eb e8 b5 23 3b c8 e1 37 51 6d 11 72 ad 8f 88 2c 60 d7 a6 38 3f 8f 17 
+    83 54 08 50 bb 1b 15 33 00 5a cb 80 75 fb 3a c7 32 32 08 61 42 39 fa d2 66 0a 94 f0 fa 0f b8 77 
+    b4 05 16 a5 76 7f 07 72 34 78 78 40 bb 5b 44 97 28 05 6a e1 62 eb ed 7c 3b cb 65 af b8 d5 ef 55 
+    c5 a3 44 69 4a df 7a ac 2c 46 94 60 28 b7 2e e9 6e 40 57 3b 4a 0b 50 fe b1 b2 3c 62 57 e4 3f ae 
+    b9 03 f0 84 e7 d2 31 7c 45 31 1c fa 8d 6c 1d 37 c1 c9 d9 1e 08 dc cc 7e bb f4 c2 82 f4 68 12 86 
+    e9 48 52 4c 53 a7 9a 99 0e 74 70 0f c5 68 ec e3 cf 87 8d 2b f1 ec fe 70 e5 19 f6 7e 3f 10 d6 97 
+    5e 10 49 00 3f c7 f6 8a 2e 6a 6d c9 77 4d 3f 8f c8 19 c7 0a bc 48 eb 3b 28 34 e8 2b 32 07 ef d7 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x004d, Index: 0x0000, Length:  256) : 
+    84 d3 35 09 64 fd cb 5c 4a 41 10 ce ef a7 ea f7 0c 09 33 9e f0 4e 4d 78 3a 32 00 4d cf ea 24 5a 
+    30 40 34 b2 02 30 13 7c 8c 28 06 5e 6b ed de 1e de 2d f2 6f 3f 98 c7 a0 d7 e3 39 f8 f7 e7 33 f7 
+    bb 28 94 4a ff 7e cf 58 85 50 a5 6a 84 b4 ed 25 f9 88 73 0c 28 e5 19 a0 5e 90 12 b0 18 39 ec b9 
+    18 90 7e 26 20 57 9a 36 33 b8 3d 70 ad b3 3a 77 da e6 26 86 db 9b ff d8 03 80 6d 61 b4 2f cf 3e 
+    ae 47 ff 03 3d f1 ca 5b 99 bb 98 af e9 76 92 44 c8 a6 85 2d e9 87 92 c1 43 ea 39 06 1c 7f 11 3a 
+    43 d5 ce c6 de 5c dc 01 0d e5 8d aa 9e b7 46 41 6a d0 b8 1b ad 72 a1 0d 36 e9 cb 6d 8d 69 8e 67 
+    f5 12 e1 6e cc b6 8f 6f a6 80 6e 45 ad ad 51 8b 98 73 94 c7 f1 60 89 bd a2 c8 91 f3 7a 98 66 29 
+    35 84 3b 24 4b 3b 3d ce a1 26 5e 86 f4 8c 5a e5 5e 22 1c d8 07 ef 31 1f 1c 85 53 45 59 22 a3 f0 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x004e, Index: 0x0000, Length:  256) : 
+    2a 50 2e 70 d9 35 06 30 15 52 8d a4 1e b9 bd ed 9d 16 17 4a 30 99 8d dd b9 d0 ab 88 28 6c 1f 3d 
+    7e 2c 7a 2b c7 46 8c df 30 68 ad 11 cd 17 f9 db 5b 44 f1 fd 3e a1 66 ca af e1 9c 48 2b 76 fb b6 
+    16 60 ae 89 ad 17 7f 07 82 63 ed 8a fe 94 72 61 ce 95 f9 1c e0 73 4f 4c f8 b1 8f 94 ea 5b 5e 9c 
+    25 39 23 a3 fb bb ad 56 f0 0f cd d8 7e 8d bf 72 6a 07 6f ab 8b 16 5f a6 65 28 25 23 1e 7b fc 72 
+    11 5f 61 c4 47 5f 3a f7 00 b3 01 d8 bb bc f3 9d 27 3a 27 56 9f d7 da b6 e2 ca e1 ad 9d fd be dc 
+    05 e5 c8 27 81 09 df 7e 35 cf 1d 41 1c 00 a5 19 47 a8 18 e2 0e 11 cc 16 69 c5 92 5a fe 0b aa fa 
+    37 51 89 b1 b0 8d d4 a2 34 7f 54 7e d2 7b 01 73 f7 3a e7 59 9b 66 3e ce d7 ed 3f 82 a3 ab 0b ab 
+    34 35 c2 56 47 eb d6 61 24 ff f7 5f 6e 8a 9d dd c1 ba da 53 d5 86 66 c9 33 e8 47 6f e3 6f 40 19 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x004f, Index: 0x0000, Length:  256) : 
+    b3 00 14 38 ea f3 2e 69 23 7e 80 79 2d ec 1d f1 9f 2e b8 c3 e4 9b 30 77 a3 3c 13 42 4d 6d 7f a5 
+    68 b0 b5 2a ba 5b b8 5e 7a 74 9e 1b 61 c5 a8 b6 33 b0 7d e5 d7 8c 56 de 70 59 20 08 fd ba e0 7c 
+    00 22 34 e3 cc df 1f 68 59 34 16 1a ea 7f cd 63 10 1f a9 65 60 43 59 7a 4c 11 c0 05 a7 2e 85 cf 
+    a5 22 96 0d d9 fc d7 b8 e6 cd 59 c8 9d fc 28 6a a6 35 99 d1 b9 db 40 e3 1f 39 49 ec 4d cd ef 75 
+    5d 7f 2a c4 af 99 b7 fd 6a 78 ee d1 d5 d6 34 b8 0d 86 4e d4 ea 4b 1c 3d e0 e8 a3 ce be af af b8 
+    6a c8 2a 04 f6 3e 17 5b 40 58 11 87 87 45 87 ff a8 53 fc 61 61 59 59 ad 85 07 40 56 ca a5 17 c3 
+    96 84 c4 9a bf cd b5 2d a3 80 1a 4b 6f 3e 65 66 34 44 7f 7a 5e d5 51 63 26 92 fe 5b dd aa a6 94 
+    9a 38 17 52 c5 aa 98 fe 35 2f 3b 02 f6 19 23 ba 21 8c 65 cc 3f ce d8 db 7e 1a 44 a6 1b eb 85 35 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0050, Index: 0x0000, Length:  256) : 
+    d4 47 9a 44 d1 8c e1 e2 bd 16 2a f8 da c2 b2 7d 92 40 24 45 cf 7f a3 71 00 28 13 aa 0f bb bc 3f 
+    38 ac e7 15 e6 18 e3 cc 00 6a 3d 9e df cb a3 7e d9 20 a1 b6 64 dd ef 51 fe ac c9 70 4a f7 69 d5 
+    25 62 dd 41 47 e7 48 25 0d 74 37 60 75 95 78 69 6e 9b f9 a6 4e 7d fc 3a 41 c0 b5 18 54 b7 9a d5 
+    85 ba d6 0b 4f 2c bc ef b1 76 bf 38 c6 e5 f4 aa 66 49 3f 27 d3 5c c6 7d 41 80 29 86 dc 8f ff d9 
+    47 4e 81 0b 7c 3c 16 94 12 07 9a 35 f1 92 bb b7 5d 86 bb d2 00 ff e9 f6 48 7f 1f 46 b5 fe 5c e9 
+    c7 42 74 37 2e 73 62 ee 6a 12 c8 1a c7 d2 50 4b 15 85 0a 8a 86 a9 61 08 f0 78 9d ec 17 30 15 fe 
+    8b 4d 54 a2 fd 61 36 6d 09 53 03 55 50 ee 97 ba 4d 08 23 f6 55 8e 72 cd 3d 0f 05 41 5b 79 7d db 
+    d4 78 d0 a2 7e d4 d8 0f f2 08 60 2b 0f 97 51 ea 84 59 40 59 6b a2 0a f8 24 20 32 51 b3 0d ed 40 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0051, Index: 0x0000, Length:  256) : 
+    75 31 57 4a 96 7c 63 a5 00 95 a3 1c c4 dd 3d fa c6 80 fc 6d 45 4c 13 54 1c 23 ca 46 1d d0 7d dc 
+    d2 70 5c 86 74 dc eb f9 a3 d7 75 33 07 b1 de 3e 02 ae 48 4b ee 76 dc 19 98 44 00 4d f6 3f ff 4d 
+    10 6c c0 6f bd b0 7b 9b 94 6b 2d e1 bc ff ee 0a ea 2c fd c0 da c8 da c3 1d 3e 39 11 60 c8 44 a5 
+    dc 45 38 88 e4 69 e4 c5 21 51 19 7d bd cf c6 b2 2c 78 61 81 e5 f4 4a b0 54 23 4c bf f4 8a b5 1f 
+    18 ed 20 c0 db 72 cf f0 1b 27 83 eb 72 3c 4a d0 c5 d0 72 78 f6 ae d5 ed 43 5d 4b 16 67 44 5a 20 
+    13 05 60 e6 7b 99 b9 dd fb da af a1 a9 28 5a f5 56 eb 21 12 a2 f2 b0 2e 8f 80 06 2a 87 76 51 ec 
+    bd 10 2a ce 2c 91 ee e7 91 00 a4 81 f2 77 da ab 6c a8 50 d8 37 41 02 e3 c8 ae d9 fc 77 d6 38 e7 
+    45 7e ca 14 ce 1e 09 e4 41 ca 82 37 20 44 f3 e2 57 da d7 d0 05 ca 1b c2 49 a2 02 08 83 a1 bb 1a 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0052, Index: 0x0000, Length:  256) : 
+    bf 00 c9 58 58 56 7f 47 40 e3 b0 04 a9 26 d3 c7 14 44 21 04 8f 73 e4 46 91 11 b9 1e 6b c2 cb bf 
+    bd 0b 59 12 c9 97 fd 1e 92 90 15 33 38 7e e4 54 c7 a1 34 85 af 6f b1 9e ce ac de a2 26 eb c8 af 
+    95 25 01 07 b6 1f f1 6f 87 35 06 74 ab dd e1 5c 33 80 de 2b 47 6f be bf 89 22 01 31 b3 64 eb eb 
+    9c 74 9e 88 a3 d8 e6 69 0b ef 96 4c e1 88 e6 5f 00 00 f6 41 10 ef b3 2c a9 80 c7 1c e7 b7 ef 59 
+    da 52 be 39 7b 73 33 3d 42 2c fc 60 43 f6 37 b3 07 18 3c 8c 67 2c 7a 00 ff b1 32 22 72 2c f9 20 
+    b0 45 53 00 25 9a 81 ea 08 42 8c ad 47 47 5a e6 8a 7e 6f b5 db 89 64 de 30 09 31 b9 49 ae bb 87 
+    cc a6 af 6d 56 4e e7 86 a5 7b e4 72 0d e8 e2 fc 28 37 93 7d ce 38 e5 76 a6 1a 45 ee 69 33 d7 a4 
+    ed 58 0a 48 3b 14 e3 89 f7 20 d0 e0 d4 dc e4 f6 93 bd ad 01 4f c9 99 c6 91 e2 e0 a6 29 0c 04 f1 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0053, Index: 0x0000, Length:  256) : 
+    33 c4 25 b1 89 91 e0 4f 5d e3 52 4b c2 ec e5 b6 d3 81 84 2d 90 e2 bc ed 0b 31 80 a1 cd bf a9 f4 
+    91 83 74 96 bd 5a dc 6d 37 82 21 3f a4 1b e3 79 11 b3 b7 a9 bb e3 72 b9 90 5b ce 54 de f4 b0 30 
+    27 08 e4 d7 92 6b 9c 59 ec 30 d0 00 92 b6 aa 72 06 07 52 33 2f ff 92 ed ff 38 66 09 dd bc ee dc 
+    e0 80 e8 4e cd fa 7a 12 a5 95 19 7b 91 20 b0 3b f1 96 e1 62 0d f8 62 28 65 20 57 21 79 09 b8 cf 
+    e5 ee 3a 83 cf d6 b8 b3 91 15 c2 bb 27 55 39 f7 76 b8 f0 18 e2 d6 5b e3 b0 24 29 5d 13 80 77 3b 
+    c4 62 d8 8f 73 2d fa 2a 02 9f 67 ae 64 25 25 40 0f ca 3f 0f fd ea 42 49 d0 11 f6 0a d9 06 79 ce 
+    dd 73 4d 0d cf 3d 24 a7 c4 29 4e 50 cb 1f 12 fa 49 4a 6d 41 00 22 b4 75 0b 5b ef 02 fb 67 24 be 
+    7d 0b 88 21 5a f1 ac 22 06 55 cc 50 b7 2a 2f 75 0f b3 ab 9e 0d fe 23 b2 95 8d db 13 d6 60 be fb 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0054, Index: 0x0000, Length:  256) : 
+    be 50 c6 7e 61 fd d6 f1 44 62 5a 29 48 13 3c 7a 48 33 e0 a6 0d ff 60 2b 0c 80 d8 4a 93 2d f7 7e 
+    ea 7b 62 11 7f 65 c1 33 cd 70 71 0d 7d ef be 68 5a 63 18 ea 8f 99 37 cb 57 55 cd 20 04 af bb aa 
+    bf e5 40 1b d8 b2 30 1d 2a 14 8c 25 42 1d 3e e0 0d d1 12 4b cc a1 b7 b1 40 32 5a 9d 53 65 5e 5b 
+    55 c2 33 23 ce f5 6a f5 20 a6 74 21 e7 39 fe a2 85 48 55 67 06 ef f8 8c 09 40 47 17 3e f6 be fd 
+    11 c6 52 43 ad 3b 34 4e 37 20 7c 49 47 4d 9e aa ad 65 65 72 49 f8 f6 7c d9 dd d0 39 0f c7 91 ed 
+    41 0c af 24 99 1d 54 bb d5 0c 5e 0d 70 28 a5 19 7b a2 64 41 49 a4 d6 38 02 25 44 50 b7 1e 6b fc 
+    ef 22 21 04 62 96 6b 15 16 b1 51 3e 2f bc 05 ff e4 48 80 1a 3e d8 6d 54 e0 d5 a1 81 56 cd bf f4 
+    b7 af 2b 2f 31 bd ed 4b 80 3e 86 8a 60 b3 75 75 d7 2e ce c4 a8 eb c4 19 b4 50 81 db 71 a1 ea 53 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0055, Index: 0x0000, Length:  256) : 
+    57 44 18 84 79 3f 75 ef 2a f6 d5 24 16 af 80 39 74 04 8f 84 fa c9 59 a7 5f 5c ca 4b fe 07 11 b0 
+    82 87 d5 8c 53 1d 7a 13 fc 60 2c 34 ed b5 e6 db c0 ad 77 0f db b7 08 ae a3 dd 1f 43 f0 d7 94 e5 
+    47 28 46 89 5a 77 b1 b6 0c 90 0d 55 db b0 b0 73 2e c4 26 fb fe f4 ae 24 2d 42 68 d8 c4 85 a6 2d 
+    63 43 35 a8 a6 aa 99 fe ae 81 b0 71 5d 71 be 33 96 e2 c5 7d 6d 3a fa ee f0 a1 34 4d 41 4e b8 9c 
+    85 4f 52 5f c9 75 74 8f 88 50 62 1d 59 ac 1e 7a 16 98 6e 49 1e 5f e0 a4 ad f3 4f f7 b2 bd d1 bf 
+    e3 89 53 3e 6f bc aa da dd 8a 24 b2 5d c5 f7 0e 14 c2 47 d1 51 4e b9 2c 18 0a 4b 0f ba 8e 0b b9 
+    cb cc 57 da d6 db a2 6b a2 74 84 24 51 c0 e9 f7 8e 2b 18 50 38 d8 4f da 7f cb c1 8d fb ef 2f a7 
+    e7 6f fa 86 f0 98 ae 15 70 7a a2 a2 8c 51 57 71 28 03 a1 61 86 d9 dc 6c a3 43 1b 15 77 e1 f0 c1 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0056, Index: 0x0000, Length:  256) : 
+    13 84 d8 01 b3 e0 bb 7e 02 d8 8c 86 54 ee 15 46 a4 33 16 41 d8 0b 7f fb aa ad 70 85 98 f7 e3 fe 
+    3f 9c 30 af 69 bf ff f3 83 d1 c6 82 7b ef 3f fa 15 de 45 a8 cd ff b0 df 4c cd 6a 30 eb 5f ae d4 
+    17 c0 62 43 3e 3d dd bb 4b c2 e9 e2 61 8a 68 69 45 3d 78 06 cd 46 f6 c1 a5 e9 21 45 c2 cf 39 b9 
+    25 c7 5d 1d c2 51 f8 fb 03 20 af 2c fc 95 5f ec 5f ff 9b d3 bd 4d 99 d2 2d b9 09 f8 ef 6c a2 a1 
+    68 82 33 94 7b 11 a3 77 6a 68 17 29 1c 0e aa a5 a5 77 6d dd 75 70 b8 ff 89 85 a6 81 99 ae a2 9a 
+    03 39 c2 21 21 b7 b0 f8 c3 2b f0 97 4f 70 c7 eb a0 20 32 d6 cd 20 0b 09 26 81 a6 13 8e b5 8e 45 
+    5c 83 a4 10 51 e8 36 f9 0c 22 a2 bd f1 f1 eb eb d6 7c a0 0e 7e dd a4 59 c8 96 25 ba be b3 a9 19 
+    2a 06 7c 43 78 05 b8 cc cf 46 88 2b 33 ff 4f d6 20 31 8d a3 2a 4b 71 bd c0 4b 4b 88 8a 88 00 f2 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0057, Index: 0x0000, Length:  256) : 
+    35 f2 e6 00 7f fb 40 a3 26 a8 48 c2 a1 c2 ac 2f 96 cc 23 47 f7 51 54 3c cf 58 87 ef 22 78 8d 7c 
+    d4 d8 81 49 f6 0d 65 a5 5c 76 f8 92 64 76 b6 35 63 67 69 95 75 ff ae ab 31 3c c3 b1 ed fb 3d a8 
+    18 73 a8 1a 7b 59 e1 7c 82 78 68 82 31 50 7d 34 6d 70 9b 00 f4 fc 4b 6a 8a 88 2b c6 54 98 f5 4d 
+    07 89 9d 02 2b cf ff 20 2e 71 a7 b9 a5 34 8e fe 95 01 fc 21 36 09 7f 1c 06 05 25 3f ab 4a bf 6d 
+    1f cb 22 27 90 3e 58 cd 48 e3 1f 93 6b 75 d2 88 bc 36 70 30 af d4 5d 17 b8 01 27 95 46 69 aa 2e 
+    35 c3 f6 03 f8 62 c6 37 81 81 4c 44 e6 83 99 13 cf 02 88 59 59 2c c5 28 b0 20 9d 62 fc f2 1d 96 
+    bb 37 d1 07 c1 cf 66 e9 e7 21 3e 51 4d 35 29 4c ce b2 34 03 a0 7c 8b bf 0c da bf ef 9c ea f5 e3 
+    29 14 b3 0e 6e ee 93 a8 9a 2d 70 07 96 b0 6d 6c d5 bc 36 19 aa b6 07 2f 81 2d 4a a8 02 c3 2c ac 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0058, Index: 0x0000, Length:  256) : 
+    47 09 d2 4c 67 c0 65 b0 5a f3 13 0e 2f 2b 01 56 04 40 c0 c4 5e ba 5d db 6d aa dc 89 a1 dc 76 24 
+    ac 43 e0 82 85 f8 ff 42 90 b8 04 52 53 4b d9 b3 9e a2 94 3a 50 2d 4c db fb a6 5e 48 3a db f8 9d 
+    4d 90 29 60 c6 0d 6e 99 55 28 d5 a8 a9 bf fd 1f 15 6e 08 63 8e dd 6e 21 0e 34 6b f1 06 f9 6d 51 
+    42 2d da 70 ac 57 c3 b9 9d 4a 17 18 82 6b c1 e6 99 29 a5 fb ad f6 bf 77 5a a0 de a4 76 67 32 ee 
+    12 e0 b5 95 b5 bb d3 6e 47 ff e5 14 f5 9c fa c2 8f da e9 59 7e f8 38 e5 63 71 1b 1c b3 4d bf 90 
+    d3 04 ea af 60 06 5d 33 26 00 1c 90 96 48 f5 d9 d1 00 58 40 02 76 0c fd 65 4c 72 91 88 f5 18 5c 
+    cd 23 40 e6 88 6a 8a 3b 25 23 5a 1a fd 6b b1 ff a2 40 06 e9 d6 23 ad 32 d5 4d 05 66 6f ab 96 54 
+    42 0c f3 23 3b 4d 97 b5 02 7a b6 55 cb 17 d3 04 08 5a 96 9e 5e bf a6 5b 38 68 68 5c ea 76 33 b1 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0059, Index: 0x0000, Length:  256) : 
+    c4 a6 0c 87 9a 7e 3d 82 2f 54 f7 b3 64 22 96 0c 0c 78 93 f2 b7 4b 5c d9 16 6f da 47 55 7b de d5 
+    b0 ae 52 48 3e b9 8c de 20 92 45 96 fc 55 cd 02 d3 54 0e e1 3a aa 03 7e 23 21 a0 22 a1 52 87 5f 
+    4f 80 7a 89 02 d0 fe 73 b0 2c f1 34 62 40 d0 ac 83 84 27 61 58 9b 1c 54 35 70 09 e7 db 36 99 e4 
+    d3 4e 8f a1 19 a5 c5 62 57 40 b2 b2 a8 5b f6 9f 28 42 43 49 6c 32 ac d1 39 c5 f1 f4 3b de ff 24 
+    62 45 a4 96 15 56 13 d8 8d 24 36 62 c7 9f 30 dc 31 13 43 86 85 f2 f6 ec c8 2f fb 9c 19 a0 0b 9f 
+    36 ea 56 2d 0c 77 1a b1 16 51 a4 ad 6b ba 10 b0 93 24 10 36 d9 28 b0 ef 42 e9 28 68 40 dd 67 fa 
+    f7 52 b3 60 e4 b5 80 ec 8b 62 36 3e c3 b4 89 a8 2f ce 48 f6 dc ea 34 e8 c2 ca f2 54 df f1 13 3c 
+    8d fa 64 4b 77 9a f3 b0 6e 33 06 c8 38 3f 5d f4 b5 4a a1 35 71 e9 32 e2 0c f4 71 14 32 f5 c4 9b 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x005a, Index: 0x0000, Length:  256) : 
+    d1 4e 83 80 bb 45 66 ac 38 0d 80 79 58 43 98 58 cd 45 30 32 24 2d f4 96 0b 40 cc 84 a1 6e 3c 85 
+    b5 76 05 f1 09 fd 2b 63 52 91 65 1e cd fa fb ff 20 77 98 5e 5d 5e f5 7e 29 8d 6b 70 90 10 d9 9d 
+    5a 0c 54 34 55 9a 00 f5 50 17 12 19 78 d2 b4 47 4a 1b 79 76 49 71 94 29 20 54 d4 8f 93 88 53 22 
+    1d 52 09 eb 3f fb c4 f1 36 1d 14 20 84 b0 c3 ab f7 47 a1 33 bc d9 bd b1 28 ec d1 0f e8 ba 75 9a 
+    15 90 f2 6b b5 6b 57 c3 0f 69 77 ca c5 a1 92 97 c7 4f 67 d1 c6 5e ca 97 56 f2 68 ab e2 fa 40 1b 
+    86 e7 f6 81 e8 ff 32 fe 7d 61 5e 2f 74 46 2e a2 1f 42 28 07 6c 72 32 df 4c 02 41 e7 cc b3 57 dc 
+    75 57 e3 43 4a 81 c6 d8 f7 08 a5 05 65 0b 9f f1 97 4e 45 a7 6f 24 27 d6 8f 3c eb 6b fa b3 a5 5c 
+    42 7d 74 64 8b 50 43 c2 0f 06 c9 41 8c ee e6 83 17 23 0a cc 2a 83 fa d7 e9 80 5c 4c e1 f2 b6 3f 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x005b, Index: 0x0000, Length:  256) : 
+    59 fa 28 17 32 5e 75 5b 5d 1a 0e 90 06 09 2b 1e 9c 40 30 82 eb f6 6a 5a 45 a2 c7 00 f8 b8 41 f8 
+    1b 2d a6 d2 e6 c4 37 d8 ac d9 af 2a 12 11 92 5b 45 d7 26 d8 ed ec cf 3e 0d d0 8e 56 bd de e6 72 
+    3b 8b a1 88 e6 4a 4a e3 22 38 aa 9a c7 ca b7 eb db 61 a4 92 73 29 03 45 47 96 a1 c9 12 1f 83 fa 
+    57 06 0d 87 88 d2 7f b6 4f 69 22 fe 44 6f 5c 8f d7 63 85 48 fc 6e 97 fb d8 6f b5 34 fb 6c cd 64 
+    f4 07 ba 89 cc 34 84 ba fa 68 d9 18 38 d6 2f f7 cc 5e 8e 7c 84 db d4 be 55 cc a9 fd e1 ee 67 3e 
+    44 81 6e d5 2d 48 dd a3 12 ac 58 53 7b a2 9b 17 18 17 62 62 a0 bd b4 69 19 3b c5 9c 13 93 e8 87 
+    0c 98 4e 26 fd 26 8f a7 2f 19 47 bf dc 32 fe 5a 4e c1 ad 7d aa ff f7 c2 c5 22 68 13 e1 3e ff 63 
+    5c 8d a6 16 42 b0 49 b9 92 36 90 3a e1 6c 7d 11 ba 2c 08 62 30 1b fc b3 17 a6 e1 a2 13 fa 8e 6f 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x005c, Index: 0x0000, Length:  256) : 
+    d1 6e a4 79 9d eb fd 00 29 46 c2 96 f7 ed 24 50 47 95 37 b2 8f a0 cb 7b 14 13 71 df 5f ea df 98 
+    07 ce ea b0 31 d4 80 f9 7d ff 9b 2d b7 22 ea 9d 2d 63 14 97 f5 ac ca eb 98 85 3e 0c 79 ce dc f4 
+    7e f0 4a 6e 79 c1 a1 43 a2 af 09 cd 50 b4 8d 7d 67 57 fd 55 5c a9 9a e0 9d 30 4b 58 12 97 99 e9 
+    0b 55 45 c1 54 d1 b4 8f 17 92 f3 1e 9d 95 9e be d2 eb a1 70 6f 6c f1 8f f9 3d 58 45 7d 07 30 e1 
+    40 ab ca 97 0a 16 7c f1 ca 6b c8 31 54 d6 fd c2 7e 9a 19 c0 dc d9 7c dc 1b 1c 44 22 c3 d8 fe de 
+    72 b3 96 a1 44 c4 c9 ab 36 e0 43 37 d5 74 00 d0 d1 21 03 c2 f9 5d fd a7 14 1a 29 78 c8 89 a2 09 
+    23 09 ec 93 e7 00 63 69 40 c3 c2 b2 f6 fb 5b 2d 86 50 88 c8 de 74 97 ac f1 39 00 09 23 0f ac e6 
+    f4 99 1f 01 c5 a6 de b5 8e b0 c7 01 a1 2a c2 7c cb e2 72 86 b2 fc a0 9d 97 28 4a fc 00 35 e9 cc 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x005d, Index: 0x0000, Length:  256) : 
+    19 54 36 aa 31 e3 98 52 83 c8 9d 36 26 9f b7 4e 48 c2 81 9b ae 7c 56 a6 e7 c7 38 84 8b f5 d7 20 
+    95 3b 90 a1 62 9f b7 89 12 8a 0f f5 b7 da 4a fe b1 4d 28 c6 1d 4e af bd b6 4b 25 c2 2e b6 35 fe 
+    86 17 74 a0 e2 bd 48 1a a8 43 c3 95 6d a3 7e df 01 86 22 81 11 35 be bb 39 12 41 41 77 2e 7c 07 
+    51 8f 22 1d ea e4 bf b4 13 c7 90 98 7a 0b fe 7f ab 01 3f bf 87 a8 ba fb 6d e6 7e 13 41 7b aa e5 
+    fb 94 52 51 9f 75 77 ac 1b 76 a7 80 1d 9a 60 67 09 1a ac bc 37 dd ea e1 0f 16 c3 e3 36 6d a6 e5 
+    7c 42 94 11 81 9f 58 9b 0d 41 2f 90 e2 dd 55 72 2c 04 ed 11 70 92 97 2e f8 f7 12 af a0 f6 a2 67 
+    04 0c 6d 75 c3 96 11 42 0c a6 04 91 ff f3 6e 5d ed 11 aa 49 f3 dc 6b 22 08 e7 d0 6b 95 f3 b0 ab 
+    60 09 60 40 52 46 fe 79 44 03 20 c3 fd f6 a7 33 45 80 25 fa 59 ea 31 32 55 df 4d 81 d7 cc f0 b9 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x005e, Index: 0x0000, Length:  256) : 
+    a1 d2 32 62 bf f2 7d 25 78 6a 52 b4 0e c4 39 64 3b 10 24 16 67 10 48 ed 12 41 75 05 82 41 3e b6 
+    eb fc 58 fb f5 35 ad ee f6 24 f0 a8 3a d4 2d 43 47 24 e0 4c 7b 72 8b 98 88 ff 43 25 72 fa ed 9f 
+    16 2e 16 87 31 e9 24 ba a0 70 4c 0c db 64 4b 36 36 bc 5d 82 ac 63 ba 29 f3 c0 81 9c b5 92 77 9f 
+    92 70 1a 2e b2 f4 0d d7 a9 b7 70 4f ff 75 ed 67 9c 01 59 1d da 90 de 24 48 24 92 6c 22 5b db 83 
+    2c 9b 96 81 df bd a1 b3 7f 23 0b 9c c9 55 78 9b 1d 42 46 c9 b3 ad 2f ee 1f 8b fc 65 bc 1d d7 18 
+    93 b4 97 10 96 78 e1 fd 58 17 df 9b 11 b7 a2 a6 4c 00 ef ed bf 77 35 c9 22 46 aa 36 dd 54 e4 d2 
+    3b 8e a5 52 1e 7e be e6 04 86 2c 1f 07 c5 d5 7e 5d 5a 8e c7 b6 6f 43 33 8a 21 82 23 ff 7b 7e f9 
+    8a 59 a4 b4 27 5f b6 71 7c 8c ad 14 60 a0 34 36 0c e4 d2 1e b8 a8 1e 9e 43 5b 48 3d 8d e3 40 ca 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x005f, Index: 0x0000, Length:  256) : 
+    69 a6 40 96 2f 83 97 d6 44 d1 c7 6d f9 41 be c2 04 aa d7 b6 65 7b d8 20 b2 f3 12 53 20 eb 78 a2 
+    5d 45 69 b1 59 ce eb fa 49 99 5e 87 d8 6e 52 ce 3d ae 44 69 97 d5 4b dd a4 04 13 64 cd ff af b2 
+    6c e2 4d 66 36 08 b8 de 2f c3 43 68 39 a2 cf 8a 28 24 89 18 4d 5e 95 8d c7 96 00 90 c0 1e ea fc 
+    1c e9 29 e6 55 fe f4 2a 24 c0 01 36 fd b9 6b 75 ec 53 62 43 cc 65 f1 7f 0d 66 97 7c 52 46 ea e5 
+    99 1d 41 c1 03 3a e2 71 59 1b 65 13 7c 65 67 68 a8 30 a7 4e bf 69 33 ff be 63 d8 19 17 8c cf bd 
+    c4 91 46 34 c9 75 0f b1 0a d4 f5 2b 6c 58 96 78 d3 15 ac 99 4f a8 90 7b 02 5e 0c 04 30 36 34 ce 
+    f3 96 ec 0a 73 9f 57 a3 8e 80 61 1d 9b eb a4 d3 7c 61 3c 27 b5 3b f5 79 b5 83 b8 bc f3 13 48 97 
+    43 99 b3 a5 ed ab 1c e4 d2 7b 4b 8b bf b7 db c9 65 49 56 89 20 4a a5 47 10 4d 22 6a c4 9e 3a b9 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0060, Index: 0x0000, Length:  256) : 
+    99 66 4a 00 80 5e 99 eb 8c 51 92 91 fc d5 d8 65 e0 24 8c b7 50 6d a6 e8 38 2d 00 1a f4 d3 f9 bf 
+    32 87 4f d9 86 aa f9 61 bb 84 05 c3 1e 52 7e 57 9a 40 7b 9e 34 d1 7b ef d6 46 79 c8 55 aa 72 1a 
+    25 87 64 08 c3 60 b2 fd ce d0 a7 39 c9 65 38 bf 11 48 b4 a0 2d 16 40 a2 2c 36 d2 7b 3d ee c6 27 
+    27 a0 9f 78 e4 bc 9f b4 44 80 70 ee 59 db 78 bf 4a 01 21 2e 64 5e 4a ee 71 a4 b2 89 ab 43 a3 0c 
+    09 de ae e0 8e ea b1 c5 b8 a0 f9 bb 96 76 13 c1 c3 bf 2e e1 1c 21 74 74 11 70 40 d4 af 95 d2 ec 
+    b5 ba 11 05 ae ae b2 63 2c b0 d3 74 86 df 02 fd 52 23 54 64 e8 7f 3e 0c 09 73 4d 80 a2 1b 24 77 
+    72 e2 9d 26 8f e2 ef ad 55 25 18 19 2f db 39 f7 8f c2 b1 87 f0 eb 7b d7 a9 23 e8 8e f8 de 87 a6 
+    a0 49 02 08 aa 78 11 c8 14 20 c2 28 4b 77 06 03 a9 46 5d 54 42 ad 2d 4e 24 65 e5 88 60 52 c6 a0 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0061, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0062, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0063, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0064, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0065, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0066, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0067, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0068, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0069, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x006a, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x006b, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x006c, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x006d, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x006e, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x006f, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0070, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0071, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0072, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0073, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0074, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0075, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0076, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0077, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0078, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0079, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x007a, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x007b, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x007c, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x007d, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x007e, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x007f, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xa1, Request: 0x02, Value: 0x0080, Index: 0x0000, Length:  256) : 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa30c, Index: 0x0001, Length:    4) : 01 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa30c, Index: 0x0001, Length:    4) : 59 00 0f 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa314, Index: 0x0001, Length:    4) : 59 09 0f 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa318, Index: 0x0001, Length:    4) : 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa318, Index: 0x0001, Length:    4) : 04 00 c5 60 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa318, Index: 0x0001, Length:    4) : 04 00 05 60 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0x907c, Index: 0x0001, Length:    4) : 0f 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0x907c, Index: 0x0001, Length:    4) : 00 00 00 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa318, Index: 0x0001, Length:    4) : 01 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa318, Index: 0x0001, Length:    4) : 5c 02 85 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa318, Index: 0x0001, Length:    4) : 5c 02 c5 60 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x00, Value: 0x4018, Index: 0x0004, Length:    8) : 20 41 3e 6d 01 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0xa000, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x8788, Index: 0x0004, Length:    8) : 7f 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x00, Value: 0x8788, Index: 0x0004, Length:    8) : 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x0020, Index: 0x0004, Length:    8) : 02 1e 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa314, Index: 0x0001, Length:    4) : 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa314, Index: 0x0001, Length:    4) : 00 00 15 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa000, Index: 0x0001, Length:    4) : 01 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0xc148, Index: 0x0004, Length:    8) : f0 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0xc160, Index: 0x0004, Length:    8) : 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0xc058, Index: 0x0004, Length:    8) : 80 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x4018, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x4158, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x4198, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x41d8, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x4218, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x8788, Index: 0x0004, Length:    8) : 7f 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x00, Value: 0x8788, Index: 0x0004, Length:    8) : 08 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x00c0, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x0150, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x0110, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x0250, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x0298, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x02e0, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x0328, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x0190, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x01d0, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x0210, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0xc060, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0xc070, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0xc080, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0xc090, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0xc0a0, Index: 0x0004, Length:    8) : 01 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa0d4, Index: 0x0001, Length:    4) : 01 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa0d4, Index: 0x0001, Length:    4) : 01 00 00 80 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa704, Index: 0x0001, Length:    4) : 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa704, Index: 0x0001, Length:    4) : 7f 00 00 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa33c, Index: 0x0001, Length:    4) : 7f 00 70 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa33c, Index: 0x0001, Length:    4) : 3f 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa500, Index: 0x0001, Length:    4) : 01 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa600, Index: 0x0001, Length:    4) : 01 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa558, Index: 0x0001, Length:    4) : 03 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa658, Index: 0x0001, Length:    4) : 03 00 00 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa0d8, Index: 0x0001, Length:    4) : 01 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa0d8, Index: 0x0001, Length:    4) : 00 00 00 80 
+libusb_submit_transfer(Endpoint: 0x82, Type: 2, Lenght:      16) : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_submit_transfer(Endpoint: 0x83, Type: 3, Lenght:       4) : 00 00 00 00 
+libusb_submit_transfer(Endpoint: 0x81, Type: 2, Lenght:    1024) : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... 00
+libusb_submit_transfer(Endpoint: 0x81, Type: 2, Lenght:    1024) : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... 00
+libusb_submit_transfer(Endpoint: 0x81, Type: 2, Lenght:    1024) : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... 00
+libusb_submit_transfer(Endpoint: 0x81, Type: 2, Lenght:    1024) : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... 00
+libusb_submit_transfer(Endpoint: 0x81, Type: 2, Lenght:    1024) : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... 00
+libusb_submit_transfer(Endpoint: 0x81, Type: 2, Lenght:    1024) : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... 00
+libusb_submit_transfer(Endpoint: 0x81, Type: 2, Lenght:    1024) : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... 00
+libusb_submit_transfer(Endpoint: 0x81, Type: 2, Lenght:    1024) : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... 00
+libusb_submit_transfer(Endpoint: 0x01, Type: 2, Lenght:       8) : 50 27 00 00 00 00 00 00 
+libusb_submit_transfer(Endpoint: 0x01, Type: 2, Lenght:   10064) : 80 0f 00 cc 09 00 00 00 00 00 00 00 00 00 00 00 80 f6 ff 0f ... 00
+libusb_submit_transfer(Endpoint: 0x01, Type: 2, Lenght:       8) : 80 3b 3c 00 02 00 00 00 
+libusb_submit_transfer(Endpoint: 0x01, Type: 2, Lenght: 1048576) : 22 08 00 00 70 b0 ff ff 92 cd ff ff 3e 10 00 00 0f 16 00 00 ... 98
+libusb_submit_transfer(Endpoint: 0x01, Type: 2, Lenght: 1048576) : 75 81 6e 87 8e 8c 6e 86 8b 80 7d 98 7f 73 79 79 75 87 82 7d ... 82
+libusb_submit_transfer(Endpoint: 0x01, Type: 2, Lenght: 1048576) : 7a 81 88 82 91 65 36 98 80 70 7f 65 81 ac 62 76 70 70 91 86 ... 88
+libusb_submit_transfer(Endpoint: 0x01, Type: 2, Lenght:  801664) : 7e 6e 74 6d 8e 9e 78 84 91 87 95 98 7a a7 63 b9 7e 7b 7d 77 ... 00
+libusb_submit_transfer(Endpoint: 0x82, Type: 2, Lenght:      16) : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_submit_transfer(Endpoint: 0x01, Type: 2, Lenght:       8) : 20 ff 03 00 00 00 00 00 
+libusb_submit_transfer(Endpoint: 0x01, Type: 2, Lenght:  261920) : 80 0f 00 c0 ff 00 00 00 00 00 00 00 00 00 00 00 80 f6 ff 0f ... 00
+libusb_submit_transfer(Endpoint: 0x01, Type: 2, Lenght:       8) : 00 4c 02 00 01 00 00 00 
+libusb_submit_transfer(Endpoint: 0x01, Type: 2, Lenght:  150528) : bb a3 8a b1 96 74 85 7f 4f 66 7a 3c 79 85 35 a0 96 47 92 8c ... 58
+libusb_submit_transfer(Endpoint: 0x01, Type: 2, Lenght:       8) : f0 27 00 00 00 00 00 00 
+libusb_submit_transfer(Endpoint: 0x01, Type: 2, Lenght:   10224) : 80 0f 00 f4 09 00 00 00 00 00 00 00 00 00 00 00 80 f6 ff 1f ... 00
+libusb_submit_transfer(Endpoint: 0x82, Type: 2, Lenght:      16) : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+libusb_submit_transfer(Endpoint: 0x81, Type: 2, Lenght:    1024) : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... 00
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0xc070, Index: 0x0004, Length:    8) : 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0xc080, Index: 0x0004, Length:    8) : 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0xc090, Index: 0x0004, Length:    8) : 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0xc0a0, Index: 0x0004, Length:    8) : 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa0d4, Index: 0x0001, Length:    4) : 01 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa0d4, Index: 0x0001, Length:    4) : 01 00 00 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa704, Index: 0x0001, Length:    4) : 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa704, Index: 0x0001, Length:    4) : 7f 00 70 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa33c, Index: 0x0001, Length:    4) : 7f 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa33c, Index: 0x0001, Length:    4) : 3f 00 0c 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa500, Index: 0x0001, Length:    4) : 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa600, Index: 0x0001, Length:    4) : 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa558, Index: 0x0001, Length:    4) : 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa658, Index: 0x0001, Length:    4) : 00 00 00 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa0d8, Index: 0x0001, Length:    4) : 01 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa0d8, Index: 0x0001, Length:    4) : 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0xc060, Index: 0x0004, Length:    8) : 00 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x4018, Index: 0x0004, Length:    8) : 02 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x4158, Index: 0x0004, Length:    8) : 02 00 00 00 0----INFERENCE TIME----
+Note: The first inference on Edge TPU is slow because it includes loading the model into Edge TPU memory.
+12.7ms
+-------RESULTS--------
+Ara macao (Scarlet Macaw): 0.75781
+0 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x4198, Index: 0x0004, Length:    8) : 02 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x41d8, Index: 0x0004, Length:    8) : 02 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x4218, Index: 0x0004, Length:    8) : 02 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x8788, Index: 0x0004, Length:    8) : 7f 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x00, Value: 0x8788, Index: 0x0004, Length:    8) : c0 a9 fa 07 01 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x00c0, Index: 0x0004, Length:    8) : 02 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x0150, Index: 0x0004, Length:    8) : 02 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x0110, Index: 0x0004, Length:    8) : 02 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x0250, Index: 0x0004, Length:    8) : 02 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x0298, Index: 0x0004, Length:    8) : 02 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x02e0, Index: 0x0004, Length:    8) : 02 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x0328, Index: 0x0004, Length:    8) : 02 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x0190, Index: 0x0004, Length:    8) : 02 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x01d0, Index: 0x0004, Length:    8) : 02 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x00, Value: 0x0210, Index: 0x0004, Length:    8) : 02 00 00 00 00 00 00 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa318, Index: 0x0001, Length:    4) : 00 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0xa318, Index: 0x0001, Length:    4) : 0c 00 c5 00 
+libusb_control_transfer(RequestType: 0xc0, Request: 0x01, Value: 0xa318, Index: 0x0001, Length:    4) : 0c 00 85 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0x907c, Index: 0x0001, Length:    4) : 0f 00 00 00 
+libusb_control_transfer(RequestType: 0x40, Request: 0x01, Value: 0x907c, Index: 0x0001, Length:    4) : 00 00 00 00 
